@@ -1,0 +1,30 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "36b00b43-e311-4cd5-bcb3-f70bcf973c7f")
+	(paper "A3")
+	(title_block
+		(title "ModuCard CM5 module")
+		(date "2025-07-05")
+		(rev "1.0.0")
+		(company "KoNaR")
+		(comment 1 "Project author: Dominik Pluta")
+	)
+	(lib_symbols)
+	(bus_alias "I2C"
+		(members "SCL" "SDA")
+	)
+	(bus_alias "MIPI"
+		(members "CLK+" "CLK-" "D0+" "D0-" "D1+" "D1-" "D2+" "D2-" "D3+" "D3-")
+	)
+	(bus_alias "PCIe"
+		(members "TX0+" "TX0-" "RX0+" "RX0-")
+	)
+	(bus_alias "REF_CLK"
+		(members "+" "-")
+	)
+	(bus_alias "SD"
+		(members "CLK" "CMD" "DAT0" "DAT1" "DAT2" "DAT3" "DAT4" "DAT5" "DAT6" "DAT7")
+	)
+)
