@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.62,
-          "width": 0.56
+          "height": 1.0,
+          "width": 0.45
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -140,7 +140,7 @@
         "min_track_width": 0.1,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.3,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": false
       },
       "teardrop_options": [
@@ -514,6 +514,15 @@
       },
       {
         "bus_width": 12,
+        "line_style": 0,
+        "name": "50Ohm_se",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgb(132, 132, 132)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.15,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -521,9 +530,18 @@
         "name": "CAN_120Ohm_diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 194, 0)",
         "via_diameter": 0.5,
         "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "ETHERNET_100Ohm_diff",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(0, 72, 72)",
         "wire_width": 6
       },
       {
@@ -533,9 +551,9 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
-        "pcb_color": "rgb(0, 0, 255)",
+        "pcb_color": "rgb(0, 0, 194)",
         "priority": 1,
-        "schematic_color": "rgb(0, 0, 255)",
+        "schematic_color": "rgb(0, 0, 194)",
         "track_width": 0.3,
         "via_diameter": 0.5,
         "via_drill": 0.3,
@@ -547,8 +565,8 @@
         "line_style": 0,
         "name": "PCIe_85Ohm_diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgb(204, 102, 0)",
         "wire_width": 6
       },
       {
@@ -574,8 +592,8 @@
         "microvia_drill": 0.1,
         "name": "USB_90Ohm_diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(194, 0, 194)",
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
@@ -585,8 +603,267 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_assignments": {
+      "/2xUSB3.0/USB_SS_0.D+": [
+        "USB_90Ohm_diff"
+      ],
+      "/2xUSB3.0/USB_SS_0.D-": [
+        "USB_90Ohm_diff"
+      ],
+      "/2xUSB3.0/USB_SS_0.RX+": [
+        "USB_90Ohm_diff"
+      ],
+      "/2xUSB3.0/USB_SS_0.RX-": [
+        "USB_90Ohm_diff"
+      ],
+      "/2xUSB3.0/USB_SS_0.TX+": [
+        "USB_90Ohm_diff"
+      ],
+      "/2xUSB3.0/USB_SS_0.TX-": [
+        "USB_90Ohm_diff"
+      ],
+      "/2xUSB3.0/USB_SS_0{USB3.0}": [
+        "USB_90Ohm_diff"
+      ],
+      "/2xUSB3.0/USB_SS_0{USB}": [
+        "USB_90Ohm_diff"
+      ],
+      "/2xUSB3.0/USB_SS_1.D+": [
+        "USB_90Ohm_diff"
+      ],
+      "/2xUSB3.0/USB_SS_1.D-": [
+        "USB_90Ohm_diff"
+      ],
+      "/2xUSB3.0/USB_SS_1.RX+": [
+        "USB_90Ohm_diff"
+      ],
+      "/2xUSB3.0/USB_SS_1.RX-": [
+        "USB_90Ohm_diff"
+      ],
+      "/2xUSB3.0/USB_SS_1.TX+": [
+        "USB_90Ohm_diff"
+      ],
+      "/2xUSB3.0/USB_SS_1.TX-": [
+        "USB_90Ohm_diff"
+      ],
+      "/2xUSB3.0/USB_SS_1{USB3.0}": [
+        "USB_90Ohm_diff"
+      ],
+      "/2xUSB3.0/USB_SS_1{USB}": [
+        "USB_90Ohm_diff"
+      ],
+      "/Backplane/BACKPLANE.D+": [
+        "USB_90Ohm_diff"
+      ],
+      "/Backplane/BACKPLANE.D-": [
+        "USB_90Ohm_diff"
+      ],
+      "/Backplane/BACKPLANE{USB}": [
+        "USB_90Ohm_diff"
+      ],
+      "/Backplane/CAN1.+": [
+        "CAN_120Ohm_diff"
+      ],
+      "/Backplane/CAN1.-": [
+        "CAN_120Ohm_diff"
+      ],
+      "/Backplane/CAN1{CAN}": [
+        "CAN_120Ohm_diff"
+      ],
+      "/Backplane/CAN2.+": [
+        "CAN_120Ohm_diff"
+      ],
+      "/Backplane/CAN2.-": [
+        "CAN_120Ohm_diff"
+      ],
+      "/Backplane/CAN2{CAN}": [
+        "CAN_120Ohm_diff"
+      ],
+      "/Backplane/CAN_1.+": [
+        "CAN_120Ohm_diff"
+      ],
+      "/Backplane/CAN_1.-": [
+        "CAN_120Ohm_diff"
+      ],
+      "/Backplane/CAN_1{CAN}": [
+        "CAN_120Ohm_diff"
+      ],
+      "/Backplane/CAN_2.+": [
+        "CAN_120Ohm_diff"
+      ],
+      "/Backplane/CAN_2.-": [
+        "CAN_120Ohm_diff"
+      ],
+      "/Backplane/CAN_2{CAN}": [
+        "CAN_120Ohm_diff"
+      ],
+      "/CM5/ETH.D1+": [
+        "ETHERNET_100Ohm_diff"
+      ],
+      "/CM5/ETH.D1-": [
+        "ETHERNET_100Ohm_diff"
+      ],
+      "/CM5/ETH.D2+": [
+        "ETHERNET_100Ohm_diff"
+      ],
+      "/CM5/ETH.D2-": [
+        "ETHERNET_100Ohm_diff"
+      ],
+      "/CM5/ETH.D3+": [
+        "ETHERNET_100Ohm_diff"
+      ],
+      "/CM5/ETH.D3-": [
+        "ETHERNET_100Ohm_diff"
+      ],
+      "/CM5/ETH.D4+": [
+        "ETHERNET_100Ohm_diff"
+      ],
+      "/CM5/ETH.D4-": [
+        "ETHERNET_100Ohm_diff"
+      ],
+      "/CM5/ETH.LED_ACT": [
+        "ETHERNET_100Ohm_diff"
+      ],
+      "/CM5/ETH.LED_LINK": [
+        "ETHERNET_100Ohm_diff"
+      ],
+      "/CM5/ETH{ETHERNET}": [
+        "ETHERNET_100Ohm_diff"
+      ],
+      "/CM5/PCIe_CLK_N": [
+        "PCIe_85Ohm_diff"
+      ],
+      "/CM5/PCIe_CLK_P": [
+        "PCIe_85Ohm_diff"
+      ],
+      "/CM5/PCIe_M2.+": [
+        "PCIe_85Ohm_diff"
+      ],
+      "/CM5/PCIe_M2.-": [
+        "PCIe_85Ohm_diff"
+      ],
+      "/CM5/PCIe_M2.REFCLK+": [
+        "PCIe_85Ohm_diff"
+      ],
+      "/CM5/PCIe_M2.REFCLK-": [
+        "PCIe_85Ohm_diff"
+      ],
+      "/CM5/PCIe_M2.RX0+": [
+        "PCIe_85Ohm_diff"
+      ],
+      "/CM5/PCIe_M2.RX0-": [
+        "PCIe_85Ohm_diff"
+      ],
+      "/CM5/PCIe_M2.TX0+": [
+        "PCIe_85Ohm_diff"
+      ],
+      "/CM5/PCIe_M2.TX0-": [
+        "PCIe_85Ohm_diff"
+      ],
+      "/CM5/PCIe_M2{PCIe}": [
+        "PCIe_85Ohm_diff"
+      ],
+      "/CM5/PCIe_M2{REF_CLK}": [
+        "PCIe_85Ohm_diff"
+      ],
+      "/CM5/SD_CARD.CLK": [
+        "50Ohm_se"
+      ],
+      "/CM5/SD_CARD.CMD": [
+        "50Ohm_se"
+      ],
+      "/CM5/SD_CARD.DAT0": [
+        "50Ohm_se"
+      ],
+      "/CM5/SD_CARD.DAT1": [
+        "50Ohm_se"
+      ],
+      "/CM5/SD_CARD.DAT2": [
+        "50Ohm_se"
+      ],
+      "/CM5/SD_CARD.DAT3": [
+        "50Ohm_se"
+      ],
+      "/CM5/SD_CARD.DAT4": [
+        "50Ohm_se"
+      ],
+      "/CM5/SD_CARD.DAT5": [
+        "50Ohm_se"
+      ],
+      "/CM5/SD_CARD.DAT6": [
+        "50Ohm_se"
+      ],
+      "/CM5/SD_CARD.DAT7": [
+        "50Ohm_se"
+      ],
+      "/CM5/SD_CARD{SD}": [
+        "50Ohm_se"
+      ],
+      "/CM5/USB.D+": [
+        "USB_90Ohm_diff"
+      ],
+      "/CM5/USB.D-": [
+        "USB_90Ohm_diff"
+      ],
+      "/CM5/USB{USB}": [
+        "USB_90Ohm_diff"
+      ],
+      "/USB console/FTDI_VCCIO": [
+        "PWR"
+      ],
+      "/USB hub/USB_1.D+": [
+        "USB_90Ohm_diff"
+      ],
+      "/USB hub/USB_1.D-": [
+        "USB_90Ohm_diff"
+      ],
+      "/USB hub/USB_1_R.D+": [
+        "USB_90Ohm_diff"
+      ],
+      "/USB hub/USB_1_R.D-": [
+        "USB_90Ohm_diff"
+      ],
+      "/USB hub/USB_2.D+": [
+        "USB_90Ohm_diff"
+      ],
+      "/USB hub/USB_2.D-": [
+        "USB_90Ohm_diff"
+      ],
+      "/USB hub/USB_2_R.D+": [
+        "USB_90Ohm_diff"
+      ],
+      "/USB hub/USB_2_R.D-": [
+        "USB_90Ohm_diff"
+      ],
+      "/USB hub/USB_3.D+": [
+        "USB_90Ohm_diff"
+      ],
+      "/USB hub/USB_3.D-": [
+        "USB_90Ohm_diff"
+      ],
+      "/USB hub/USB_3_R.D+": [
+        "USB_90Ohm_diff"
+      ],
+      "/USB hub/USB_3_R.D-": [
+        "USB_90Ohm_diff"
+      ],
+      "/USB hub/USB_4_R.D+": [
+        "USB_90Ohm_diff"
+      ],
+      "/USB hub/USB_4_R.D-": [
+        "USB_90Ohm_diff"
+      ]
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "PWR",
+        "pattern": "*+*V*"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

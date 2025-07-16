@@ -15,16 +15,38 @@
 	(bus_alias "CAN"
 		(members "+" "-")
 	)
-	(no_connect
-		(at 46.99 78.74)
-		(uuid "225d1b4d-20a1-48d7-98fe-8709d91fa2b8")
+	(text "USB A 2.0 front pannel"
+		(exclude_from_sim no)
+		(at 218.694 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c2e09e7f-26b0-4734-aed7-9fde46918f3d")
 	)
 	(no_connect
 		(at 46.99 85.09)
+		(uuid "225d1b4d-20a1-48d7-98fe-8709d91fa2b8")
+	)
+	(no_connect
+		(at 46.99 90.17)
 		(uuid "4102e771-06b2-46c5-8768-1c4b40e21eea")
 	)
 	(no_connect
-		(at 46.99 92.71)
+		(at 119.38 135.89)
+		(uuid "60209c94-f801-4eb6-9ea2-07592ec953ac")
+	)
+	(no_connect
+		(at 119.38 133.35)
+		(uuid "956fbf1f-7898-4082-aa0c-7a9cec485177")
+	)
+	(no_connect
+		(at 119.38 138.43)
+		(uuid "b0bacf73-187b-4da3-bb32-72523ccf0c58")
+	)
+	(no_connect
+		(at 46.99 95.25)
 		(uuid "b3c7e6b3-59d6-467d-a4c3-b7bb1d57cd13")
 	)
 	(bus
@@ -39,7 +61,7 @@
 	)
 	(bus
 		(pts
-			(xy 152.4 130.81) (xy 165.1 130.81)
+			(xy 152.4 135.89) (xy 165.1 135.89)
 		)
 		(stroke
 			(width 0)
@@ -89,6 +111,26 @@
 	)
 	(bus
 		(pts
+			(xy 207.01 147.32) (xy 101.6 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c7969c-fa8b-4149-807c-04f1919b6146")
+	)
+	(bus
+		(pts
+			(xy 101.6 147.32) (xy 101.6 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63f05505-6782-4265-995a-e5ace74749b6")
+	)
+	(bus
+		(pts
 			(xy 152.4 114.3) (xy 165.1 114.3)
 		)
 		(stroke
@@ -96,6 +138,16 @@
 			(type default)
 		)
 		(uuid "79935bc5-874a-432e-81c0-908dfe5ba116")
+	)
+	(bus
+		(pts
+			(xy 207.01 139.7) (xy 207.01 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82cce9d2-3195-4ae7-bac7-5cc2940b248e")
 	)
 	(wire
 		(pts
@@ -169,6 +221,26 @@
 	)
 	(bus
 		(pts
+			(xy 204.47 139.7) (xy 207.01 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d962dfed-99d1-4312-be84-53a35524b0a9")
+	)
+	(bus
+		(pts
+			(xy 101.6 45.72) (xy 77.47 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8cbb960-35b0-453a-a588-7245cc6fb73e")
+	)
+	(bus
+		(pts
 			(xy 152.4 40.64) (xy 165.1 40.64)
 		)
 		(stroke
@@ -190,7 +262,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "05afd91b-987f-4955-bfc3-ea0accf4f845")
 		(property "Sheetname" "USB console"
@@ -232,7 +304,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "18a4552b-ac02-46c8-954e-f58b32a322f0")
 		(property "Sheetname" "M.2"
@@ -322,8 +394,8 @@
 		)
 	)
 	(sheet
-		(at 165.1 127)
-		(size 39.37 33.02)
+		(at 165.1 129.54)
+		(size 39.37 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -334,11 +406,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "4f95f4d3-6409-4bd0-9a25-1272a43f6549")
 		(property "Sheetname" "USB hub"
-			(at 165.1 126.2884 0)
+			(at 165.1 128.8284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -347,7 +419,7 @@
 			)
 		)
 		(property "Sheetfile" "usb-hub.kicad_sch"
-			(at 165.1 160.6046 0)
+			(at 165.1 142.8246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -355,29 +427,9 @@
 				(justify left top)
 			)
 		)
-		(pin "USBIN1{USB}" input
-			(at 165.1 130.81 180)
-			(uuid "3f38b4df-b815-40ad-a81f-57bfdafeff21")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USBOUT3{USB}" input
-			(at 165.1 146.05 180)
-			(uuid "7fd9c631-fe90-4c4e-a3a3-4d01529273cf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USBOUT2{USB}" input
-			(at 204.47 149.86 0)
-			(uuid "98f1faa3-1f65-4b72-9f93-5ee05a72e664")
+		(pin "USB_1{USB}" bidirectional
+			(at 204.47 132.08 0)
+			(uuid "30467a9c-45d1-46e9-b2b9-75e957a3039f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -385,24 +437,44 @@
 				(justify right)
 			)
 		)
-		(pin "USBOUT4{USB}" input
-			(at 165.1 153.67 180)
-			(uuid "9b13cd20-c366-4876-9d64-d1aa60c3a97d")
+		(pin "USB_2{USB}" bidirectional
+			(at 204.47 134.62 0)
+			(uuid "f32b9ff3-8fa0-4114-9a0b-b3b16cb1e318")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "USBOUT1{USB}" input
+		(pin "USB_3{USB}" bidirectional
 			(at 204.47 137.16 0)
-			(uuid "82079ced-7437-48d1-926c-c0f5f3cf89a7")
+			(uuid "2d699e68-d803-4f98-85c7-67ceef0bd841")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "USB_4{USB}" bidirectional
+			(at 204.47 139.7 0)
+			(uuid "740d81eb-9629-4b85-9985-423da82270aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_HUB{USB}" input
+			(at 165.1 135.89 180)
+			(uuid "5773949c-3432-4aeb-bd9a-edb45495b180")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -426,7 +498,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "658b004a-eb7c-4ad1-a8df-d1cd97b62092")
 		(property "Sheetname" "2xUSB3.0"
@@ -518,7 +590,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "ad3d5826-cab5-4231-8219-c7d7eaea11f6")
 		(property "Sheetname" "HDMI"
@@ -570,7 +642,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "dd50f821-f925-406c-ae05-a2a500dfc6d6")
 		(property "Sheetname" "RJ45"
@@ -622,7 +694,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "df5d742e-fec8-4307-bd86-008404d5e8ea")
 		(property "Sheetname" "SD card"
@@ -674,7 +746,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "dfbce24a-51ce-450d-9d41-776080287e8b")
 		(property "Sheetname" "CM5"
@@ -756,18 +828,8 @@
 			)
 		)
 		(pin "USB{USB}" bidirectional
-			(at 152.4 130.81 0)
+			(at 152.4 135.89 0)
 			(uuid "0317c734-363e-410b-92bb-bf51771ce94a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "HDMI0{HDMI}" bidirectional
-			(at 152.4 78.74 0)
-			(uuid "8c98ddf4-717d-4320-a39f-918342897a9d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -845,6 +907,46 @@
 				(justify right)
 			)
 		)
+		(pin "HDMI_1{HDMI}" bidirectional
+			(at 119.38 133.35 180)
+			(uuid "fd653337-7f06-4555-b837-ae658c508ba0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HDMI_0{HDMI}" bidirectional
+			(at 152.4 78.74 0)
+			(uuid "1b217941-9bf1-4911-88a3-56db4b350850")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MIPI_0{MIPI}" bidirectional
+			(at 119.38 135.89 180)
+			(uuid "22d5037a-e69a-4b25-abd2-bd4c8544c332")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MIPI_1{MIPI}" bidirectional
+			(at 119.38 138.43 180)
+			(uuid "f9bb2cb9-5d38-48d8-ab89-24854c4cffd0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
@@ -866,7 +968,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "ff3476d7-2f10-4f79-9864-988601c7ce1b")
 		(property "Sheetname" "Backplane"
@@ -888,7 +990,7 @@
 			)
 		)
 		(pin "GPIOC[0..15]" input
-			(at 46.99 78.74 180)
+			(at 46.99 85.09 180)
 			(uuid "590059fb-ce6b-4594-a8d9-5ea16c12e994")
 			(effects
 				(font
@@ -898,7 +1000,7 @@
 			)
 		)
 		(pin "GPIOL[0..15]" input
-			(at 46.99 85.09 180)
+			(at 46.99 90.17 180)
 			(uuid "1244bff8-cc00-45c3-ad70-38099735e42f")
 			(effects
 				(font
@@ -908,7 +1010,7 @@
 			)
 		)
 		(pin "GPIOR[0..15]" input
-			(at 46.99 92.71 180)
+			(at 46.99 95.25 180)
 			(uuid "78f6447e-cc35-4bff-9181-e28e763cd973")
 			(effects
 				(font
@@ -917,29 +1019,29 @@
 				(justify left)
 			)
 		)
-		(pin "CAN1{CAN}" bidirectional
-			(at 77.47 119.38 0)
-			(uuid "f5cc3410-a9f9-4327-97b1-b02ad5c607a0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CAN2{CAN}" bidirectional
-			(at 77.47 133.35 0)
-			(uuid "1bb521b1-9157-430e-bc39-7309cc0c519b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "BACKPLANE{USB}" output
 			(at 77.47 45.72 0)
 			(uuid "de418b66-6533-4278-9c6e-995fea317169")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_1{CAN}" bidirectional
+			(at 77.47 132.08 0)
+			(uuid "ecae54e7-0245-4dd4-addd-5a25277b24a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_2{CAN}" bidirectional
+			(at 77.47 134.62 0)
+			(uuid "b0320130-e740-4a27-b02f-901dd81c2703")
 			(effects
 				(font
 					(size 1.27 1.27)
