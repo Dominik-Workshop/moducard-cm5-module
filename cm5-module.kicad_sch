@@ -363,29 +363,9 @@
 				(justify left top)
 			)
 		)
-		(pin "PCIe_M2{PCIe}" bidirectional
-			(at 165.1 40.64 180)
-			(uuid "c9dda55f-fea2-424c-b77d-229a7c45f93e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PCIe_M2{REF_CLK}" bidirectional
-			(at 165.1 43.18 180)
-			(uuid "c686580b-3ac4-49b6-8781-699b7db294ee")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{PCIe_M2_CLKREQ}" output
+		(pin "~{PCIe_CLKREQ}" output
 			(at 165.1 48.26 180)
-			(uuid "c27df85c-6ccb-4779-af57-e7689406a159")
+			(uuid "c3dd00d1-45a1-4af6-8c1d-1dd91d24205c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -393,9 +373,9 @@
 				(justify left)
 			)
 		)
-		(pin "~{PCIe_M2_PERST}" input
+		(pin "~{PCIe_PERST}" input
 			(at 165.1 53.34 180)
-			(uuid "dc32742e-77ac-4db3-a60f-42d10b77ce62")
+			(uuid "7e5f8a7c-48a6-4504-8f3a-125da1143d96")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -403,9 +383,9 @@
 				(justify left)
 			)
 		)
-		(pin "~{PCIe_M2_PWR_EN}" input
+		(pin "~{PCIe_PWR_EN}" input
 			(at 165.1 55.88 180)
-			(uuid "a968c2e2-4f96-4ef6-ab50-110373cd9c6a")
+			(uuid "8a7247ef-1130-4d3c-9f6f-919a4e82ef73")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -413,9 +393,29 @@
 				(justify left)
 			)
 		)
-		(pin "~{PCIe_M2_WAKE}" output
+		(pin "~{PCIe_WAKE}" output
 			(at 165.1 50.8 180)
-			(uuid "0963be30-7a89-4c49-a45e-8d58fa78c5f7")
+			(uuid "18f9e80e-72de-4a4e-8b1a-5e39eead02fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIe{PCIe}" bidirectional
+			(at 165.1 43.18 180)
+			(uuid "9c841b6d-2e24-4ac1-8360-6074bc36122a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIe{REF_CLK}" bidirectional
+			(at 165.1 40.64 180)
+			(uuid "6fea758f-1e5e-452c-ab46-402312839be0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -805,66 +805,6 @@
 				(justify left top)
 			)
 		)
-		(pin "PCIe_M2{REF_CLK}" bidirectional
-			(at 152.4 43.18 0)
-			(uuid "8b866bdf-2906-457f-a131-d19108fbd3db")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIe_M2{PCIe}" bidirectional
-			(at 152.4 40.64 0)
-			(uuid "cf31d3f8-452d-4aa4-992c-a95ac3456dee")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{PCIe_M2_CLKREQ}" input
-			(at 152.4 48.26 0)
-			(uuid "1e7c1c90-e19d-4408-8e70-0797998f1b9e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{PCIe_M2_PWR_EN}" output
-			(at 152.4 55.88 0)
-			(uuid "7a337333-23c2-421c-a141-73aa7a710330")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{PCIe_M2_WAKE}" input
-			(at 152.4 50.8 0)
-			(uuid "847dc8ce-a197-4990-828b-4341223121f3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{PCIe_M2_PERST}" output
-			(at 152.4 53.34 0)
-			(uuid "081ad895-bdc6-41d3-b0ed-d35df61b3a19")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "USB{USB}" bidirectional
 			(at 152.4 135.89 0)
 			(uuid "0317c734-363e-410b-92bb-bf51771ce94a")
@@ -983,6 +923,66 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "PCIe{PCIe}" bidirectional
+			(at 152.4 43.18 0)
+			(uuid "59e5f086-1412-4007-a12a-39f129d7cc52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIe{REF_CLK}" bidirectional
+			(at 152.4 40.64 0)
+			(uuid "c181ab35-867d-4097-8e46-9e4f109f31c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PCIe_CLKREQ}" input
+			(at 152.4 48.26 0)
+			(uuid "7a02d109-d353-4109-a0ff-d329c05ab5ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PCIe_PERST}" output
+			(at 152.4 53.34 0)
+			(uuid "dc1834ff-ce3f-41d2-926f-99cddc62f703")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PCIe_PWR_EN}" output
+			(at 152.4 55.88 0)
+			(uuid "1a75aaac-fa01-4a03-82e0-1be8a30dee30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PCIe_WAKE}" input
+			(at 152.4 50.8 0)
+			(uuid "7b2af905-8276-4b86-94ae-c183742a8a78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

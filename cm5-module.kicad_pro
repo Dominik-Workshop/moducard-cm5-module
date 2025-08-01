@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.4,
-          "width": 1.0
+          "height": 0.62,
+          "width": 0.56
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -140,7 +140,7 @@
         "min_track_width": 0.1,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.3,
-        "solder_mask_to_copper_clearance": 0.005,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": false
       },
       "teardrop_options": [
@@ -514,15 +514,6 @@
       },
       {
         "bus_width": 12,
-        "line_style": 0,
-        "name": "50Ohm_se",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
-        "schematic_color": "rgb(132, 132, 132)",
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
         "clearance": 0.15,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -530,7 +521,7 @@
         "name": "CAN_120Ohm_diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
-        "schematic_color": "rgb(0, 194, 0)",
+        "schematic_color": "rgb(0, 194, 194)",
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
@@ -541,7 +532,7 @@
         "name": "ETHERNET_100Ohm_diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
-        "schematic_color": "rgb(0, 72, 72)",
+        "schematic_color": "rgb(132, 0, 132)",
         "wire_width": 6
       },
       {
@@ -551,9 +542,9 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
-        "pcb_color": "rgb(0, 0, 194)",
+        "pcb_color": "rgb(0, 0, 255)",
         "priority": 1,
-        "schematic_color": "rgb(0, 0, 194)",
+        "schematic_color": "rgb(0, 0, 255)",
         "track_width": 0.3,
         "via_diameter": 0.5,
         "via_drill": 0.3,
@@ -566,7 +557,7 @@
         "name": "PCIe_85Ohm_diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 5,
-        "schematic_color": "rgb(204, 102, 0)",
+        "schematic_color": "rgb(0, 194, 0)",
         "wire_width": 6
       },
       {
@@ -593,7 +584,7 @@
         "name": "USB_90Ohm_diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
-        "schematic_color": "rgb(194, 0, 194)",
+        "schematic_color": "rgb(204, 102, 0)",
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
@@ -661,24 +652,6 @@
       "/Backplane/BACKPLANE{USB}": [
         "USB_90Ohm_diff"
       ],
-      "/Backplane/CAN1.+": [
-        "CAN_120Ohm_diff"
-      ],
-      "/Backplane/CAN1.-": [
-        "CAN_120Ohm_diff"
-      ],
-      "/Backplane/CAN1{CAN}": [
-        "CAN_120Ohm_diff"
-      ],
-      "/Backplane/CAN2.+": [
-        "CAN_120Ohm_diff"
-      ],
-      "/Backplane/CAN2.-": [
-        "CAN_120Ohm_diff"
-      ],
-      "/Backplane/CAN2{CAN}": [
-        "CAN_120Ohm_diff"
-      ],
       "/Backplane/CAN_1.+": [
         "CAN_120Ohm_diff"
       ],
@@ -730,16 +703,22 @@
       "/CM5/ETH{ETHERNET}": [
         "ETHERNET_100Ohm_diff"
       ],
-      "/CM5/PCIe_CLK_N": [
+      "/CM5/PCIe.REFCLK+": [
         "PCIe_85Ohm_diff"
       ],
-      "/CM5/PCIe_CLK_P": [
+      "/CM5/PCIe.REFCLK-": [
         "PCIe_85Ohm_diff"
       ],
-      "/CM5/PCIe_M2.+": [
+      "/CM5/PCIe.RX0+": [
         "PCIe_85Ohm_diff"
       ],
-      "/CM5/PCIe_M2.-": [
+      "/CM5/PCIe.RX0-": [
+        "PCIe_85Ohm_diff"
+      ],
+      "/CM5/PCIe.TX0+": [
+        "PCIe_85Ohm_diff"
+      ],
+      "/CM5/PCIe.TX0-": [
         "PCIe_85Ohm_diff"
       ],
       "/CM5/PCIe_M2.REFCLK+": [
@@ -764,6 +743,12 @@
         "PCIe_85Ohm_diff"
       ],
       "/CM5/PCIe_M2{REF_CLK}": [
+        "PCIe_85Ohm_diff"
+      ],
+      "/CM5/PCIe{PCIe}": [
+        "PCIe_85Ohm_diff"
+      ],
+      "/CM5/PCIe{REF_CLK}": [
         "PCIe_85Ohm_diff"
       ],
       "/CM5/SD_CARD.CLK": [
@@ -794,18 +779,6 @@
         "50Ohm_se"
       ],
       "/CM5/SD_CARD.DAT7": [
-        "50Ohm_se"
-      ],
-      "/CM5/SD_CARD.RX+": [
-        "50Ohm_se"
-      ],
-      "/CM5/SD_CARD.RX-": [
-        "50Ohm_se"
-      ],
-      "/CM5/SD_CARD.TX+": [
-        "50Ohm_se"
-      ],
-      "/CM5/SD_CARD.TX-": [
         "50Ohm_se"
       ],
       "/CM5/SD_CARD{SD}": [
@@ -866,16 +839,7 @@
         "USB_90Ohm_diff"
       ]
     },
-    "netclass_patterns": [
-      {
-        "netclass": "PWR",
-        "pattern": "*+*V*"
-      },
-      {
-        "netclass": "GND",
-        "pattern": "GND"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
