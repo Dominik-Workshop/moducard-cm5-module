@@ -4500,7 +4500,9 @@
 		(members "REFCLK+" "REFCLK-")
 	)
 	(bus_alias "SD"
-		(members "CLK" "CMD" "DAT0" "DAT1" "DAT2" "DAT3" "DAT4" "DAT5" "DAT6" "DAT7")
+		(members "DAT0" "DAT1" "DAT2" "DAT3" "DAT4" "DAT5" "DAT6" "DAT7" "CLK"
+			"CMD"
+		)
 	)
 	(junction
 		(at 242.57 246.38)
@@ -8215,7 +8217,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 171.45 85.09) (xy 171.45 115.57) (xy 149.86 115.57) (xy 149.86 85.09)
+				(xy 243.84 162.56) (xy 217.17 162.56) (xy 217.17 119.38) (xy 243.84 119.38)
 			)
 			(stroke
 				(width 0)
@@ -8224,7 +8226,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 11c44c62-7900-4837-8435-02ed2906738e)
+			(uuid 05133fcb-4407-41bb-ba04-a0a189b1cc48)
 		)
 	)
 	(rule_area
@@ -8239,13 +8241,13 @@
 			(fill
 				(type none)
 			)
-			(uuid 2fd51654-c7fe-4394-868e-b25803dc8c24)
+			(uuid 4424616a-8f02-4b4e-bcb7-692208e6397c)
 		)
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 243.84 162.56) (xy 217.17 162.56) (xy 217.17 119.38) (xy 243.84 119.38)
+				(xy 171.45 85.09) (xy 171.45 115.57) (xy 149.86 115.57) (xy 149.86 85.09)
 			)
 			(stroke
 				(width 0)
@@ -8254,7 +8256,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 3940363a-3dea-4df5-a999-ca3344177bcc)
+			(uuid 4552f612-4fb1-4121-a5ae-d124c9b5d5ab)
 		)
 	)
 	(rule_area
@@ -8269,7 +8271,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 49c59ccc-1c4d-4618-81b2-0036029c4e53)
+			(uuid a227edaf-03ff-429c-b7d0-f5a2a3f207f2)
 		)
 	)
 	(netclass_flag ""

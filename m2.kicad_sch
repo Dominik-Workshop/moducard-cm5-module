@@ -4570,7 +4570,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "fc0b5823-e3c3-49a1-bba1-6f1493c0e72d")
 		(property "Reference" "Y1"
