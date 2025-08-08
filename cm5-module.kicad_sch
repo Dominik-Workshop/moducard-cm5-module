@@ -15,22 +15,12 @@
 	(bus_alias "CAN"
 		(members "+" "-")
 	)
-	(text "USB A 2.0 front pannel"
-		(exclude_from_sim no)
-		(at 217.424 137.922 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c2e09e7f-26b0-4734-aed7-9fde46918f3d")
-	)
 	(no_connect
 		(at 46.99 85.09)
 		(uuid "225d1b4d-20a1-48d7-98fe-8709d91fa2b8")
 	)
 	(no_connect
-		(at 222.25 129.54)
+		(at 222.25 133.35)
 		(uuid "392a1796-2195-417a-be03-19bf108eab32")
 	)
 	(no_connect
@@ -42,7 +32,7 @@
 		(uuid "60209c94-f801-4eb6-9ea2-07592ec953ac")
 	)
 	(no_connect
-		(at 222.25 127)
+		(at 222.25 130.81)
 		(uuid "6a084065-89d3-4b4d-a5e8-80e0bfbb6a42")
 	)
 	(no_connect
@@ -89,7 +79,7 @@
 	)
 	(bus
 		(pts
-			(xy 152.4 124.46) (xy 222.25 124.46)
+			(xy 152.4 125.73) (xy 222.25 125.73)
 		)
 		(stroke
 			(width 0)
@@ -247,6 +237,16 @@
 		)
 		(uuid "d962dfed-99d1-4312-be84-53a35524b0a9")
 	)
+	(wire
+		(pts
+			(xy 152.4 123.19) (xy 222.25 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd46ac7f-f1a7-4f93-bd55-809c33ff2295")
+	)
 	(bus
 		(pts
 			(xy 101.6 45.72) (xy 77.47 45.72)
@@ -268,8 +268,8 @@
 		(uuid "ea2b10dd-d1e8-431e-ae30-cb192d85f9a8")
 	)
 	(sheet
-		(at 222.25 121.92)
-		(size 30.48 10.16)
+		(at 222.25 120.65)
+		(size 30.48 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -284,7 +284,7 @@
 		)
 		(uuid "05afd91b-987f-4955-bfc3-ea0accf4f845")
 		(property "Sheetname" "USB console"
-			(at 222.25 121.2084 0)
+			(at 222.25 119.9384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -293,7 +293,7 @@
 			)
 		)
 		(property "Sheetfile" "usb-console.kicad_sch"
-			(at 222.25 132.6646 0)
+			(at 222.25 136.4746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -302,7 +302,7 @@
 			)
 		)
 		(pin "USB_CONSOLE{UART}" bidirectional
-			(at 222.25 124.46 180)
+			(at 222.25 125.73 180)
 			(uuid "2cccbcc9-54a0-4406-a922-41b2fe9c7a73")
 			(effects
 				(font
@@ -312,7 +312,7 @@
 			)
 		)
 		(pin "CC1" bidirectional
-			(at 222.25 127 180)
+			(at 222.25 130.81 180)
 			(uuid "9d0271c1-ca39-4348-840a-46740f39d7fe")
 			(effects
 				(font
@@ -322,8 +322,28 @@
 			)
 		)
 		(pin "CC2" bidirectional
-			(at 222.25 129.54 180)
+			(at 222.25 133.35 180)
 			(uuid "78a66863-5e05-4a67-b7c4-941ff3425af5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS" output
+			(at 222.25 128.27 180)
+			(uuid "d322d22c-96d1-4155-bc85-049bbbf8ad3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_VREF" input
+			(at 222.25 123.19 180)
+			(uuid "7722b663-0e27-456a-9dd8-c8f99b51876e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -996,8 +1016,18 @@
 			)
 		)
 		(pin "CONSOLE{UART}" bidirectional
-			(at 152.4 124.46 0)
+			(at 152.4 125.73 0)
 			(uuid "6bd78e16-f044-45d1-bee8-e8d59e7968ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_VREF" output
+			(at 152.4 123.19 0)
+			(uuid "030f9368-a683-42ed-af6d-b0f229eac602")
 			(effects
 				(font
 					(size 1.27 1.27)
