@@ -462,6 +462,68 @@
 		)
 	)
 	(sheet
+		(at 119.38 152.4)
+		(size 33.02 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "1a7e8e9e-4938-4afe-9bd8-99b5f46ce255")
+		(property "Sheetname" "Power"
+			(at 119.38 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 119.38 165.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "12V_IN" input
+			(at 119.38 154.94 180)
+			(uuid "d3f4a7f2-433e-40c3-b8ba-f69145f349b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V_USB_IN" input
+			(at 119.38 162.56 180)
+			(uuid "65692c22-79df-453a-9d7a-8c918e2eadea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "cm5-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 165.1 129.54)
 		(size 39.37 12.7)
 		(exclude_from_sim no)
