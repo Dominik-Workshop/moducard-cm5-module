@@ -670,6 +670,18 @@
       "/Backplane/CAN_2{CAN}": [
         "CAN_120Ohm_diff"
       ],
+      "/CAN to USB/USB.D+": [
+        "USB_90Ohm_diff"
+      ],
+      "/CAN to USB/USB.D-": [
+        "USB_90Ohm_diff"
+      ],
+      "/CAN to USB1/USB.D+": [
+        "USB_90Ohm_diff"
+      ],
+      "/CAN to USB1/USB.D-": [
+        "USB_90Ohm_diff"
+      ],
       "/CM5/ETH.D1+": [
         "ETHERNET_100Ohm_diff"
       ],
@@ -832,6 +844,12 @@
       "/USB hub/USB_3_R.D-": [
         "USB_90Ohm_diff"
       ],
+      "/USB hub/USB_4.D+": [
+        "USB_90Ohm_diff"
+      ],
+      "/USB hub/USB_4.D-": [
+        "USB_90Ohm_diff"
+      ],
       "/USB hub/USB_4_R.D+": [
         "USB_90Ohm_diff"
       ],
@@ -970,6 +988,10 @@
       "CM5"
     ],
     [
+      "5294994f-978a-402b-88d5-51652b617c01",
+      "Ideal diode 0"
+    ],
+    [
       "18a4552b-ac02-46c8-954e-f58b32a322f0",
       "M.2"
     ],
@@ -998,8 +1020,24 @@
       "Power"
     ],
     [
+      "e1a72d8b-1f32-454e-9b3f-c70db5c18468",
+      "Ideal diode 1"
+    ],
+    [
       "df5d742e-fec8-4307-bd86-008404d5e8ea",
       "SD card"
+    ],
+    [
+      "08db41c3-6072-4efd-8ef3-93ca0731ae13",
+      "Ideal diode 2"
+    ],
+    [
+      "1ecfee1b-3e5d-4e7d-896c-0cbef36fe0e5",
+      "CAN to USB"
+    ],
+    [
+      "f36d2c0d-933d-467c-b74d-11e2fa98d968",
+      "CAN to USB1"
     ]
   ],
   "text_variables": {

@@ -4962,6 +4962,10 @@
 		(at 127 113.03)
 		(uuid "2fb652b6-55fa-4678-95f3-868329669267")
 	)
+	(no_connect
+		(at 127 120.65)
+		(uuid "3b1c5172-5f1e-4917-a731-5e9e8946cc8c")
+	)
 	(bus_entry
 		(at 241.3 151.13)
 		(size 2.54 -2.54)
@@ -5796,6 +5800,16 @@
 		)
 		(uuid "0841d568-5d0a-4915-9852-89cb14526d1a")
 	)
+	(wire
+		(pts
+			(xy 130.81 118.11) (xy 127 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d07f86-eef0-44bf-bc6d-dddc92d8719c")
+	)
 	(bus
 		(pts
 			(xy 241.3 110.49) (xy 241.3 113.03)
@@ -6265,16 +6279,6 @@
 			(type default)
 		)
 		(uuid "4082ae26-f664-48cc-aa8a-8af25e958107")
-	)
-	(wire
-		(pts
-			(xy 143.51 118.11) (xy 127 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40c52292-088f-42aa-84a9-3b7529ad6804")
 	)
 	(wire
 		(pts
@@ -6955,16 +6959,6 @@
 			(type default)
 		)
 		(uuid "839fe2f6-857c-4efd-9fba-fb8f4e3e7378")
-	)
-	(wire
-		(pts
-			(xy 143.51 120.65) (xy 127 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83afc771-b34d-4910-a39d-d68b89e3cc7c")
 	)
 	(bus
 		(pts
@@ -8146,16 +8140,6 @@
 		)
 		(uuid "23e92a2a-c7fc-4ae7-a0c6-29db5bf0c55f")
 	)
-	(label "SD_PWR_ON"
-		(at 143.51 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "242ff017-2c1a-497b-b9b8-ced81cfdfb13")
-	)
 	(label "MIPI_1.D2-"
 		(at 326.39 128.27 0)
 		(effects
@@ -8395,16 +8379,6 @@
 			(justify left bottom)
 		)
 		(uuid "61b666d9-c72e-4c36-b17d-9f6c00ba887c")
-	)
-	(label "SD_VDD_Override"
-		(at 143.51 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6510622c-51fa-4a65-a95b-7297a3818bca")
 	)
 	(label "UART2_TX"
 		(at 50.8 95.25 0)
@@ -8956,7 +8930,7 @@
 		)
 		(uuid "f52ffc8b-de02-4caf-a4a1-5d344d020d3a")
 	)
-	(hierarchical_label "~{PCIe_PWR_EN}"
+	(hierarchical_label "PCIe_PWR_EN"
 		(shape output)
 		(at 241.3 95.25 180)
 		(effects
@@ -9010,6 +8984,17 @@
 			(justify right)
 		)
 		(uuid "40febf5b-d284-4f80-9c65-2ad6d54c37ee")
+	)
+	(hierarchical_label "SD_PWR_ON"
+		(shape output)
+		(at 130.81 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "42a7c9e4-cfed-4f81-9299-fde5ed7c1461")
 	)
 	(hierarchical_label "~{PCIe_PERST}"
 		(shape output)
@@ -9179,21 +9164,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 171.45 85.09) (xy 171.45 115.57) (xy 149.86 115.57) (xy 149.86 85.09)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 036ec882-2466-4403-b74c-c41f48389cdb)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 243.84 114.3) (xy 217.17 114.3) (xy 217.17 96.52) (xy 243.84 96.52)
 			)
 			(stroke
@@ -9203,7 +9173,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 3ebe3d65-a371-4fee-92cd-b8bc1b04d3b0)
+			(uuid 49593139-9201-402f-b8a2-8e7b8cce43b3)
 		)
 	)
 	(rule_area
@@ -9218,7 +9188,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 722814e5-3613-418d-a050-680db182f190)
+			(uuid 630e5084-ac5a-4258-a757-2059cb2be879)
 		)
 	)
 	(rule_area
@@ -9233,7 +9203,22 @@
 			(fill
 				(type none)
 			)
-			(uuid 78f2ac3e-4bc9-447d-b623-d1f3cff3c065)
+			(uuid 828eb229-ad6c-44c3-a347-d8b66d9bc893)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 171.45 85.09) (xy 171.45 115.57) (xy 149.86 115.57) (xy 149.86 85.09)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid a230069f-2334-42be-be98-0fcd047569a5)
 		)
 	)
 	(netclass_flag ""

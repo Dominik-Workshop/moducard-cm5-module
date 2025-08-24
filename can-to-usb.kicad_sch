@@ -1,0 +1,233 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ac1605fe-26b4-4fd4-9baf-a7b73faff14c")
+	(paper "A4")
+	(title_block
+		(title "ModuCard CM5 module")
+		(date "2025-07-05")
+		(rev "1.0.0")
+		(company "KoNaR")
+		(comment 1 "Project author: Dominik Pluta")
+	)
+	(lib_symbols)
+	(bus_entry
+		(at 193.04 100.33)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0983aea1-dccb-4a97-82b3-133122846e22")
+	)
+	(bus_entry
+		(at 193.04 102.87)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7fe5028-8137-4aae-98f7-59443ac5aeaa")
+	)
+	(bus_entry
+		(at 81.28 101.6)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d144d885-de61-4b70-989d-244ff26bf1b0")
+	)
+	(bus_entry
+		(at 81.28 104.14)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbaf1b10-ae62-4e34-8310-66df9267d059")
+	)
+	(wire
+		(pts
+			(xy 172.72 102.87) (xy 193.04 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "224e7fb0-9231-4c9a-bf37-abb4084fb9a7")
+	)
+	(bus
+		(pts
+			(xy 195.58 102.87) (xy 195.58 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52dd2068-397c-4d6d-8f26-05a087781e92")
+	)
+	(wire
+		(pts
+			(xy 172.72 100.33) (xy 193.04 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57eb9da7-26f3-4f7a-855e-f278e97b5081")
+	)
+	(bus
+		(pts
+			(xy 195.58 105.41) (xy 195.58 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f7c3dea-9c88-405d-be42-66b03fd4536d")
+	)
+	(bus
+		(pts
+			(xy 81.28 106.68) (xy 80.01 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b88f034-6e64-4af5-b5f4-f7fb05e1ca26")
+	)
+	(bus
+		(pts
+			(xy 81.28 104.14) (xy 81.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d5a3fa8-e6d8-4944-986d-515862f77f98")
+	)
+	(bus
+		(pts
+			(xy 195.58 107.95) (xy 196.85 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91af9b54-1116-444b-98ee-060f8226e60c")
+	)
+	(bus
+		(pts
+			(xy 196.85 109.22) (xy 199.39 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cdd001f-ce60-4640-a8a2-d7f2c93e218a")
+	)
+	(wire
+		(pts
+			(xy 83.82 99.06) (xy 96.52 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0b85f8f-afab-42f7-bf2f-079fa4106025")
+	)
+	(bus
+		(pts
+			(xy 81.28 106.68) (xy 81.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbf40fd2-0bed-4457-936a-9b5b6a5965b5")
+	)
+	(wire
+		(pts
+			(xy 83.82 101.6) (xy 96.52 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddbed24d-46fb-4bb6-b2e1-c2ecbbdd3408")
+	)
+	(bus
+		(pts
+			(xy 80.01 107.95) (xy 77.47 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f345d09a-deb0-4fba-98dc-ae4ecf9ca8cc")
+	)
+	(label "USB.D-"
+		(at 193.04 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7bd914b2-1183-4087-af06-5ef38aedf972")
+	)
+	(label "CAN.-"
+		(at 96.52 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "80de02a9-de0b-4409-96eb-b53792514568")
+	)
+	(label "USB.D+"
+		(at 193.04 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd02e296-da76-4896-99a7-26a8e872d3a9")
+	)
+	(label "CAN.+"
+		(at 96.52 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e139e6d8-3fe4-4b1f-8acc-86a2e6cd0a8b")
+	)
+	(hierarchical_label "USB{USB}"
+		(shape output)
+		(at 199.39 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6bafc647-15d9-4c2f-a2bc-acbc6afc386e")
+	)
+	(hierarchical_label "CAN{CAN}"
+		(shape bidirectional)
+		(at 77.47 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5b91fd4-a52e-42a5-a0be-4dac1d6b2455")
+	)
+)
