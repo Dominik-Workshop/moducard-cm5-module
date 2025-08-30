@@ -4164,6 +4164,12 @@
 		(uuid "825c1cfd-dc3e-4ac9-8648-86f52362d4ad")
 	)
 	(junction
+		(at 107.95 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8875f57a-c62e-40b7-bde6-89b201b6accc")
+	)
+	(junction
 		(at 148.59 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4380,6 +4386,16 @@
 			(type default)
 		)
 		(uuid "1e4c0a51-2a5f-466e-84e4-e279cc995c1a")
+	)
+	(wire
+		(pts
+			(xy 107.95 124.46) (xy 107.95 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23dbdadb-53fe-4547-ba72-d5454a1b16cf")
 	)
 	(wire
 		(pts
@@ -5063,6 +5079,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 127) (xy 113.03 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a26dae41-32d4-46b4-aec7-299bbf1f3200")
+	)
+	(wire
+		(pts
 			(xy 185.42 175.26) (xy 185.42 161.29)
 		)
 		(stroke
@@ -5493,7 +5519,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 127) (xy 113.03 127)
+			(xy 102.87 127) (xy 107.95 127)
 		)
 		(stroke
 			(width 0)
@@ -5651,16 +5677,6 @@
 		)
 		(uuid "a2fefe84-1e26-4b1f-a237-0c4b27193238")
 	)
-	(label "+VBUS"
-		(at 88.9 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d93e393f-3e8b-430e-8b14-f15e62af13bd")
-	)
 	(label "FTDI_CBUS3"
 		(at 252.73 153.67 0)
 		(effects
@@ -5725,6 +5741,35 @@
 			(justify left)
 		)
 		(uuid "f9730324-101c-4c65-9325-6ef0ddc7103a")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 107.95 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2921ef52-af12-4b04-a9d4-74a35c99c7aa")
+		(property "Netclass" "PWR"
+			(at 107.95 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" ""
+			(at -143.51 -45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(netclass_flag ""
 		(length 2.54)
@@ -8977,7 +9022,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b48b6571-d3d0-46d0-aa78-b6a1d6a78725")
 		(property "Reference" "R24"
 			(at 111.76 166.37 90)
@@ -9537,7 +9582,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "dc2ed902-dab4-4a7a-8115-7f123bb6bacf")
 		(property "Reference" "R25"
 			(at 118.11 166.37 90)

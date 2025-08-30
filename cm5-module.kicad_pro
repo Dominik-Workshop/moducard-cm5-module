@@ -531,7 +531,7 @@
         "line_style": 0,
         "name": "ETHERNET_100Ohm_diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(132, 0, 132)",
         "wire_width": 6
       },
@@ -552,11 +552,20 @@
       },
       {
         "bus_width": 12,
+        "line_style": 0,
+        "name": "HDMI_100Ohm_diff",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(132, 0, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.15,
         "line_style": 0,
         "name": "PCIe_85Ohm_diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(0, 194, 0)",
         "wire_width": 6
       },
@@ -583,7 +592,7 @@
         "microvia_drill": 0.1,
         "name": "USB_90Ohm_diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(204, 102, 0)",
         "via_diameter": 0.5,
         "via_drill": 0.3,
@@ -595,6 +604,15 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "+12V": [
+        "PWR"
+      ],
+      "+24V": [
+        "PWR"
+      ],
+      "+5V_STDBY": [
+        "PWR"
+      ],
       "/2xUSB3.0/USB_SS_0.D+": [
         "USB_90Ohm_diff"
       ],
@@ -715,6 +733,45 @@
       "/CM5/ETH{ETHERNET}": [
         "ETHERNET_100Ohm_diff"
       ],
+      "/CM5/HDMI_0.CEC": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_0.CLK+": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_0.CLK-": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_0.D0+": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_0.D0-": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_0.D1+": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_0.D1-": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_0.D2+": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_0.D2-": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_0.HOTPLUG": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_0.SCL": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_0.SDA": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_0{HDMI}": [
+        "HDMI_100Ohm_diff"
+      ],
       "/CM5/PCIe.REFCLK+": [
         "PCIe_85Ohm_diff"
       ],
@@ -804,6 +861,9 @@
       ],
       "/CM5/USB{USB}": [
         "USB_90Ohm_diff"
+      ],
+      "/Power/5V_USB_IN": [
+        "PWR"
       ],
       "/USB console/FTDI_VCCIO": [
         "PWR"
