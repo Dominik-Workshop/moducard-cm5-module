@@ -1136,7 +1136,7 @@
 			(color 255 255 194 1.0000)
 		)
 		(uuid "658b004a-eb7c-4ad1-a8df-d1cd97b62092")
-		(property "Sheetname" "2xUSB3.0"
+		(property "Sheetname" "USB"
 			(at 228.6 104.6984 0)
 			(effects
 				(font
@@ -1145,7 +1145,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "2usb3_0.kicad_sch"
+		(property "Sheetfile" "usb.kicad_sch"
 			(at 228.6 127.5846 0)
 			(effects
 				(font

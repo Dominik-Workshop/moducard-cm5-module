@@ -3568,7 +3568,7 @@
 			(uuid "f6c70571-6a09-40a7-b75c-bb9069a6440e")
 		)
 		(instances
-			(project ""
+			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/658b004a-eb7c-4ad1-a8df-d1cd97b62092"
 					(reference "R10")
 					(unit 1)
@@ -3765,7 +3765,7 @@
 			(uuid "6a869836-45b8-4035-8742-07be946bc70f")
 		)
 		(instances
-			(project ""
+			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/658b004a-eb7c-4ad1-a8df-d1cd97b62092"
 					(reference "R11")
 					(unit 1)
@@ -4015,7 +4015,7 @@
 			(uuid "fe601beb-6490-40c5-a4b6-1fe738dd01e6")
 		)
 		(instances
-			(project ""
+			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/658b004a-eb7c-4ad1-a8df-d1cd97b62092"
 					(reference "U1")
 					(unit 1)
@@ -4301,7 +4301,7 @@
 			(uuid "8e325681-df40-4c07-a928-949ee2816e7f")
 		)
 		(instances
-			(project ""
+			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/658b004a-eb7c-4ad1-a8df-d1cd97b62092"
 					(reference "R12")
 					(unit 1)
@@ -4366,7 +4366,7 @@
 			(uuid "8cf0a309-5a85-432f-b8fd-39612c81cc69")
 		)
 		(instances
-			(project ""
+			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/658b004a-eb7c-4ad1-a8df-d1cd97b62092"
 					(reference "#PWR032")
 					(unit 1)
@@ -4805,7 +4805,7 @@
 			(uuid "fbf55379-17d0-4fa5-899e-2686c7e92343")
 		)
 		(instances
-			(project ""
+			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/658b004a-eb7c-4ad1-a8df-d1cd97b62092"
 					(reference "C7")
 					(unit 1)
@@ -4959,7 +4959,7 @@
 			(uuid "23585039-3e1d-401c-8fb3-3b93a3020352")
 		)
 		(instances
-			(project ""
+			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/658b004a-eb7c-4ad1-a8df-d1cd97b62092"
 					(reference "C25")
 					(unit 1)
@@ -5117,7 +5117,7 @@
 			(uuid "9926863f-0aac-4a6e-8222-ddcf4b451146")
 		)
 		(instances
-			(project ""
+			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/658b004a-eb7c-4ad1-a8df-d1cd97b62092"
 					(reference "J7")
 					(unit 2)
@@ -5476,7 +5476,7 @@
 			(uuid "f52b2ebd-7fc2-47e1-8086-b1b0e5fd8d7d")
 		)
 		(instances
-			(project ""
+			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/658b004a-eb7c-4ad1-a8df-d1cd97b62092"
 					(reference "C4")
 					(unit 1)
@@ -5764,7 +5764,7 @@
 			(uuid "9926863f-0aac-4a6e-8222-ddcf4b451147")
 		)
 		(instances
-			(project ""
+			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/658b004a-eb7c-4ad1-a8df-d1cd97b62092"
 					(reference "J7")
 					(unit 1)

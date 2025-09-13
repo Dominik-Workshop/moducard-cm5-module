@@ -865,6 +865,54 @@
       "/CM5/USB.D-": [
         "USB_90Ohm_diff"
       ],
+      "/CM5/USB_SS_0.D+": [
+        "USB_90Ohm_diff"
+      ],
+      "/CM5/USB_SS_0.D-": [
+        "USB_90Ohm_diff"
+      ],
+      "/CM5/USB_SS_0.RX+": [
+        "USB_90Ohm_diff"
+      ],
+      "/CM5/USB_SS_0.RX-": [
+        "USB_90Ohm_diff"
+      ],
+      "/CM5/USB_SS_0.TX+": [
+        "USB_90Ohm_diff"
+      ],
+      "/CM5/USB_SS_0.TX-": [
+        "USB_90Ohm_diff"
+      ],
+      "/CM5/USB_SS_0{USB3.0}": [
+        "USB_90Ohm_diff"
+      ],
+      "/CM5/USB_SS_0{USB}": [
+        "USB_90Ohm_diff"
+      ],
+      "/CM5/USB_SS_1.D+": [
+        "USB_90Ohm_diff"
+      ],
+      "/CM5/USB_SS_1.D-": [
+        "USB_90Ohm_diff"
+      ],
+      "/CM5/USB_SS_1.RX+": [
+        "USB_90Ohm_diff"
+      ],
+      "/CM5/USB_SS_1.RX-": [
+        "USB_90Ohm_diff"
+      ],
+      "/CM5/USB_SS_1.TX+": [
+        "USB_90Ohm_diff"
+      ],
+      "/CM5/USB_SS_1.TX-": [
+        "USB_90Ohm_diff"
+      ],
+      "/CM5/USB_SS_1{USB3.0}": [
+        "USB_90Ohm_diff"
+      ],
+      "/CM5/USB_SS_1{USB}": [
+        "USB_90Ohm_diff"
+      ],
       "/CM5/USB{USB}": [
         "USB_90Ohm_diff"
       ],
@@ -1070,7 +1118,7 @@
     ],
     [
       "658b004a-eb7c-4ad1-a8df-d1cd97b62092",
-      "2xUSB3.0"
+      "USB"
     ],
     [
       "ad3d5826-cab5-4231-8219-c7d7eaea11f6",
