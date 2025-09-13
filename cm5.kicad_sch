@@ -6834,24 +6834,12 @@
 		(uuid "0161ddcc-5280-426b-9b97-12ea56702951")
 	)
 	(no_connect
-		(at 76.2 113.03)
-		(uuid "13cdf61a-9e3d-4252-9ded-93ba5d50b4b9")
-	)
-	(no_connect
 		(at 76.2 123.19)
 		(uuid "176304e7-54b8-4e65-9bae-f0afc3ab2a28")
 	)
 	(no_connect
 		(at 76.2 138.43)
 		(uuid "17d0d5c8-6e62-4ede-9d66-65d9000a1a52")
-	)
-	(no_connect
-		(at 76.2 118.11)
-		(uuid "1ee3f6b3-f6a9-4f5b-ac8f-162d1e200933")
-	)
-	(no_connect
-		(at 262.89 161.29)
-		(uuid "1f691344-0920-43da-ace0-93a0dec6b679")
 	)
 	(no_connect
 		(at 76.2 156.21)
@@ -6878,10 +6866,6 @@
 		(uuid "4d011f08-ba42-4614-855a-50f6ec774266")
 	)
 	(no_connect
-		(at 76.2 115.57)
-		(uuid "595eee2a-d5a8-4651-a3cd-879005ebc8aa")
-	)
-	(no_connect
 		(at 76.2 153.67)
 		(uuid "616b1378-1324-4659-8f83-198e2abcf05f")
 	)
@@ -6904,10 +6888,6 @@
 	(no_connect
 		(at 76.2 110.49)
 		(uuid "9775c6c3-f477-4962-aa54-b768b2d4b18a")
-	)
-	(no_connect
-		(at 76.2 120.65)
-		(uuid "a8ad3ea7-e6e6-462d-8756-0594632bf3a1")
 	)
 	(no_connect
 		(at 76.2 87.63)
@@ -8257,6 +8237,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 120.65) (xy 64.77 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "368813d2-c1d8-4b93-9de6-a5a773ec3fb8")
+	)
+	(wire
+		(pts
 			(xy 137.16 130.81) (xy 160.02 130.81)
 		)
 		(stroke
@@ -8715,6 +8705,16 @@
 		)
 		(uuid "60a859d4-ee85-4332-8157-ae884f3ecd81")
 	)
+	(wire
+		(pts
+			(xy 69.85 113.03) (xy 76.2 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "621b11b1-1603-4bb1-aa5d-33d193a42e98")
+	)
 	(bus
 		(pts
 			(xy 345.44 110.49) (xy 345.44 113.03)
@@ -9047,6 +9047,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 118.11) (xy 76.2 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d531cbd-6dc3-43f3-bad7-b3fcd3a286ac")
+	)
+	(wire
+		(pts
 			(xy 323.85 97.79) (xy 342.9 97.79)
 		)
 		(stroke
@@ -9104,6 +9114,16 @@
 			(type default)
 		)
 		(uuid "80f4e631-4971-4d05-a9f0-f53991933186")
+	)
+	(wire
+		(pts
+			(xy 58.42 115.57) (xy 64.77 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "818e21b3-2bb6-45c9-aca0-6320960e295b")
 	)
 	(wire
 		(pts
@@ -9294,6 +9314,16 @@
 			(type default)
 		)
 		(uuid "90b048de-b10e-4673-bac2-bd9d96616893")
+	)
+	(wire
+		(pts
+			(xy 58.42 118.11) (xy 64.77 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92a8a1f8-83d1-443b-9907-fb28779dce8d")
 	)
 	(wire
 		(pts
@@ -9544,6 +9574,16 @@
 			(type default)
 		)
 		(uuid "a4a7fd99-a66a-418c-9b51-48df7b192fa4")
+	)
+	(wire
+		(pts
+			(xy 58.42 113.03) (xy 64.77 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5182900-1d60-4ef4-889e-afb27ebe1431")
 	)
 	(bus
 		(pts
@@ -10405,6 +10445,16 @@
 		)
 		(uuid "f1a4fb69-4626-4146-9d0e-4fa9c4a2856f")
 	)
+	(wire
+		(pts
+			(xy 69.85 120.65) (xy 76.2 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d33920-2568-4dc3-bfc2-d54621a65004")
+	)
 	(bus
 		(pts
 			(xy 345.44 140.97) (xy 347.98 140.97)
@@ -10464,6 +10514,16 @@
 			(type default)
 		)
 		(uuid "fc11e164-7508-41dc-ba8b-242129f3af63")
+	)
+	(wire
+		(pts
+			(xy 69.85 115.57) (xy 76.2 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc46c793-8ab6-4339-949c-3195b2398473")
 	)
 	(wire
 		(pts
@@ -11617,6 +11677,17 @@
 		)
 		(uuid "10fa61d5-d506-41f0-845b-e70507d550a8")
 	)
+	(hierarchical_label "CAN_1_EN_TRANSCEIVER"
+		(shape output)
+		(at 58.42 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2669d2ed-d3aa-4110-8a7d-efc6aeca10bb")
+	)
 	(hierarchical_label "USB_SS_0{USB3.0}"
 		(shape bidirectional)
 		(at 238.76 130.81 180)
@@ -11738,6 +11809,28 @@
 		)
 		(uuid "7e4504e6-a284-4101-bf8d-353629c6a734")
 	)
+	(hierarchical_label "CAN_1_RST_MCU"
+		(shape output)
+		(at 58.42 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "865d9c5a-6f3a-47f4-9ea1-ddf511913dbd")
+	)
+	(hierarchical_label "CAN_2_RST_MCU"
+		(shape output)
+		(at 58.42 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8dcb0f3e-dde7-448e-b95f-5fb6f121082f")
+	)
 	(hierarchical_label "MIPI_0{MIPI}"
 		(shape bidirectional)
 		(at 347.98 113.03 0)
@@ -11858,6 +11951,17 @@
 			(justify right)
 		)
 		(uuid "f0f61cba-6c90-4499-b11e-af1a195b7850")
+	)
+	(hierarchical_label "CAN_2_EN_TRANSCEIVER"
+		(shape output)
+		(at 58.42 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc7a22b8-9614-4458-baa9-fd80b0ec703e")
 	)
 	(rule_area
 		(polyline
@@ -12972,6 +13076,138 @@
 	)
 	(symbol
 		(lib_id "DW-resistors:R-0R-0402")
+		(at 64.77 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "140250fe-f00b-451a-83df-e016976a6a8b")
+		(property "Reference" "R67"
+			(at 64.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R-0R-0402"
+			(at 77.47 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:R_0402_1005Metric"
+			(at 77.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-0402WGF0000TCE_C17168.pdf"
+			(at 77.47 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistor 50V ±800ppm/℃ ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 77.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 77.47 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF0000TCE"
+			(at 77.47 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 77.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 69.85 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 77.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "405da0e3-03c7-4826-baa7-87eee77431b0")
+		)
+		(pin "1"
+			(uuid "9bbb6a30-991e-4737-9606-3f6cb33d1a89")
+		)
+		(instances
+			(project "cm5-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/dfbce24a-51ce-450d-9d41-776080287e8b"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-resistors:R-0R-0402")
 		(at 78.74 66.04 270)
 		(mirror x)
 		(unit 1)
@@ -13672,6 +13908,138 @@
 			(project ""
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/dfbce24a-51ce-450d-9d41-776080287e8b"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-resistors:R-0R-0402")
+		(at 64.77 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4674f5a4-6af2-4a7a-9e18-7f4673ceb2bb")
+		(property "Reference" "R69"
+			(at 64.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R-0R-0402"
+			(at 77.47 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:R_0402_1005Metric"
+			(at 77.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-0402WGF0000TCE_C17168.pdf"
+			(at 77.47 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistor 50V ±800ppm/℃ ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 77.47 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 77.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF0000TCE"
+			(at 77.47 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 77.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 69.85 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 77.47 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "327c529d-e197-4fe9-bc6a-19a7e3833b38")
+		)
+		(pin "1"
+			(uuid "44095209-2c8b-45e7-ab3c-669af638f258")
+		)
+		(instances
+			(project "cm5-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/dfbce24a-51ce-450d-9d41-776080287e8b"
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -14535,6 +14903,138 @@
 		)
 	)
 	(symbol
+		(lib_id "DW-resistors:R-0R-0402")
+		(at 64.77 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a2df886-6409-490d-9a08-43a2b4a32985")
+		(property "Reference" "R66"
+			(at 64.77 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R-0R-0402"
+			(at 77.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:R_0402_1005Metric"
+			(at 77.47 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-0402WGF0000TCE_C17168.pdf"
+			(at 77.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistor 50V ±800ppm/℃ ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 77.47 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 77.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF0000TCE"
+			(at 77.47 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 77.47 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 69.85 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 77.47 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "efa476c5-f9af-491c-9a4a-f3d8899828f6")
+		)
+		(pin "1"
+			(uuid "4dce7324-1768-41d8-b4c6-db648efd4ecd")
+		)
+		(instances
+			(project "cm5-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/dfbce24a-51ce-450d-9d41-776080287e8b"
+					(reference "R66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW-mechanical:Spacer_M2.5_H3mm_9774030151R")
 		(at 245.11 246.38 0)
 		(unit 1)
@@ -15283,6 +15783,138 @@
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/dfbce24a-51ce-450d-9d41-776080287e8b"
 					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-resistors:R-0R-0402")
+		(at 64.77 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad38de39-7e80-404a-9665-b30ac922e825")
+		(property "Reference" "R68"
+			(at 64.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R-0R-0402"
+			(at 77.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:R_0402_1005Metric"
+			(at 77.47 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-0402WGF0000TCE_C17168.pdf"
+			(at 77.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistor 50V ±800ppm/℃ ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 77.47 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 77.47 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF0000TCE"
+			(at 77.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 77.47 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 69.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 77.47 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b57399b8-ff0a-4f79-aa48-4c4db2ed73d0")
+		)
+		(pin "1"
+			(uuid "48de2cef-a12e-4c86-8e0d-2466cb83b26e")
+		)
+		(instances
+			(project "cm5-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/dfbce24a-51ce-450d-9d41-776080287e8b"
+					(reference "R68")
 					(unit 1)
 				)
 			)

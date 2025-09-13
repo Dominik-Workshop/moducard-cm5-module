@@ -249,20 +249,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "lib_symbol_issues|1066800|1041400|b7c2c80d-8ff4-412e-94ce-f764f8a3191c|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "power_pin_not_driven|1727200|1016000|f04b3a18-d8e2-45f2-ac8e-5d76979bc21c|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "power_pin_not_driven|889000|1879600|0b7ef83b-8023-4b0b-b8f7-795a02ea36eb|00000000-0000-0000-0000-000000000000|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ff3476d7-2f10-4f79-9864-988601c7ce1b|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ff3476d7-2f10-4f79-9864-988601c7ce1b|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -592,7 +579,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB_90Ohm_diff",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 255, 0)",
         "priority": 5,
         "schematic_color": "rgb(204, 102, 0)",
         "via_diameter": 0.5,
@@ -609,6 +596,12 @@
         "PWR"
       ],
       "+24V": [
+        "PWR"
+      ],
+      "+3V3": [
+        "PWR"
+      ],
+      "+5V": [
         "PWR"
       ],
       "+5V_STDBY": [
@@ -688,6 +681,18 @@
       ],
       "/Backplane/CAN_2{CAN}": [
         "CAN_120Ohm_diff"
+      ],
+      "/CAN to USB 1/USB.D+": [
+        "USB_90Ohm_diff"
+      ],
+      "/CAN to USB 1/USB.D-": [
+        "USB_90Ohm_diff"
+      ],
+      "/CAN to USB 2/USB.D+": [
+        "USB_90Ohm_diff"
+      ],
+      "/CAN to USB 2/USB.D-": [
+        "USB_90Ohm_diff"
       ],
       "/CAN to USB/USB.D+": [
         "USB_90Ohm_diff"
@@ -862,6 +867,9 @@
       ],
       "/CM5/USB{USB}": [
         "USB_90Ohm_diff"
+      ],
+      "/Power/5V": [
+        "PWR"
       ],
       "/Power/5V_USB_IN": [
         "PWR"
@@ -1094,11 +1102,11 @@
     ],
     [
       "1ecfee1b-3e5d-4e7d-896c-0cbef36fe0e5",
-      "CAN to USB"
+      "CAN to USB 1"
     ],
     [
       "f36d2c0d-933d-467c-b74d-11e2fa98d968",
-      "CAN to USB1"
+      "CAN to USB 2"
     ]
   ],
   "text_variables": {
