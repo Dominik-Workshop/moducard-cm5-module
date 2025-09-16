@@ -227,6 +227,14 @@
           "drill": 0.0
         },
         {
+          "diameter": 0.25,
+          "drill": 0.15
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
+        },
+        {
           "diameter": 0.5,
           "drill": 0.3
         }
@@ -502,7 +510,9 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.13,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -510,17 +520,26 @@
         "pcb_color": "rgb(0, 194, 194)",
         "priority": 2,
         "schematic_color": "rgb(0, 194, 194)",
+        "track_width": 0.13,
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
+        "clearance": 0.12,
+        "diff_pair_gap": 0.12,
+        "diff_pair_width": 0.15,
         "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "ETHERNET_100Ohm_diff",
         "pcb_color": "rgb(132, 0, 132)",
         "priority": 4,
         "schematic_color": "rgb(132, 0, 132)",
+        "track_width": 0.15,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -540,21 +559,36 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.12,
+        "diff_pair_gap": 0.12,
+        "diff_pair_width": 0.15,
         "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "HDMI_100Ohm_diff",
         "pcb_color": "rgb(132, 0, 0)",
         "priority": 3,
         "schematic_color": "rgb(132, 0, 0)",
+        "track_width": 0.15,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.12,
+        "diff_pair_gap": 0.12,
+        "diff_pair_width": 0.23,
         "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "PCIe_85Ohm_diff",
         "pcb_color": "rgb(0, 194, 0)",
         "priority": 6,
         "schematic_color": "rgb(0, 194, 0)",
+        "track_width": 0.23,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -574,7 +608,9 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.12,
+        "diff_pair_gap": 0.12,
+        "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -582,6 +618,7 @@
         "pcb_color": "rgb(204, 102, 0)",
         "priority": 5,
         "schematic_color": "rgb(204, 102, 0)",
+        "track_width": 0.2,
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
