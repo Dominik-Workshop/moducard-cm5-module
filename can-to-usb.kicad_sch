@@ -3368,6 +3368,25 @@
 		)
 		(uuid "399167b6-14ff-422b-8fd6-ade3278ad0cf")
 	)
+	(text_box "Design inpired by \nMKS CANable V2.0\ngithub.com/makerbase-mks/CANable-MKS"
+		(exclude_from_sim no)
+		(at 21.59 180.34 0)
+		(size 44.45 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c340b45f-8f8a-427a-8ea0-d42623e1e40d")
+	)
 	(junction
 		(at 165.1 54.61)
 		(diameter 0)
@@ -3469,6 +3488,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3295ce1-7796-48bf-bad8-9d82a34b2e9b")
+	)
+	(junction
+		(at 158.75 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1154812-7f9c-43d2-9c4c-fd35354663e0")
 	)
 	(junction
 		(at 78.74 57.15)
@@ -3654,6 +3679,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 119.38) (xy 167.64 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d31c4a-78d7-4109-aca1-5e65bedccd7c")
+	)
+	(wire
+		(pts
 			(xy 73.66 57.15) (xy 73.66 99.06)
 		)
 		(stroke
@@ -3661,6 +3696,16 @@
 			(type default)
 		)
 		(uuid "02948a96-d6b1-4f87-a751-b370ae8aed23")
+	)
+	(wire
+		(pts
+			(xy 158.75 129.54) (xy 158.75 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02f9bebb-ad2b-4c2b-8208-d671999c315b")
 	)
 	(wire
 		(pts
@@ -3994,7 +4039,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 119.38) (xy 167.64 119.38)
+			(xy 104.14 119.38) (xy 158.75 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4191,6 +4236,16 @@
 			(type default)
 		)
 		(uuid "70a5b52a-9b14-4f8d-9dae-9f7656c824cc")
+	)
+	(wire
+		(pts
+			(xy 158.75 121.92) (xy 158.75 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71f41066-f268-4f90-a91e-87cd4fb31c19")
 	)
 	(wire
 		(pts
@@ -6262,6 +6317,143 @@
 		)
 	)
 	(symbol
+		(lib_id "DW-resistors:R-10k-0402")
+		(at 158.75 127 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f6405d4-7c90-47fa-9f5f-a287aa02a2b8")
+		(property "Reference" "R84"
+			(at 157.48 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R-10k-0402"
+			(at 156.21 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:R_0402_1005Metric"
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
+			(at 151.13 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistor 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 148.59 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 146.05 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 143.51 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 140.97 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10k"
+			(at 157.48 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 135.89 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e2b91df-c03b-4bec-9ce4-853925df896b")
+		)
+		(pin "1"
+			(uuid "834a8e77-0b6e-4419-b9bd-6c8e038f844b")
+		)
+		(instances
+			(project "cm5-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/1ecfee1b-3e5d-4e7d-896c-0cbef36fe0e5"
+					(reference "R84")
+					(unit 1)
+				)
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/f36d2c0d-933d-467c-b74d-11e2fa98d968"
+					(reference "R85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW-capacitors:C-100n-0402")
 		(at 147.32 57.15 90)
 		(mirror x)
@@ -7373,6 +7565,76 @@
 				)
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/f36d2c0d-933d-467c-b74d-11e2fa98d968"
 					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-power-symbols:GND")
+		(at 158.75 129.54 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e087052-061f-4adf-9631-257128f6fadd")
+		(property "Reference" "#PWR0191"
+			(at 158.75 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3349eff7-b4ec-46ec-9133-dede7c60dec0")
+		)
+		(instances
+			(project "cm5-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/1ecfee1b-3e5d-4e7d-896c-0cbef36fe0e5"
+					(reference "#PWR0191")
+					(unit 1)
+				)
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/f36d2c0d-933d-467c-b74d-11e2fa98d968"
+					(reference "#PWR0192")
 					(unit 1)
 				)
 			)

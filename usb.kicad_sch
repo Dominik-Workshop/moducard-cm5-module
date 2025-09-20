@@ -2175,7 +2175,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DW-connectors:USB-C_USB-310-B-SU"
+		(symbol "DW-connectors:USB-C_TYPE-C_16PLT-H6.5"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2189,7 +2189,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "USB-C_USB-310-B-SU"
+			(property "Value" "USB-C_TYPE-C_16PLT-H6.5"
 				(at 27.94 -2.54 0)
 				(effects
 					(font
@@ -2200,7 +2200,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "DW-footprints:USB-C-Receptacle_USB-310-B-SU"
+			(property "Footprint" "DW-footprints:USB-C-Receptacle_TYPE-C_16PLT-H6.5"
 				(at 27.94 -5.08 0)
 				(effects
 					(font
@@ -2211,7 +2211,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2410122028_HOOYA-USB-310-B-SU_C309347.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C3151748.pdf"
 				(at 27.94 -7.62 0)
 				(effects
 					(font
@@ -2222,7 +2222,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "3A 1 Surface Mount, Right Angle Female -20℃~+60℃ Type-C SMD USB Connectors ROHS"
+			(property "Description" "USB 3.1 5A 1 Surface Mount,Vertical 16P Female -40℃~+85℃ Type-C SMD USB Connectors ROHS"
 				(at 27.94 -10.16 0)
 				(effects
 					(font
@@ -2233,7 +2233,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "HOOYA"
+			(property "Manufacturer" "SHOU HAN"
 				(at 27.94 -12.7 0)
 				(effects
 					(font
@@ -2244,7 +2244,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "USB-310-B-SU"
+			(property "MPN" "TYPE-C 16PLT-H6.5"
 				(at 27.94 -15.24 0)
 				(effects
 					(font
@@ -2254,7 +2254,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "LCSC" "C309347"
+			(property "LCSC" "C3151748"
 				(at 27.94 -17.78 0)
 				(effects
 					(font
@@ -2283,7 +2283,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB-C_USB-310-B-SU_0_1"
+			(symbol "USB-C_TYPE-C_16PLT-H6.5_0_1"
 				(rectangle
 					(start 13.335 -14.732)
 					(end 12.065 -13.462)
@@ -2484,7 +2484,7 @@
 					)
 				)
 			)
-			(symbol "USB-C_USB-310-B-SU_1_1"
+			(symbol "USB-C_TYPE-C_16PLT-H6.5_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
@@ -4114,10 +4114,10 @@
 		(uuid "02c0c023-f05a-4008-ad7d-185cf7ea89cc")
 	)
 	(junction
-		(at 210.82 107.95)
+		(at 210.82 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "082e3a9e-02da-48fa-bc8f-278707b67ad7")
+		(uuid "07ea283a-e8b2-4e8c-8ace-5b33ceded5ff")
 	)
 	(junction
 		(at 208.28 138.43)
@@ -4148,12 +4148,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "436c5bb8-94f2-4850-b9ef-747072eee3af")
-	)
-	(junction
-		(at 210.82 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52a9e8c3-fdbd-4607-a91c-8a226cc8c021")
 	)
 	(junction
 		(at 187.96 92.71)
@@ -4208,6 +4202,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f29bd928-89ad-4502-8d73-0adfa6e5a726")
+	)
+	(junction
+		(at 210.82 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb006b48-83c9-45d1-a91c-8d6374dfa846")
 	)
 	(junction
 		(at 193.04 125.73)
@@ -7152,6 +7152,160 @@
 		)
 	)
 	(symbol
+		(lib_id "DW-connectors:USB-C_TYPE-C_16PLT-H6.5")
+		(at 210.82 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e74e5a9-21cb-45a5-9aa6-57bdc57f189f")
+		(property "Reference" "J13"
+			(at 226.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "USB-C_TYPE-C_16PLT-H6.5"
+			(at 238.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:USB-C-Receptacle_TYPE-C_16PLT-H6.5"
+			(at 238.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3151748.pdf"
+			(at 238.76 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.1 5A 1 Surface Mount,Vertical 16P Female -40℃~+85℃ Type-C SMD USB Connectors ROHS"
+			(at 238.76 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN"
+			(at 238.76 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TYPE-C 16PLT-H6.5"
+			(at 226.06 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C3151748"
+			(at 238.76 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "A9"
+			(uuid "0f9426be-eee9-4990-a7a4-395207997961")
+		)
+		(pin "A4"
+			(uuid "d7ba19b4-1049-4ff0-b34c-5a908a7cbd25")
+		)
+		(pin "A5"
+			(uuid "bbf41464-4588-418e-a748-92dbf5c43354")
+		)
+		(pin "B7"
+			(uuid "18e310f2-1584-41b4-82bf-7ebe6d0e5ff5")
+		)
+		(pin "B8"
+			(uuid "64ad94c5-3d6a-472a-9f34-24b5f87ebcb2")
+		)
+		(pin "A8"
+			(uuid "2e9bc351-a9c5-476d-8a0a-3cc26010e8b1")
+		)
+		(pin "B5"
+			(uuid "6792bdc4-ce71-498b-9364-ea7ae094e0ac")
+		)
+		(pin "B6"
+			(uuid "d0c833ec-2d9f-458f-a717-001de3161b6b")
+		)
+		(pin "B1"
+			(uuid "1c787ec8-a0ff-40c7-801d-bf8fe80d049b")
+		)
+		(pin "B12"
+			(uuid "553985a2-274a-48c6-98b0-fc73a17e5264")
+		)
+		(pin "A7"
+			(uuid "1766b3ac-9679-494c-a6c0-bac60cdff926")
+		)
+		(pin "B4"
+			(uuid "35d48e64-d24a-47ba-861e-fc76fca60dac")
+		)
+		(pin "B9"
+			(uuid "558f022a-0dd9-48c3-9244-b5ccbd69f66a")
+		)
+		(pin "A1"
+			(uuid "222ebd72-9ed9-48c9-bdba-462977b6ddb8")
+		)
+		(pin "A12"
+			(uuid "0d32efdd-95cd-4862-8c6e-3602b878c1fe")
+		)
+		(pin "S1"
+			(uuid "6a43406d-d338-4655-8f3f-556062891251")
+		)
+		(pin "A6"
+			(uuid "d454c4f0-4b9b-4d23-b164-1ec8b5f56f89")
+		)
+		(instances
+			(project ""
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/658b004a-eb7c-4ad1-a8df-d1cd97b62092"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW-resistors:R-2k2-0402")
 		(at 92.71 52.07 0)
 		(unit 1)
@@ -8301,160 +8455,6 @@
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/658b004a-eb7c-4ad1-a8df-d1cd97b62092"
 					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DW-connectors:USB-C_USB-310-B-SU")
-		(at 210.82 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b30f65b7-83b0-40a3-aac9-ec15ccc0ca2a")
-		(property "Reference" "J12"
-			(at 226.06 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "USB-C_USB-310F-B-SU"
-			(at 238.76 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "DW-footprints:USB-C-Receptacle_USB-310-B-SU"
-			(at 238.76 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2410122028_HOOYA-USB-310-B-SU_C309347.pdf"
-			(at 238.76 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "3A 1 Surface Mount, Right Angle Female -20℃~+60℃ Type-C SMD USB Connectors ROHS"
-			(at 238.76 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "HOOYA"
-			(at 238.76 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "USB-310-B-SU"
-			(at 226.06 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C309347"
-			(at 238.76 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "A7"
-			(uuid "2457a959-0ebf-47c5-93ce-7e89395623cb")
-		)
-		(pin "B7"
-			(uuid "76e7851b-871f-4121-bc68-6c58f2776b2a")
-		)
-		(pin "B6"
-			(uuid "1697e756-03c0-4722-8e5b-0f7a49c47743")
-		)
-		(pin "B4"
-			(uuid "18a1a52a-3fb2-4a84-b982-7823386bc1ed")
-		)
-		(pin "A8"
-			(uuid "e617b8af-e324-42e5-964f-224f7282cdf9")
-		)
-		(pin "B8"
-			(uuid "3a217e75-d5be-4756-a00b-c2e57cf6bc59")
-		)
-		(pin "A1"
-			(uuid "5413667f-ea69-477b-8352-71cb1de50bb4")
-		)
-		(pin "A5"
-			(uuid "2cc942d0-d023-489e-8518-5fc48a8147bc")
-		)
-		(pin "B12"
-			(uuid "071013c7-81ea-4fd8-8ab5-97afba4b95e8")
-		)
-		(pin "B1"
-			(uuid "6f1a0693-deaa-48f5-9a43-191e51b69615")
-		)
-		(pin "A12"
-			(uuid "d7daec4a-b0ac-43c9-a1c1-33ecce9a8645")
-		)
-		(pin "S1"
-			(uuid "35429f60-308e-483d-ac07-c1ff0c391828")
-		)
-		(pin "A4"
-			(uuid "267c0bb3-f05a-45c2-9773-4fb439fd3f2d")
-		)
-		(pin "A9"
-			(uuid "8f55ab76-4a3e-4a87-961b-581df5958bd3")
-		)
-		(pin "B9"
-			(uuid "2c0aaa80-6dab-4435-9fe5-0de336850714")
-		)
-		(pin "B5"
-			(uuid "49dda61d-da48-4b2d-8c4c-5dafa78c0539")
-		)
-		(pin "A6"
-			(uuid "8c9698ec-0cb0-4e4d-b3d4-2d182219593e")
-		)
-		(instances
-			(project "cm5-module"
-				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/658b004a-eb7c-4ad1-a8df-d1cd97b62092"
-					(reference "J12")
 					(unit 1)
 				)
 			)
