@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.15
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -239,7 +239,7 @@
           "drill": 0.3
         }
       ],
-      "zones_allow_external_fillets": false
+      "zones_allow_external_fillets": true
     },
     "ipc2581": {
       "dist": "",
@@ -636,6 +636,9 @@
         "PWR"
       ],
       "+3V3": [
+        "PWR"
+      ],
+      "+3V3_M2": [
         "PWR"
       ],
       "+5V": [
@@ -1045,6 +1048,9 @@
       ],
       "/USB switch/USB_2{USB}": [
         "USB_90Ohm_diff"
+      ],
+      "/USB/+VBUS": [
+        "PWR"
       ],
       "Net-(U5-3V3)": [
         "PWR"
