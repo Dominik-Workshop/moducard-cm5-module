@@ -1034,7 +1034,13 @@
       "/HDMI/HDMI_+5V": [
         "PWR"
       ],
+      "/Power/3V3_DC-DC": [
+        "PWR"
+      ],
       "/Power/5V": [
+        "PWR"
+      ],
+      "/Power/5V_DC-DC": [
         "PWR"
       ],
       "/Power/5V_USB_IN": [
