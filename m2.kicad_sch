@@ -5454,7 +5454,7 @@
 		(dnp no)
 		(uuid "0f66a25f-0e04-46f4-97f1-ff3c2d8381e0")
 		(property "Reference" "R46"
-			(at 116.84 53.594 0)
+			(at 116.84 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8256,7 +8256,7 @@
 		(dnp no)
 		(uuid "9c0bc89a-09b7-4384-9c4e-dba31aac6699")
 		(property "Reference" "R51"
-			(at 74.93 58.674 0)
+			(at 74.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8342,7 +8342,7 @@
 			)
 		)
 		(property "Val" "1k"
-			(at 74.93 63.246 0)
+			(at 74.93 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -608,7 +608,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.12,
+        "clearance": 0.3,
         "diff_pair_gap": 0.12,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -722,6 +722,9 @@
       "/Backplane/CAN_2{CAN}": [
         "CAN_120Ohm_diff"
       ],
+      "/CAN to USB 1/5V_TR": [
+        "PWR"
+      ],
       "/CAN to USB 1/USB.D+": [
         "USB_90Ohm_diff"
       ],
@@ -734,6 +737,12 @@
       "/CAN to USB 1/VIO": [
         "PWR"
       ],
+      "/CAN to USB 1/VIO_TR": [
+        "PWR"
+      ],
+      "/CAN to USB 2/5V_TR": [
+        "PWR"
+      ],
       "/CAN to USB 2/USB.D+": [
         "USB_90Ohm_diff"
       ],
@@ -744,6 +753,9 @@
         "USB_90Ohm_diff"
       ],
       "/CAN to USB 2/VIO": [
+        "PWR"
+      ],
+      "/CAN to USB 2/VIO_TR": [
         "PWR"
       ],
       "/CAN to USB/USB.D+": [
@@ -968,10 +980,16 @@
       "/CM5/USB{USB}": [
         "USB_90Ohm_diff"
       ],
+      "/HDMI/HDMI_+5V": [
+        "PWR"
+      ],
       "/Power/5V": [
         "PWR"
       ],
       "/Power/5V_USB_IN": [
+        "PWR"
+      ],
+      "/SD card/SD_+3V3": [
         "PWR"
       ],
       "/USB console/FTDI_VCCIO": [
@@ -1032,6 +1050,12 @@
         "USB_90Ohm_diff"
       ],
       "/USB hub/USB_HUB.D-": [
+        "USB_90Ohm_diff"
+      ],
+      "/USB hub/USB_HUB_R.D+": [
+        "USB_90Ohm_diff"
+      ],
+      "/USB hub/USB_HUB_R.D-": [
         "USB_90Ohm_diff"
       ],
       "/USB hub/USB_HUB{USB}": [

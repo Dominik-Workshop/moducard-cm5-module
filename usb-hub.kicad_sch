@@ -1958,7 +1958,7 @@
 		(uuid "9f1d2c99-9866-4264-aaf9-25e65d347708")
 	)
 	(bus_entry
-		(at 96.52 107.95)
+		(at 83.82 107.95)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -2012,7 +2012,7 @@
 		(uuid "6f20cac5-63b6-455c-87e8-a52cb81caea9")
 	)
 	(bus_entry
-		(at 96.52 110.49)
+		(at 83.82 110.49)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -2079,7 +2079,7 @@
 	)
 	(bus
 		(pts
-			(xy 95.25 114.3) (xy 92.71 114.3)
+			(xy 82.55 114.3) (xy 80.01 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2129,7 +2129,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 107.95) (xy 99.06 107.95)
+			(xy 105.41 107.95) (xy 86.36 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2189,7 +2189,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 105.41) (xy 99.06 105.41)
+			(xy 105.41 105.41) (xy 86.36 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2199,7 +2199,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 107.95) (xy 96.52 110.49)
+			(xy 83.82 107.95) (xy 83.82 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2439,7 +2439,7 @@
 	)
 	(bus
 		(pts
-			(xy 95.25 114.3) (xy 96.52 113.03)
+			(xy 82.55 114.3) (xy 83.82 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2499,7 +2499,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 110.49) (xy 96.52 113.03)
+			(xy 83.82 110.49) (xy 83.82 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2529,7 +2529,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 105.41) (xy 132.08 105.41)
+			(xy 110.49 105.41) (xy 132.08 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2709,7 +2709,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 107.95) (xy 132.08 107.95)
+			(xy 110.49 107.95) (xy 132.08 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2847,7 +2847,7 @@
 		)
 		(uuid "a59db1e6-3a00-45da-bdae-edfe180693c8")
 	)
-	(label "USB_HUB.D-"
+	(label "USB_HUB_R.D-"
 		(at 129.54 107.95 180)
 		(effects
 			(font
@@ -2868,6 +2868,16 @@
 		(uuid "b8abd7ce-9360-4774-a81a-852329cc29f0")
 	)
 	(label "USB_HUB.D+"
+		(at 100.33 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c596a438-9191-4e48-b528-393d0727604b")
+	)
+	(label "USB_HUB_R.D+"
 		(at 129.54 105.41 180)
 		(effects
 			(font
@@ -2886,6 +2896,16 @@
 			(justify left bottom)
 		)
 		(uuid "d05fcc99-27f9-4000-ba9a-6b249b4a51d1")
+	)
+	(label "USB_HUB.D-"
+		(at 100.33 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d2b564d8-9ebb-4270-b64e-26b52390a55f")
 	)
 	(label "USB_3_R.D+"
 		(at 161.29 113.03 0)
@@ -2941,7 +2961,7 @@
 	)
 	(hierarchical_label "USB_HUB{USB}"
 		(shape bidirectional)
-		(at 92.71 114.3 180)
+		(at 80.01 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2990,7 +3010,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 93.98 110.49) (xy 130.81 110.49) (xy 130.81 101.6) (xy 93.98 101.6)
+				(xy 81.28 110.49) (xy 130.81 110.49) (xy 130.81 101.6) (xy 81.28 101.6)
 			)
 			(stroke
 				(width 0)
@@ -3005,7 +3025,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 93.98 101.6 0)
+		(at 81.28 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3014,7 +3034,7 @@
 		)
 		(uuid "0f8d0b7e-2756-47a1-9c87-86fcb5cc8328")
 		(property "Netclass" "USB_90Ohm_diff"
-			(at 94.742 99.06 0)
+			(at 82.042 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3023,7 +3043,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -133.35 -59.69 0)
+			(at -146.05 -59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4828,7 +4848,7 @@
 	)
 	(symbol
 		(lib_id "DW-resistors:R-0R-0402")
-		(at 104.14 107.95 0)
+		(at 105.41 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4836,7 +4856,7 @@
 		(dnp no)
 		(uuid "9d1f339b-31b4-4960-9f35-fb5a9291aec0")
 		(property "Reference" "R83"
-			(at 104.14 106.68 0)
+			(at 105.41 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4846,7 +4866,7 @@
 			)
 		)
 		(property "Value" "R-0R-0402"
-			(at 116.84 110.49 0)
+			(at 118.11 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4857,7 +4877,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:R_0402_1005Metric"
-			(at 116.84 113.03 0)
+			(at 118.11 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4868,7 +4888,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-0402WGF0000TCE_C17168.pdf"
-			(at 116.84 115.57 0)
+			(at 118.11 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4879,7 +4899,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistor 50V ±800ppm/℃ ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 116.84 118.11 0)
+			(at 118.11 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4890,7 +4910,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 116.84 120.65 0)
+			(at 118.11 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4901,7 +4921,7 @@
 			)
 		)
 		(property "MPN" "0402WGF0000TCE"
-			(at 116.84 123.19 0)
+			(at 118.11 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4912,7 +4932,7 @@
 			)
 		)
 		(property "LCSC" "C17168"
-			(at 116.84 125.73 0)
+			(at 118.11 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4923,7 +4943,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 109.22 106.68 0)
+			(at 110.49 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4933,7 +4953,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 116.84 130.81 0)
+			(at 118.11 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5579,7 +5599,7 @@
 	)
 	(symbol
 		(lib_id "DW-resistors:R-0R-0402")
-		(at 104.14 105.41 0)
+		(at 105.41 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5587,7 +5607,7 @@
 		(dnp no)
 		(uuid "e46e258c-72ba-4495-885f-86231a90e118")
 		(property "Reference" "R82"
-			(at 104.14 104.14 0)
+			(at 105.41 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5597,7 +5617,7 @@
 			)
 		)
 		(property "Value" "R-0R-0402"
-			(at 116.84 107.95 0)
+			(at 118.11 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5608,7 +5628,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:R_0402_1005Metric"
-			(at 116.84 110.49 0)
+			(at 118.11 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5619,7 +5639,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-0402WGF0000TCE_C17168.pdf"
-			(at 116.84 113.03 0)
+			(at 118.11 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5630,7 +5650,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistor 50V ±800ppm/℃ ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 116.84 115.57 0)
+			(at 118.11 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5641,7 +5661,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 116.84 118.11 0)
+			(at 118.11 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5652,7 +5672,7 @@
 			)
 		)
 		(property "MPN" "0402WGF0000TCE"
-			(at 116.84 120.65 0)
+			(at 118.11 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5663,7 +5683,7 @@
 			)
 		)
 		(property "LCSC" "C17168"
-			(at 116.84 123.19 0)
+			(at 118.11 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5674,7 +5694,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 109.22 104.14 0)
+			(at 110.49 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5684,7 +5704,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 116.84 128.27 0)
+			(at 118.11 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)

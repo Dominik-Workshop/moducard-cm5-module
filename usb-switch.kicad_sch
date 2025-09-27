@@ -1268,7 +1268,7 @@
 		(dnp no)
 		(uuid "29775433-0fef-451a-921e-cd59908fe64b")
 		(property "Reference" "R78"
-			(at 156.464 112.014 0)
+			(at 156.21 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1354,7 +1354,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 156.21 116.586 0)
+			(at 156.21 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
