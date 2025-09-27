@@ -5077,6 +5077,176 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "DW-mechanical:Battery_MS621FE-FL11E"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "Battery_MS621FE-FL11E"
+				(at 5.08 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "DW-footprints:Battery_MS621FE-FL11E"
+				(at 5.08 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.sii.co.jp/en/me/datasheets/ms-rechargeable/ms621fe/"
+				(at 5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rechargeable Battery, Coin Cell, Single Cell, 3 V, Lithium Manganese Dioxide, 5.5 mAh, Button Cell"
+				(at 5.08 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Seiko Instruments"
+				(at 5.08 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MS621FE-FL11E"
+				(at 5.08 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "3V"
+				(at 5.08 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "HORIZONTAL, SMT, BATTERY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_MS621FE-FL11E_0_1"
+				(rectangle
+					(start -1.27 -3.81)
+					(end 1.27 -3.556)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Battery_MS621FE-FL11E_1_1"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_out line
+					(at 0 0 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DW-mechanical:CM5"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -6815,16 +6985,6 @@
 		(members "DAT0" "DAT1" "DAT2" "DAT3" "DAT4" "DAT5" "DAT6" "DAT7" "CLK"
 			"CMD"
 		)
-	)
-	(text "TODO:\nAdd 3V battery"
-		(exclude_from_sim no)
-		(at 149.098 201.168 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6819f53f-3a72-476f-8685-e34303031501")
 	)
 	(text_box "Pulling PMIC_EN pin low puts the CM5 in the lowest possible power-down state.\nIt is recommended to only pull this pin low once the OS has shut down."
 		(exclude_from_sim no)
@@ -9392,16 +9552,6 @@
 		)
 		(uuid "8c0b3685-4f1d-4e68-846e-8a68b8a31535")
 	)
-	(wire
-		(pts
-			(xy 152.4 203.2) (xy 152.4 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c3ee7bc-bad2-4a9b-8433-6af164fe84a6")
-	)
 	(bus
 		(pts
 			(xy 241.3 125.73) (xy 241.3 128.27)
@@ -9701,6 +9851,16 @@
 			(type default)
 		)
 		(uuid "a01ba94e-ddbd-4fdc-8c98-1d03e27cb33f")
+	)
+	(wire
+		(pts
+			(xy 152.4 203.2) (xy 152.4 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a19fec06-459d-419d-98f1-c6f197a1c7a1")
 	)
 	(wire
 		(pts
@@ -10104,7 +10264,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 194.31) (xy 152.4 198.12)
+			(xy 152.4 194.31) (xy 152.4 196.85)
 		)
 		(stroke
 			(width 0)
@@ -17236,6 +17396,117 @@
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/dfbce24a-51ce-450d-9d41-776080287e8b"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-mechanical:Battery_MS621FE-FL11E")
+		(at 152.4 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9e09603-89af-4dd8-bc40-c2d2858f53ad")
+		(property "Reference" "BT1"
+			(at 148.59 198.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Battery_MS621FE-FL11E"
+			(at 157.48 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:Battery_MS621FE-FL11E"
+			(at 157.48 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sii.co.jp/en/me/datasheets/ms-rechargeable/ms621fe/"
+			(at 157.48 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rechargeable Battery, Coin Cell, Single Cell, 3 V, Lithium Manganese Dioxide, 5.5 mAh, Button Cell"
+			(at 157.48 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Seiko Instruments"
+			(at 157.48 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MS621FE-FL11E"
+			(at 157.48 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "3V"
+			(at 148.59 201.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "cf0b29aa-cc59-4f8d-9dee-bee99a3ae9e0")
+		)
+		(pin "2"
+			(uuid "2cd6fd5f-6cf2-42f0-b950-60d3702b430a")
+		)
+		(instances
+			(project ""
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/dfbce24a-51ce-450d-9d41-776080287e8b"
+					(reference "BT1")
 					(unit 1)
 				)
 			)

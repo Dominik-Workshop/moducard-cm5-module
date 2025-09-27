@@ -519,7 +519,7 @@
 	(net 353 "unconnected-(J3-GPIO23-Pad47)")
 	(net 354 "Net-(J3-Ethernet_SYNC_OUT)")
 	(net 355 "Net-(J3-GPIO10)")
-	(net 356 "unconnected-(J3-VBAT-Pad76)")
+	(net 356 "Net-(BT1-+)")
 	(net 357 "unconnected-(J3-GPIO17-Pad50)")
 	(net 358 "Net-(J4-USB_OTG_ID)")
 	(net 359 "unconnected-(J6-NC-Pad34)")
@@ -4631,6 +4631,219 @@
 		(model "${DW_3D_MODELS}/SW_TL2243.step"
 			(offset
 				(xyz 2.5 2.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
+	(footprint "DW-footprints:Battery_MS621FE-FL11E"
+		(layer "F.Cu")
+		(uuid "1c2532b4-ede0-4abd-9edf-40e8254e0a53")
+		(at 101.841898 95.34 180)
+		(property "Reference" "BT1"
+			(at 2.000001 0 0)
+			(layer "F.SilkS")
+			(uuid "2c710d71-9d22-4c30-9a41-1302fbdc17b3")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "Battery_MS621FE-FL11E"
+			(at 2 1.27 0)
+			(layer "F.Fab")
+			(uuid "125e4258-3d5f-43e8-8214-f9a78d207066")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify right top)
+			)
+		)
+		(property "Datasheet" "https://www.sii.co.jp/en/me/datasheets/ms-rechargeable/ms621fe/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55dfb0df-3ad6-4b91-870c-8efb65dd9be6")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Rechargeable Battery, Coin Cell, Single Cell, 3 V, Lithium Manganese Dioxide, 5.5 mAh, Button Cell"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48fba296-bd50-4044-9272-747e8bbc24b0")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Seiko Instruments"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7253816d-e313-4153-8936-91065f496536")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "MS621FE-FL11E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b87d0d6-9a2f-4e43-911b-26552f3d519b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "3V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d93a4b5d-3319-4ad9-b636-b93196d53f4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/dfbce24a-51ce-450d-9d41-776080287e8b/c9e09603-89af-4dd8-bc40-c2d2858f53ad")
+		(sheetname "/CM5/")
+		(sheetfile "cm5.kicad_sch")
+		(attr smd)
+		(fp_circle
+			(center -5 0)
+			(end -1.47 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "271a7cdf-7d0c-4077-8807-7f74a0615276")
+		)
+		(fp_line
+			(start 1.25 1.4)
+			(end -1.59 1.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1ffd67c7-a255-4b92-80aa-36cc329ec821")
+		)
+		(fp_line
+			(start 1.25 -1.4)
+			(end 1.25 1.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "34046f12-45a4-44b4-86bb-a428eff132eb")
+		)
+		(fp_line
+			(start -1.59 -1.4)
+			(end 1.25 -1.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3f690d87-78ca-4404-b261-1e062021ff73")
+		)
+		(fp_arc
+			(start -1.59 1.4)
+			(mid -8.686204 0.001869)
+			(end -1.591422 -1.403457)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "06a05bb2-ba11-47cc-b5e6-ff03e7bf7cee")
+		)
+		(fp_line
+			(start 0.9 0.499999)
+			(end 0.9 1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9cb81d0a-3b8e-4739-994e-246712f12393")
+		)
+		(fp_line
+			(start 0.9 -1)
+			(end 0.9 -0.499999)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4924f40e-86ba-44c5-8473-f243f4d301a3")
+		)
+		(fp_circle
+			(center -5 0)
+			(end -1.6 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "84b4985d-f6a7-4da8-a4ef-c57b79783cc4")
+		)
+		(pad "1" smd rect
+			(at 0 -0.75 180)
+			(size 2 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 356 "Net-(BT1-+)")
+			(pinfunction "+")
+			(pintype "power_out")
+			(uuid "bcdcce6c-8360-4d45-a19b-646bdcc3cc63")
+		)
+		(pad "2" smd rect
+			(at 0 0.75 180)
+			(size 2 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 1 "GND")
+			(pinfunction "-")
+			(pintype "power_out")
+			(uuid "c078729b-d7b7-4a66-805f-ba2b680428dd")
+		)
+		(embedded_fonts no)
+		(model "${DW_3D_MODELS}/Battery_MS621FE-FL11E.step"
+			(offset
+				(xyz -5 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -60053,7 +60266,7 @@
 			(at 4.999999 -1.54)
 			(size 0.2 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 356 "unconnected-(J3-VBAT-Pad76)")
+			(net 356 "Net-(BT1-+)")
 			(pinfunction "VBAT")
 			(pintype "power_in")
 			(uuid "f94bae6c-8d1a-4404-90a2-6d45eba23e03")
