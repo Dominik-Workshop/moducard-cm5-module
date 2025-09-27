@@ -1731,9 +1731,9 @@
 				(justify left top)
 			)
 		)
-		(pin "SD_CARD{SD}" bidirectional
-			(at 227.33 81.28 180)
-			(uuid "e115b39e-9d9e-4bc8-87e7-8a45927cd3e7")
+		(pin "SD_PWR_ON" input
+			(at 227.33 78.74 180)
+			(uuid "bdc331a3-2aaa-4219-869e-5cd47468c176")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1741,9 +1741,9 @@
 				(justify left)
 			)
 		)
-		(pin "SD_PWR_ON" input
-			(at 227.33 78.74 180)
-			(uuid "bdc331a3-2aaa-4219-869e-5cd47468c176")
+		(pin "SD_CARD{SDIO}" bidirectional
+			(at 227.33 81.28 180)
+			(uuid "e938ab3a-4638-4f74-abdf-a58dc8e332ec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1806,16 +1806,6 @@
 		(pin "ETH{ETHERNET}" bidirectional
 			(at 214.63 149.86 0)
 			(uuid "9fd0a9a8-d3d0-4514-bd06-cbd6d24fec0c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SD_CARD{SD}" bidirectional
-			(at 214.63 81.28 0)
-			(uuid "15b0dad4-60f1-443c-9c8a-dfdbdd7a0451")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2071,6 +2061,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "SD_CARD{SDIO}" bidirectional
+			(at 214.63 81.28 0)
+			(uuid "ea45b198-79e7-4dd7-867b-e700f23d65de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

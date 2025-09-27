@@ -608,6 +608,15 @@
       },
       {
         "bus_width": 12,
+        "line_style": 0,
+        "name": "SDIO_50Ohm_se",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgb(0, 132, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.3,
         "diff_pair_gap": 0.12,
         "diff_pair_width": 0.2,
@@ -842,6 +851,45 @@
       "/CM5/HDMI_0{HDMI}": [
         "HDMI_100Ohm_diff"
       ],
+      "/CM5/HDMI_1.CEC": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_1.CLK+": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_1.CLK-": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_1.D0+": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_1.D0-": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_1.D1+": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_1.D1-": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_1.D2+": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_1.D2-": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_1.HOTPLUG": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_1.SCL": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_1.SDA": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_1{HDMI}": [
+        "HDMI_100Ohm_diff"
+      ],
       "/CM5/PCIe.REFCLK+": [
         "PCIe_85Ohm_diff"
       ],
@@ -891,34 +939,37 @@
         "PCIe_85Ohm_diff"
       ],
       "/CM5/SD_CARD.CLK": [
-        "50Ohm_se"
+        "SDIO_50Ohm_se"
       ],
       "/CM5/SD_CARD.CMD": [
-        "50Ohm_se"
+        "SDIO_50Ohm_se"
       ],
       "/CM5/SD_CARD.DAT0": [
-        "50Ohm_se"
+        "SDIO_50Ohm_se"
       ],
       "/CM5/SD_CARD.DAT1": [
-        "50Ohm_se"
+        "SDIO_50Ohm_se"
       ],
       "/CM5/SD_CARD.DAT2": [
-        "50Ohm_se"
+        "SDIO_50Ohm_se"
       ],
       "/CM5/SD_CARD.DAT3": [
-        "50Ohm_se"
+        "SDIO_50Ohm_se"
       ],
       "/CM5/SD_CARD.DAT4": [
-        "50Ohm_se"
+        "SDIO_50Ohm_se"
       ],
       "/CM5/SD_CARD.DAT5": [
-        "50Ohm_se"
+        "SDIO_50Ohm_se"
       ],
       "/CM5/SD_CARD.DAT6": [
-        "50Ohm_se"
+        "SDIO_50Ohm_se"
       ],
       "/CM5/SD_CARD.DAT7": [
-        "50Ohm_se"
+        "SDIO_50Ohm_se"
+      ],
+      "/CM5/SD_CARD{SDIO}": [
+        "SDIO_50Ohm_se"
       ],
       "/CM5/SD_CARD{SD}": [
         "50Ohm_se"
@@ -1077,6 +1128,9 @@
         "PWR"
       ],
       "Net-(U5-3V3)": [
+        "PWR"
+      ],
+      "Net-(U7-3V3)": [
         "PWR"
       ],
       "unconnected-(R82-Pad1)": [
