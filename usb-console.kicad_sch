@@ -5653,6 +5653,16 @@
 		)
 		(uuid "4c22edb3-1e86-4195-af62-23451a898ba6")
 	)
+	(label "D-"
+		(at 226.06 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "76d7bce4-b105-4e8c-9e4a-4576d50c562f")
+	)
 	(label "FTDI_CBUS0"
 		(at 252.73 146.05 0)
 		(effects
@@ -5712,6 +5722,16 @@
 			(justify left bottom)
 		)
 		(uuid "df42a60a-8e5f-457a-842a-fe4b859d0d2f")
+	)
+	(label "D+"
+		(at 226.06 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f70d48b2-77fd-4128-95f9-a8513f6d9e73")
 	)
 	(hierarchical_label "USB_CONSOLE{UART}"
 		(shape bidirectional)
