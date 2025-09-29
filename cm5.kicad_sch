@@ -8844,6 +8844,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 194.31) (xy 152.4 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5441d6db-ee07-49f5-bb11-60456d2274f8")
+	)
+	(wire
+		(pts
 			(xy 243.84 128.27) (xy 262.89 128.27)
 		)
 		(stroke
@@ -10544,16 +10554,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 194.31) (xy 152.4 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db4a774a-f8df-454a-b534-74a65efd915c")
-	)
-	(wire
-		(pts
 			(xy 44.45 194.31) (xy 44.45 191.77)
 		)
 		(stroke
@@ -11921,6 +11921,16 @@
 			(justify left bottom)
 		)
 		(uuid "e22b6f0c-eef7-41cd-91c2-6353ccfa7cec")
+	)
+	(label "VBAT"
+		(at 152.4 194.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e2ce102c-8645-4085-bf9c-992e297e2f1c")
 	)
 	(label "~{LED_ACT}"
 		(at 74.93 181.61 180)
