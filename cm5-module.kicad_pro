@@ -1070,6 +1070,9 @@
       "/USB hub/USB_1_R.D-": [
         "USB_90Ohm_diff"
       ],
+      "/USB hub/USB_1{USB}": [
+        "USB_90Ohm_diff"
+      ],
       "/USB hub/USB_2.D+": [
         "USB_90Ohm_diff"
       ],
