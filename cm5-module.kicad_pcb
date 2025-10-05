@@ -2001,7 +2001,7 @@
 			(net 1 "GND")
 			(pinfunction "SH")
 			(pintype "passive")
-			(uuid "2471fc21-0c72-41b7-a5da-b571d8b34c8c")
+			(uuid "bf4c0588-3b2b-4391-b49e-1c6db32af1ee")
 		)
 		(embedded_fonts no)
 		(model "${DW_3D_MODELS}/RJ45_HC612601A-M893-A.step"
@@ -35712,7 +35712,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 184 "/CM5/~{PCIe_WAKE}")
 			(pinfunction "~{PEWAKE}")
-			(pintype "input")
+			(pintype "output")
 			(uuid "1a5767e7-48a9-4023-97a2-65e4d42e3432")
 		)
 		(pad "55" smd rect
@@ -50027,7 +50027,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "9677ad77-141d-4834-ad73-1a95d1f0dd6c")
+			(uuid "4a50a3b5-dc0d-4e5b-9e9a-aeaadb7bc794")
 		)
 		(pad "19" thru_hole circle
 			(at 10.07 -3.68 180)
@@ -50038,7 +50038,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "9677ad77-141d-4834-ad73-1a95d1f0dd6c")
+			(uuid "fe702f50-987b-49d5-82af-3c8088ee86e8")
 		)
 		(pad "19" thru_hole circle
 			(at 10.07 2 180)
@@ -50049,7 +50049,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "9677ad77-141d-4834-ad73-1a95d1f0dd6c")
+			(uuid "1c5bca47-4078-4326-9801-df58aac910d9")
 		)
 		(embedded_fonts no)
 		(model "${DW_3D_MODELS}/USB-A_Receptacle_USB-303WSD-BRY.step"
@@ -50640,7 +50640,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 119 "/CM5/USB.D-")
 			(pinfunction "USB2_N")
-			(pintype "passive")
+			(pintype "bidirectional")
 			(uuid "3094bfe0-4e5d-42c4-b9f9-d48543275b7c")
 		)
 		(pad "4" smd rect
@@ -50658,7 +50658,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 120 "/CM5/USB.D+")
 			(pinfunction "USB2_P")
-			(pintype "passive")
+			(pintype "bidirectional")
 			(uuid "9bc5b440-3e2a-400e-8f43-cfb7bdda50c6")
 		)
 		(pad "6" smd rect
@@ -50748,7 +50748,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 118 "/CM5/MIPI_0.D0-")
 			(pinfunction "MIPI0_D0_N")
-			(pintype "input")
+			(pintype "bidirectional")
 			(uuid "70b5262a-3e47-4a1e-98e5-617efefdc916")
 		)
 		(pad "16" smd rect
@@ -50766,7 +50766,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 110 "/CM5/MIPI_0.D0+")
 			(pinfunction "MIPI0_D0_P")
-			(pintype "input")
+			(pintype "bidirectional")
 			(uuid "4e633a16-bae9-4e31-af2f-ff53d8f08a1f")
 		)
 		(pad "18" smd rect
@@ -50802,7 +50802,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 143 "/CM5/MIPI_0.D1-")
 			(pinfunction "MIPI0_D1_N")
-			(pintype "input")
+			(pintype "bidirectional")
 			(uuid "f16c7d92-2223-4a34-a94e-176b48fe1074")
 		)
 		(pad "22" smd rect
@@ -50820,7 +50820,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 103 "/CM5/MIPI_0.D1+")
 			(pinfunction "MIPI0_D1_P")
-			(pintype "input")
+			(pintype "bidirectional")
 			(uuid "058f2261-b42a-4051-bce8-3b6bbcd25a4c")
 		)
 		(pad "24" smd rect
@@ -50856,7 +50856,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 132 "/CM5/MIPI_0.CLK-")
 			(pinfunction "MIPI0_C_N")
-			(pintype "input")
+			(pintype "bidirectional")
 			(uuid "ce475048-1130-4b53-9e79-0dbd973a175e")
 		)
 		(pad "28" smd rect
@@ -50874,7 +50874,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 127 "/CM5/MIPI_0.CLK+")
 			(pinfunction "MIPI0_C_P")
-			(pintype "input")
+			(pintype "bidirectional")
 			(uuid "be7dbe80-40e0-4232-b6e0-ce6754faf37e")
 		)
 		(pad "30" smd rect
@@ -50910,7 +50910,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 117 "/CM5/MIPI_0.D2-")
 			(pinfunction "MIPI0_D2_N")
-			(pintype "input")
+			(pintype "bidirectional")
 			(uuid "6dbb604f-47b6-4426-981d-2a366dcba7ba")
 		)
 		(pad "34" smd rect
@@ -50919,7 +50919,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 234 "/CM5/USB_SS_0.D+")
 			(pinfunction "USB3-0-D_P")
-			(pintype "passive")
+			(pintype "bidirectional")
 			(uuid "d993def2-97d2-4d60-80b3-2867d9547a08")
 		)
 		(pad "35" smd rect
@@ -50928,7 +50928,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 125 "/CM5/MIPI_0.D2+")
 			(pinfunction "MIPI0_D2_P")
-			(pintype "input")
+			(pintype "bidirectional")
 			(uuid "b94e9c02-883a-4853-beb8-ee24a97f7551")
 		)
 		(pad "36" smd rect
@@ -50937,7 +50937,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 165 "/CM5/USB_SS_0.D-")
 			(pinfunction "USB3-0-D_N")
-			(pintype "passive")
+			(pintype "bidirectional")
 			(uuid "72cab29a-8964-4577-aa80-a297b602908f")
 		)
 		(pad "37" smd rect
@@ -50964,7 +50964,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 131 "/CM5/MIPI_0.D3-")
 			(pinfunction "MIPI0_D3_N")
-			(pintype "input")
+			(pintype "bidirectional")
 			(uuid "cd9fb9b7-7de8-44d6-99d4-9ae8a3366a4a")
 		)
 		(pad "40" smd rect
@@ -50982,7 +50982,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 124 "/CM5/MIPI_0.D3+")
 			(pinfunction "MIPI0_D3_P")
-			(pintype "input")
+			(pintype "bidirectional")
 			(uuid "b887eb9b-b2ba-450e-9d68-c3f54cde2bd4")
 		)
 		(pad "42" smd rect
@@ -51000,7 +51000,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 112 "/CM5/HDMI_1.HOTPLUG")
 			(pinfunction "HDMI1_HOTPLUG")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "579106e6-7c52-42ee-a676-b935aa573adf")
 		)
 		(pad "44" smd rect
@@ -51018,7 +51018,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 144 "/CM5/HDMI_1.SDA")
 			(pinfunction "HDMI1_SDA")
-			(pintype "bidirectional")
+			(pintype "open_collector")
 			(uuid "fb9fda48-d6bb-450e-b68c-07f77b1049fb")
 		)
 		(pad "46" smd rect
@@ -51180,7 +51180,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 151 "/CM5/USB_SS_1.D+")
 			(pinfunction "USB3-1-D_P")
-			(pintype "passive")
+			(pintype "bidirectional")
 			(uuid "3d6d467a-22f4-4f61-8bd0-c30c8cdacece")
 		)
 		(pad "64" smd rect
@@ -51198,7 +51198,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 141 "/CM5/USB_SS_1.D-")
 			(pinfunction "USB3-1-D_N")
-			(pintype "passive")
+			(pintype "bidirectional")
 			(uuid "33b087ac-9e70-4715-b8b6-6b7f8f0bad69")
 		)
 		(pad "66" smd rect
@@ -51288,7 +51288,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 142 "/CM5/MIPI_1.D0-")
 			(pinfunction "MIPI1_D0_N")
-			(pintype "output")
+			(pintype "bidirectional")
 			(uuid "ed2f1b80-4bb8-481d-b88f-82d1714c7242")
 		)
 		(pad "76" smd rect
@@ -51306,7 +51306,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 114 "/CM5/MIPI_1.D0+")
 			(pinfunction "MIPI1_D0_P")
-			(pintype "output")
+			(pintype "bidirectional")
 			(uuid "5e85949e-309b-499e-b052-6926e8aaf506")
 		)
 		(pad "78" smd rect
@@ -51342,7 +51342,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 137 "/CM5/MIPI_1.D1-")
 			(pinfunction "MIPI1_D1_N")
-			(pintype "output")
+			(pintype "bidirectional")
 			(uuid "d6118c82-0903-4b7e-ba91-a28a3664fb8e")
 		)
 		(pad "82" smd rect
@@ -51360,7 +51360,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 129 "/CM5/MIPI_1.D1+")
 			(pinfunction "MIPI1_D1_P")
-			(pintype "output")
+			(pintype "bidirectional")
 			(uuid "c5ce0b43-93dc-4ef7-a913-a65bfebb1456")
 		)
 		(pad "84" smd rect
@@ -51396,7 +51396,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 109 "/CM5/MIPI_1.CLK-")
 			(pinfunction "MIPI1_C_N")
-			(pintype "output")
+			(pintype "bidirectional")
 			(uuid "4bc632e1-be49-4b80-9591-59d6db20afe1")
 		)
 		(pad "88" smd rect
@@ -51414,7 +51414,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 106 "/CM5/MIPI_1.CLK+")
 			(pinfunction "MIPI1_C_P")
-			(pintype "output")
+			(pintype "bidirectional")
 			(uuid "322e452d-a61f-4b0d-9ea7-bb1208fb687a")
 		)
 		(pad "90" smd rect
@@ -51450,7 +51450,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 108 "/CM5/MIPI_1.D2-")
 			(pinfunction "MIPI1_D2_N")
-			(pintype "output")
+			(pintype "bidirectional")
 			(uuid "49fec4c5-baa5-41c7-8d26-0567cfa1da71")
 		)
 		(pad "94" smd rect
@@ -51459,7 +51459,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 107 "/CM5/MIPI_1.D3-")
 			(pinfunction "MIPI1_D3_N")
-			(pintype "output")
+			(pintype "bidirectional")
 			(uuid "48800235-c344-4b9e-92e2-6775c3a13c12")
 		)
 		(pad "95" smd rect
@@ -51468,7 +51468,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 116 "/CM5/MIPI_1.D2+")
 			(pinfunction "MIPI1_D2_P")
-			(pintype "output")
+			(pintype "bidirectional")
 			(uuid "6c755526-399b-4240-b182-7b259a1b651c")
 		)
 		(pad "96" smd rect
@@ -51477,7 +51477,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 115 "/CM5/MIPI_1.D3+")
 			(pinfunction "MIPI1_D3_P")
-			(pintype "output")
+			(pintype "bidirectional")
 			(uuid "684c0846-09ee-4b4e-b7d6-6e70735ad0c8")
 		)
 		(pad "97" smd rect
@@ -51504,7 +51504,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 77 "/CM5/HDMI_0.SDA")
 			(pinfunction "HDMI0_SDA")
-			(pintype "bidirectional")
+			(pintype "open_collector")
 			(uuid "1ee83272-9979-41b0-b5f8-c16b6b8fb95a")
 		)
 		(pad "100" smd rect

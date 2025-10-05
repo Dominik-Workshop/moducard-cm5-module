@@ -258,7 +258,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "no_connect_connected|1016000|1790700|13896de0-b129-4fc0-86bc-868d3f1e50c4|a1119d90-8629-413c-be5d-b2c610b5bc83|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/18a4552b-ac02-46c8-954e-f58b32a322f0||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -446,7 +451,7 @@
       "extra_units": "error",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "warning",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",

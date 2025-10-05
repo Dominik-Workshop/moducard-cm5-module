@@ -1011,7 +1011,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 0 -5.08 0)
 					(length 3.81)
 					(name "~{PEWAKE}"
