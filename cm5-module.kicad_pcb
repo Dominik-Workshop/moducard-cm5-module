@@ -165,7 +165,7 @@
 	(property "SHEETTOTAL" "5")
 	(net 0 "")
 	(net 1 "GND")
-	(net 2 "Net-(U12-VCAP)")
+	(net 2 "Net-(U3-VCAP)")
 	(net 3 "/Backplane/BACKPLANE.D+")
 	(net 4 "/Backplane/BACKPLANE.D-")
 	(net 5 "+12V")
@@ -378,7 +378,7 @@
 	(net 212 "/USB hub/USB_1.D-")
 	(net 213 "/Power/5V_USB_IN")
 	(net 214 "/Power/5V_SW")
-	(net 215 "Net-(Q1-G)")
+	(net 215 "Net-(U4-VCAP)")
 	(net 216 "/Power/Ideal diode 0/~{DISABLE}")
 	(net 217 "/Power/5V_MODE1")
 	(net 218 "/Power/5V_MODE2")
@@ -450,48 +450,48 @@
 	(net 284 "/CAN to USB 2/WORD_LED")
 	(net 285 "/CAN to USB 1/STAT_LED")
 	(net 286 "/CAN to USB 2/STAT_LED")
-	(net 287 "Net-(U17-SEL)")
+	(net 287 "Net-(U5-VCAP)")
 	(net 288 "/USB hub/USB_HUB.D-")
 	(net 289 "/USB hub/USB_HUB.D+")
 	(net 290 "/CAN to USB 1/TXD")
 	(net 291 "/CAN to USB 1/RXD")
 	(net 292 "/CAN to USB 2/RXD")
 	(net 293 "/CAN to USB 2/TXD")
-	(net 294 "Net-(U17-~{OE})")
+	(net 294 "Net-(U10-OE)")
 	(net 295 "/USB hub/USB_HUB_R.D+")
 	(net 296 "/USB hub/USB_HUB_R.D-")
 	(net 297 "/Power/3V3_FB")
 	(net 298 "/Power/3V3_SW")
-	(net 299 "unconnected-(U11-~{FLG}-Pad3)")
+	(net 299 "Net-(J10-SHIELD)")
 	(net 300 "/CAN to USB 1/SWCLK")
 	(net 301 "/CAN to USB 1/SWDIO")
 	(net 302 "/CAN to USB 2/SWDIO")
 	(net 303 "/CAN to USB 2/SWCLK")
-	(net 304 "Net-(U1-VCAP)")
-	(net 305 "Net-(J7-CT)")
-	(net 306 "Net-(U6-OE)")
-	(net 307 "Net-(J11-SHIELD)")
-	(net 308 "Net-(U7-3V3)")
-	(net 309 "Net-(U10-VCAP)")
+	(net 304 "Net-(U11-3V3)")
+	(net 305 "Net-(J13-CT)")
+	(net 306 "unconnected-(D6-CH3-Pad4)")
+	(net 307 "unconnected-(D6-CH3-Pad4)_1")
+	(net 308 "unconnected-(D8-CH2-Pad2)")
+	(net 309 "unconnected-(D8-CH2-Pad2)_1")
 	(net 310 "Net-(D3-C)")
 	(net 311 "Net-(D4-C)")
 	(net 312 "Net-(D5-C)")
-	(net 313 "unconnected-(D9-CH3-Pad4)")
-	(net 314 "unconnected-(D12-CH2-Pad2)")
-	(net 315 "unconnected-(D9-CH3-Pad4)_1")
-	(net 316 "unconnected-(D12-CH2-Pad2)_1")
-	(net 317 "unconnected-(D27-CH3-Pad4)")
+	(net 313 "unconnected-(D10-CH3-Pad4)")
+	(net 314 "unconnected-(D10-CH3-Pad4)_1")
+	(net 315 "Net-(D14-A)")
+	(net 316 "Net-(D15-A)")
+	(net 317 "Net-(D16-A)")
 	(net 318 "unconnected-(D11-CH2-Pad2)")
 	(net 319 "unconnected-(D11-CH2-Pad2)_1")
-	(net 320 "unconnected-(D27-CH3-Pad4)_1")
-	(net 321 "Net-(D18-A)")
-	(net 322 "Net-(D19-A)")
-	(net 323 "Net-(D20-A)")
+	(net 320 "Net-(D17-C)")
+	(net 321 "Net-(D18-C)")
+	(net 322 "Net-(D19-C)")
+	(net 323 "Net-(D20-C)")
 	(net 324 "Net-(D21-C)")
-	(net 325 "Net-(D22-C)")
-	(net 326 "Net-(D23-C)")
-	(net 327 "Net-(D24-C)")
-	(net 328 "Net-(D25-C)")
+	(net 325 "unconnected-(J7-DET_B-Pad9)")
+	(net 326 "unconnected-(J7-DET_A-Pad10)")
+	(net 327 "unconnected-(J10-SBU2-PadB8)")
+	(net 328 "unconnected-(J10-SBU1-PadA8)")
 	(net 329 "unconnected-(J3-GPIO11-Pad38)")
 	(net 330 "unconnected-(J3-SD_VDD_Override-Pad73)")
 	(net 331 "unconnected-(J3-GPIO18-Pad49)")
@@ -555,33 +555,33 @@
 	(net 389 "unconnected-(J6-PER1_N-Pad29)")
 	(net 390 "unconnected-(J6-NC-Pad30)")
 	(net 391 "unconnected-(J6-PER3_N-Pad5)")
-	(net 392 "Net-(J7-Pad13)")
-	(net 393 "Net-(J7-Pad12)")
+	(net 392 "Net-(J13-Pad13)")
+	(net 393 "Net-(J13-Pad12)")
 	(net 394 "Net-(J9-CC1)")
 	(net 395 "Net-(J9-CC2)")
-	(net 396 "unconnected-(J10-UTILITY-Pad14)")
-	(net 397 "unconnected-(J11-SBU2-PadB8)")
-	(net 398 "unconnected-(J11-SBU1-PadA8)")
-	(net 399 "unconnected-(J12-DET_B-Pad9)")
-	(net 400 "unconnected-(J12-DET_A-Pad10)")
+	(net 396 "unconnected-(J14-UTILITY-Pad14)")
+	(net 397 "Net-(Q2-G)")
+	(net 398 "Net-(U11-PGANG)")
+	(net 399 "Net-(U12-SEL)")
+	(net 400 "Net-(U12-~{OE})")
 	(net 401 "Net-(Q3-G)")
 	(net 402 "Net-(Q5-G)")
 	(net 403 "Net-(Q10-G)")
 	(net 404 "/USB console/D+")
 	(net 405 "/USB console/D-")
-	(net 406 "Net-(U7-PGANG)")
+	(net 406 "Net-(U10-B_{1})")
 	(net 407 "Net-(U14-STB)")
-	(net 408 "Net-(U5-TXD)")
-	(net 409 "Net-(U5-RXD)")
-	(net 410 "unconnected-(U3-~{FLG}-Pad3)")
-	(net 411 "unconnected-(U4-~{FLG}-Pad3)")
-	(net 412 "unconnected-(U5-~{CTS}-Pad4)")
-	(net 413 "unconnected-(U5-~{RTS}-Pad16)")
-	(net 414 "unconnected-(U7-RESET-Pad13)")
-	(net 415 "unconnected-(U8-GL-Pad10)")
+	(net 408 "Net-(U10-B_{2})")
+	(net 409 "unconnected-(U1-GL-Pad10)")
+	(net 410 "unconnected-(U1-GL-Pad10)_1")
+	(net 411 "unconnected-(U1-GL-Pad10)_2")
+	(net 412 "unconnected-(U7-~{FLG}-Pad3)")
+	(net 413 "unconnected-(U8-~{FLG}-Pad3)")
+	(net 414 "unconnected-(U9-~{CTS}-Pad4)")
+	(net 415 "unconnected-(U9-~{RTS}-Pad16)")
 	(net 416 "/Power/5V_DC-DC")
-	(net 417 "unconnected-(U8-GL-Pad10)_1")
-	(net 418 "unconnected-(U8-GL-Pad10)_2")
+	(net 417 "unconnected-(U11-RESET-Pad13)")
+	(net 418 "unconnected-(U17-~{FLG}-Pad3)")
 	(net 419 "unconnected-(U15-PB7-Pad45)")
 	(net 420 "unconnected-(U15-PB1-Pad18)")
 	(net 421 "unconnected-(U15-PB10-Pad22)")
@@ -623,7 +623,7 @@
 		(at 95.9 135.745)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C65"
+		(property "Reference" "C61"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "0fe33f57-bbe4-4d02-aa89-d2034795f307")
@@ -827,7 +827,7 @@
 		(at 133.359999 116.324998 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R47"
+		(property "Reference" "R57"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "e7dbe911-d529-4b3a-9ad0-dd1e3716571f")
@@ -1369,7 +1369,7 @@
 		(at 117.750001 51.11)
 		(descr "LED SMD 0603 Red")
 		(tags "LED SMD 0603 Red")
-		(property "Reference" "D20"
+		(property "Reference" "D16"
 			(at 1.049999 0.44 0)
 			(layer "F.SilkS")
 			(uuid "ca303640-6af1-4c9c-8770-83e5fb441427")
@@ -1617,7 +1617,7 @@
 			(size 0.7 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 323 "Net-(D20-A)")
+			(net 317 "Net-(D16-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "26d07e10-2e68-4976-9d7d-daa864180ed9")
@@ -1639,7 +1639,7 @@
 		(layer "F.Cu")
 		(uuid "0a25a5d5-c753-4d31-88d9-87aee8e9d73d")
 		(at 63.665 68.800001 180)
-		(property "Reference" "J7"
+		(property "Reference" "J13"
 			(at 15 0 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -1839,7 +1839,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 305 "Net-(J7-CT)")
+			(net 305 "Net-(J13-CT)")
 			(pinfunction "CT")
 			(pintype "passive")
 			(uuid "3a85dd63-85f7-48b2-88d5-aba56830576e")
@@ -1959,7 +1959,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 393 "Net-(J7-Pad12)")
+			(net 393 "Net-(J13-Pad12)")
 			(pintype "passive")
 			(uuid "984b5144-2ab7-478c-bf48-2a8057393b6b")
 		)
@@ -1969,7 +1969,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 392 "Net-(J7-Pad13)")
+			(net 392 "Net-(J13-Pad13)")
 			(pintype "passive")
 			(uuid "2955ad1f-c19a-4201-8743-574638b759e0")
 		)
@@ -2024,7 +2024,7 @@
 		(at 123.205001 61.090001 -90)
 		(descr "LED SMD 0603 Red")
 		(tags "LED SMD 0603 Red")
-		(property "Reference" "D18"
+		(property "Reference" "D14"
 			(at 1.5 0 90)
 			(layer "F.SilkS")
 			(uuid "7d6fb6ea-32fc-4a7b-93f8-0f704bda745f")
@@ -2272,7 +2272,7 @@
 			(size 0.7 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 321 "Net-(D18-A)")
+			(net 315 "Net-(D14-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "49a567d3-b47b-49a7-93d4-b6288f945733")
@@ -2296,7 +2296,7 @@
 		(at 104.72 75.45 90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R28"
+		(property "Reference" "R40"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "f0aec876-a5bf-41ad-926b-4bc7044a3776")
@@ -2764,7 +2764,7 @@
 		(at 89.74 130.655 -90)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C74"
+		(property "Reference" "C70"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "0ea56ede-803f-4704-ae3f-bce79d952d4c")
@@ -2970,7 +2970,7 @@
 		(at 93.54 132.255 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R71"
+		(property "Reference" "R73"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "a8ddf9d4-f53c-4492-958e-7ea79dcf98c5")
@@ -3150,7 +3150,7 @@
 		(at 106.194999 63.42)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C15"
+		(property "Reference" "C42"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "6f2acc02-4c1f-4872-8265-665b198fd4db")
@@ -3356,7 +3356,7 @@
 		(at 119.63 71.44 180)
 		(descr "Test point, SMD, round, 0.75mm diameter")
 		(tags "TEST POINT, SMD")
-		(property "Reference" "TP9"
+		(property "Reference" "TP10"
 			(at 0.75 0 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -3429,7 +3429,7 @@
 			(at 0 0 180)
 			(size 0.75 0.75)
 			(layers "F.Cu" "F.Mask")
-			(net 408 "Net-(U5-TXD)")
+			(net 406 "Net-(U10-B_{1})")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "699c7c00-f3b9-4d6e-b4aa-e7d3db7b8273")
@@ -3442,7 +3442,7 @@
 		(at 99.7 113.9 90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R58"
+		(property "Reference" "R6"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "19549b25-9345-4168-9b4b-2b6ecb81a94b")
@@ -3622,7 +3622,7 @@
 		(at 118.439999 63.163003 180)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R64"
+		(property "Reference" "R13"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "e88faee8-6840-4090-bfc2-faa6958131fe")
@@ -3802,7 +3802,7 @@
 		(at 109.015 110.46 -90)
 		(descr "Capacitor SMD 0603")
 		(tags "capacitor 0603")
-		(property "Reference" "C38"
+		(property "Reference" "C3"
 			(at 1.5 0 90)
 			(layer "F.SilkS")
 			(uuid "15b53167-4bd3-423f-aca7-c33b45b199b8")
@@ -4028,7 +4028,7 @@
 		(at 130.243001 134.235001 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R18"
+		(property "Reference" "R11"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "c3dfb7d7-578b-4158-84d5-9f4d8eb71d3b")
@@ -4773,7 +4773,7 @@
 		(at 75.699999 127.849999 180)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R69"
+		(property "Reference" "R71"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "5fbf28b1-5019-4490-bf65-8c0837e40527")
@@ -4953,7 +4953,7 @@
 		(at 82.05 114.6 90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R15"
+		(property "Reference" "R28"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "3232e9b1-59b1-4de0-bf48-b17dd336fc88")
@@ -5133,8 +5133,8 @@
 		(at 85.45 64.38 90)
 		(descr "Capacitor SMD 0603")
 		(tags "capacitor 0603")
-		(property "Reference" "C18"
-			(at 1.5 0 90)
+		(property "Reference" "C45"
+			(at -3.27 0.43 90)
 			(layer "F.SilkS")
 			(uuid "cffe079a-ae94-42ec-8794-2d67f189a8fb")
 			(effects
@@ -5359,7 +5359,7 @@
 		(at 57.22 123.99 180)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C12"
+		(property "Reference" "C38"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "253f1f2b-ebe7-4c3b-b3b0-3ad20106c32d")
@@ -5837,7 +5837,7 @@
 		(at 122.26 135.195 -90)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C3"
+		(property "Reference" "C23"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "446ce171-2fcc-43b3-8146-93b2fd53c51e")
@@ -6043,7 +6043,7 @@
 		(at 95.71 62.84)
 		(descr "SOT1176-1, DFN2510A-10")
 		(tags "SOT1176-1, DFN2510A-10")
-		(property "Reference" "D15"
+		(property "Reference" "D26"
 			(at 2 0 0)
 			(layer "F.SilkS")
 			(uuid "8cd70da8-b1ea-4c4f-a7b7-d9c77cbac01b")
@@ -6670,7 +6670,7 @@
 		(at 100.409998 63.42)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C22"
+		(property "Reference" "C78"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "e01f0d03-033f-48f6-8acf-dfba0a84334f")
@@ -6874,7 +6874,7 @@
 		(at 90.936998 100.33 -90)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C57"
+		(property "Reference" "C25"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "4ea21395-539e-43c3-ba77-04cbd9664144")
@@ -7057,7 +7057,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 309 "Net-(U10-VCAP)")
+			(net 215 "Net-(U4-VCAP)")
 			(pintype "passive")
 			(uuid "ce50a0d1-300a-4224-bd03-19458c52db8f")
 		)
@@ -7080,7 +7080,7 @@
 		(at 119.49 110.46 90)
 		(descr "Capacitor SMD 0603")
 		(tags "capacitor 0603")
-		(property "Reference" "C52"
+		(property "Reference" "C17"
 			(at 1.5 0 90)
 			(layer "F.SilkS")
 			(uuid "03b729c2-d236-454e-a689-d7aec4c10f8c")
@@ -7306,7 +7306,7 @@
 		(at 110.2 52.67 180)
 		(descr "3A 1 Surface Mount, Right Angle 16P Female Type-C SMD USB Connectors ROHS")
 		(tags "USB, CONNECTOR, SMD")
-		(property "Reference" "J11"
+		(property "Reference" "J10"
 			(at 6 0 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -7538,7 +7538,7 @@
 			(size 0.3 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 398 "unconnected-(J11-SBU1-PadA8)")
+			(net 328 "unconnected-(J10-SBU1-PadA8)")
 			(pinfunction "SBU1")
 			(pintype "bidirectional+no_connect")
 			(uuid "fc0db122-cbeb-48e7-ba85-90df42903693")
@@ -7618,7 +7618,7 @@
 			(size 0.3 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 397 "unconnected-(J11-SBU2-PadB8)")
+			(net 327 "unconnected-(J10-SBU2-PadB8)")
 			(pinfunction "SBU2")
 			(pintype "bidirectional+no_connect")
 			(uuid "c8bc8520-bcf4-46dc-be26-0dd762ad3567")
@@ -7650,7 +7650,7 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "*.Mask" "F.Paste")
 			(remove_unused_layers no)
-			(net 307 "Net-(J11-SHIELD)")
+			(net 299 "Net-(J10-SHIELD)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(uuid "58f96e35-b847-4f9d-a6f9-52db44910df8")
@@ -7662,7 +7662,7 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "*.Mask" "F.Paste")
 			(remove_unused_layers no)
-			(net 307 "Net-(J11-SHIELD)")
+			(net 299 "Net-(J10-SHIELD)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(uuid "9ad8b183-155d-4739-9194-0410e3851b11")
@@ -7674,7 +7674,7 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "*.Mask" "F.Paste")
 			(remove_unused_layers no)
-			(net 307 "Net-(J11-SHIELD)")
+			(net 299 "Net-(J10-SHIELD)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(uuid "c3640148-6db0-4312-a188-76e35fd1305f")
@@ -7686,7 +7686,7 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "*.Mask" "F.Paste")
 			(remove_unused_layers no)
-			(net 307 "Net-(J11-SHIELD)")
+			(net 299 "Net-(J10-SHIELD)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(uuid "1481987c-0a38-4b58-ba0c-c6bc95e85389")
@@ -7710,7 +7710,7 @@
 		(at 88.28 126.11)
 		(descr "LED SMD 0603 Red")
 		(tags "LED SMD 0603 Red")
-		(property "Reference" "D24"
+		(property "Reference" "D20"
 			(at 1.5 0 0)
 			(layer "F.SilkS")
 			(uuid "d67a1006-1386-4206-933d-744b13bbc83f")
@@ -7948,7 +7948,7 @@
 			(size 0.7 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 327 "Net-(D24-C)")
+			(net 323 "Net-(D20-C)")
 			(pinfunction "C")
 			(pintype "passive")
 			(uuid "cff05fde-c692-4afa-9031-46e8779a222e")
@@ -7982,7 +7982,7 @@
 		(at 130.243001 136.185001 90)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C2"
+		(property "Reference" "C22"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "58d3db20-c9ce-40a1-b626-9fdba02bed6c")
@@ -8165,7 +8165,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 304 "Net-(U1-VCAP)")
+			(net 2 "Net-(U3-VCAP)")
 			(pintype "passive")
 			(uuid "475a0508-2563-451d-809b-bb2d11e4fdf6")
 		)
@@ -8188,7 +8188,7 @@
 		(at 104.235 62.37 180)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C17"
+		(property "Reference" "C44"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "e2f275e4-ef50-475a-9d59-0a0f3a979053")
@@ -8394,7 +8394,7 @@
 		(at 98.45 62.37 180)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C24"
+		(property "Reference" "C80"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "d529a01b-a5c7-49e5-9463-66bb5b54b997")
@@ -8600,7 +8600,7 @@
 		(at 83.16 114.6 90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R16"
+		(property "Reference" "R29"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "95b81339-637b-4b38-acaa-a0eba87386d2")
@@ -9298,7 +9298,7 @@
 		(at 100.39 109.25 90)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C48"
+		(property "Reference" "C13"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "b741545c-91ad-403b-b0ab-5b02173d8c0a")
@@ -9825,7 +9825,7 @@
 		(at 108.125 101.06 180)
 		(descr "Capacitor SMD 0603")
 		(tags "capacitor 0603")
-		(property "Reference" "C44"
+		(property "Reference" "C9"
 			(at 1.5 0 0)
 			(layer "F.SilkS")
 			(uuid "dc291f04-a35f-4ec9-b292-817332a3cd47")
@@ -10051,7 +10051,7 @@
 		(at 110.724999 61.934998 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R35"
+		(property "Reference" "R45"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "6b8ffd0a-820a-4660-896c-688d19512a2d")
@@ -10231,7 +10231,7 @@
 		(at 75.699999 126.799999)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C69"
+		(property "Reference" "C65"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "0178ebf1-d9ec-4294-9c37-9985b795931b")
@@ -12325,7 +12325,7 @@
 		(at 109.674999 61.934998 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R36"
+		(property "Reference" "R46"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "e44abdca-afa8-417a-a6da-d149fb05600f")
@@ -12505,7 +12505,7 @@
 		(at 61.769998 127.75)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C59"
+		(property "Reference" "C39"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "ea423148-17d6-4eb4-af40-8f335f056e2d")
@@ -12709,7 +12709,7 @@
 		(at 117.94 132.602651)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C71"
+		(property "Reference" "C67"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "2fb408e4-ba0e-455c-988b-8a5ed6a2339b")
@@ -12915,7 +12915,7 @@
 		(at 115.11 110.46 90)
 		(descr "Capacitor SMD 0603")
 		(tags "capacitor 0603")
-		(property "Reference" "C54"
+		(property "Reference" "C19"
 			(at 1.5 0 90)
 			(layer "F.SilkS")
 			(uuid "03fba733-48bf-4826-883f-a71b6c06c7ce")
@@ -13141,7 +13141,7 @@
 		(at 105.72 124.54)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R78"
+		(property "Reference" "R80"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "56d19eaf-4ce8-48b5-9f7a-08c5284a73ad")
@@ -13321,7 +13321,7 @@
 		(at 103.9 113.9 90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R56"
+		(property "Reference" "R4"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "afbbec4f-a34f-42eb-857f-64a5be667e3a")
@@ -13501,7 +13501,7 @@
 		(at 89.739999 128.400001 90)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C75"
+		(property "Reference" "C71"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "f32f9403-0a23-40fb-abf8-f3accf0d635a")
@@ -13707,7 +13707,7 @@
 		(at 60.79 137.44)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R21"
+		(property "Reference" "R33"
 			(at -3.18 0.35 0)
 			(layer "F.SilkS")
 			(uuid "a46edc37-c0fb-41e5-b91d-25c58b05d4f4")
@@ -13887,7 +13887,7 @@
 		(at 103.425 98.85 180)
 		(descr "Resistor SMD 0603")
 		(tags "resistor SMD 0603")
-		(property "Reference" "R86"
+		(property "Reference" "R2"
 			(at 1.5 0 0)
 			(layer "F.SilkS")
 			(uuid "7a25fbd0-e4b7-4a6b-be48-08351f4ace7a")
@@ -14100,7 +14100,7 @@
 		(at 59.81 133.1 180)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C6"
+		(property "Reference" "C32"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "0f8b4e9a-51c4-4d4d-9ed8-0ea840e874c8")
@@ -14306,7 +14306,7 @@
 		(at 92.71 62.840002)
 		(descr "SOT1176-1, DFN2510A-10")
 		(tags "SOT1176-1, DFN2510A-10")
-		(property "Reference" "D14"
+		(property "Reference" "D25"
 			(at 2 0 0)
 			(layer "F.SilkS")
 			(uuid "18ed9be0-b2f8-40ad-b379-f7190b0e258e")
@@ -14571,7 +14571,7 @@
 		(at 134.41 114.434999 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R45"
+		(property "Reference" "R55"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "c80ed7bb-e912-491c-943c-49e2ad73a225")
@@ -14837,7 +14837,7 @@
 		(at 49.37 71.58 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R25"
+		(property "Reference" "R84"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "b9daf241-3c24-4f8d-b91f-e1e44ab62617")
@@ -14985,7 +14985,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 392 "Net-(J7-Pad13)")
+			(net 392 "Net-(J13-Pad13)")
 			(pintype "passive")
 			(uuid "c4457dcb-5e91-416d-8961-61fe22748e3c")
 		)
@@ -15017,7 +15017,7 @@
 		(at 80.15 107.18 180)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R9"
+		(property "Reference" "R22"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "65a7b3f8-d3a6-4098-8047-9384e68bdf29")
@@ -15197,7 +15197,7 @@
 		(at 102.739999 128.400001 90)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C67"
+		(property "Reference" "C63"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "9f66d73c-f0fb-4b2e-9556-4879b7699d8a")
@@ -15403,7 +15403,7 @@
 		(at 118.875 113.085 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R85"
+		(property "Reference" "R8"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "b1826fa4-ff43-41ad-ac6f-5bec90e605e8")
@@ -15583,7 +15583,7 @@
 		(at 110.2 58.5)
 		(descr "SOT1176-1, DFN2510A-10")
 		(tags "SOT1176-1, DFN2510A-10")
-		(property "Reference" "D17"
+		(property "Reference" "D13"
 			(at 2 0 0)
 			(layer "F.SilkS")
 			(uuid "736d55ae-04fb-4cf0-abf1-bd13e069e693")
@@ -16093,7 +16093,7 @@
 		(at 114.11 73.67 -90)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C31"
+		(property "Reference" "C54"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "1e8badfa-8986-4b54-962a-9a39369e9f0d")
@@ -16276,7 +16276,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 306 "Net-(U6-OE)")
+			(net 294 "Net-(U10-OE)")
 			(pintype "passive")
 			(uuid "22fd93e1-17a7-47ca-85e9-cbed6c610089")
 		)
@@ -16299,7 +16299,7 @@
 		(at 122.530001 124.54 180)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R65"
+		(property "Reference" "R67"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "64fa36ca-80b3-4392-af94-fe50afa294b3")
@@ -16479,7 +16479,7 @@
 		(at 61.769999 133.1)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C5"
+		(property "Reference" "C31"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "83918d9b-9ac1-40e3-a8f0-25489eaafd0a")
@@ -16685,7 +16685,7 @@
 		(at 53.95 135.35 180)
 		(descr "Capacitor SMD 0603")
 		(tags "capacitor 0603")
-		(property "Reference" "C7"
+		(property "Reference" "C33"
 			(at 1.5 0 0)
 			(layer "F.SilkS")
 			(uuid "9b97fb85-fa7a-40b7-9e28-602bd633c680")
@@ -16910,7 +16910,7 @@
 		(uuid "4858db1e-68da-4e2a-babc-7ff0ab70ca81")
 		(at 92.0415 84.42)
 		(descr "10-Lead Plastic UFQFN 1.4x1.8mm; Pitch 0.4mm")
-		(property "Reference" "U17"
+		(property "Reference" "U12"
 			(at 1.17 -0.01 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -17137,7 +17137,7 @@
 			(at 0.4 -0.7685)
 			(size 0.225 0.563)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 294 "Net-(U17-~{OE})")
+			(net 400 "Net-(U12-~{OE})")
 			(pinfunction "~{OE}")
 			(pintype "input")
 			(uuid "61ad7d7c-6437-4097-a97c-59fe6ae05bf4")
@@ -17155,7 +17155,7 @@
 			(at -0.4 -0.7685)
 			(size 0.225 0.563)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 287 "Net-(U17-SEL)")
+			(net 399 "Net-(U12-SEL)")
 			(pinfunction "SEL")
 			(pintype "input")
 			(uuid "752e016c-ab93-4596-a13e-c3ce7ed586b7")
@@ -17179,7 +17179,7 @@
 		(at 115.8 124.54)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R70"
+		(property "Reference" "R72"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "8d7ee0e7-4f7a-4bf9-8212-b9743d8d8ae5")
@@ -17359,7 +17359,7 @@
 		(at 110.365 110.46 -90)
 		(descr "Capacitor SMD 0603")
 		(tags "capacitor 0603")
-		(property "Reference" "C40"
+		(property "Reference" "C5"
 			(at 1.5 0 90)
 			(layer "F.SilkS")
 			(uuid "9da042ab-56e2-4da7-8b80-9d68f80289c6")
@@ -17947,7 +17947,7 @@
 		(at 95.25 126.545 180)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C68"
+		(property "Reference" "C64"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "e61a08f7-3b2f-4c33-b0c4-842b6a7254e9")
@@ -18239,7 +18239,7 @@
 		(at 85.960001 124.85)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R75"
+		(property "Reference" "R77"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "f751c8ee-e8bc-4a97-9935-88e0a737fb2a")
@@ -18396,7 +18396,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 328 "Net-(D25-C)")
+			(net 324 "Net-(D21-C)")
 			(pintype "passive")
 			(uuid "878cb7ef-a594-402e-814d-7d36f02b1232")
 		)
@@ -18419,7 +18419,7 @@
 		(at 100.409998 62.37)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C21"
+		(property "Reference" "C77"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "426849e4-9ab0-491c-828e-01d9b2c690d2")
@@ -18623,7 +18623,7 @@
 		(at 75.699999 125.749999)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R68"
+		(property "Reference" "R70"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "5cdf6809-f001-41e9-8c0b-ce59a907b84b")
@@ -18803,7 +18803,7 @@
 		(at 64.149999 131.99)
 		(descr "Test point, SMD, round, 0.75mm diameter")
 		(tags "TEST POINT, SMD")
-		(property "Reference" "TP14"
+		(property "Reference" "TP8"
 			(at 0.75 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -18888,7 +18888,7 @@
 		(uuid "50df5450-61b2-4cf7-8b6c-1be6d592340d")
 		(at 117.48 61.010001 90)
 		(descr "SOT-23, 6-lead")
-		(property "Reference" "U12"
+		(property "Reference" "U5"
 			(at 2.000001 0 90)
 			(layer "F.SilkS")
 			(uuid "6925d798-6d90-4454-8a68-dac8bd60aa32")
@@ -19040,7 +19040,7 @@
 			(size 0.6 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 2 "Net-(U12-VCAP)")
+			(net 287 "Net-(U5-VCAP)")
 			(pinfunction "VCAP")
 			(pintype "passive")
 			(uuid "6d44835f-f2a6-408c-a957-d88cb7f2bf57")
@@ -19114,7 +19114,7 @@
 		(at 112.41 108.005 90)
 		(descr "Resistor SMD 0603")
 		(tags "resistor SMD 0603")
-		(property "Reference" "R84"
+		(property "Reference" "R7"
 			(at 1.5 0 90)
 			(layer "F.SilkS")
 			(uuid "f9998f0d-4b95-44a5-8246-fdfa1ef10ac0")
@@ -19327,7 +19327,7 @@
 		(at 82.25 126.545 180)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C76"
+		(property "Reference" "C72"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "93103498-91b0-4bbd-8132-7195d9b347ad")
@@ -19895,7 +19895,7 @@
 		(at 131.54 107.285 -90)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C35"
+		(property "Reference" "C58"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "b4122a71-09f1-43e8-9b7f-7c2c13d45f4c")
@@ -20100,7 +20100,7 @@
 		(uuid "5472b5b4-ca55-479a-84d8-b33934e62d3a")
 		(at 125.43 63.29 90)
 		(descr "SOT-23, 3-lead")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 2.000001 0 90)
 			(layer "F.SilkS")
 			(uuid "62d90686-139d-4693-a19f-b09d83ab69cf")
@@ -20463,7 +20463,7 @@
 		(at 130.03 106.76)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C33"
+		(property "Reference" "C56"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "7cda7a68-7bda-4950-9966-3a60e7e2c593")
@@ -20646,7 +20646,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 308 "Net-(U7-3V3)")
+			(net 304 "Net-(U11-3V3)")
 			(pintype "passive")
 			(uuid "388e35b1-5d5c-42d3-a700-5e178b692417")
 		)
@@ -20669,7 +20669,7 @@
 		(at 133.74 107.285 -90)
 		(descr "LED SMD 0603 Red")
 		(tags "LED SMD 0603 Red")
-		(property "Reference" "D21"
+		(property "Reference" "D17"
 			(at 1.5 0 90)
 			(layer "F.SilkS")
 			(uuid "d37014b8-1c5e-4ef1-ad64-4f4bf565cb6b")
@@ -20907,7 +20907,7 @@
 			(size 0.7 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 324 "Net-(D21-C)")
+			(net 320 "Net-(D17-C)")
 			(pinfunction "C")
 			(pintype "passive")
 			(uuid "1fb8ee97-0143-4b5f-b9b9-c782eb6f4e91")
@@ -20941,7 +20941,7 @@
 		(at 68.000001 106.22 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R6"
+		(property "Reference" "R21"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "74e442a3-f038-438d-86d6-6ee89efa7632")
@@ -21121,7 +21121,7 @@
 		(at 112.53 136.062651 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R80"
+		(property "Reference" "R82"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "8c706888-7ab5-4b2d-96b9-c7ffba3e7b19")
@@ -21301,7 +21301,7 @@
 		(at 119.07 65 180)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C29"
+		(property "Reference" "C52"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "9a83f4c8-651b-4d06-a358-08306e21efa7")
@@ -21869,7 +21869,7 @@
 		(at 101.280002 126.11)
 		(descr "LED SMD 0603 Red")
 		(tags "LED SMD 0603 Red")
-		(property "Reference" "D22"
+		(property "Reference" "D18"
 			(at 1.5 0 0)
 			(layer "F.SilkS")
 			(uuid "1f4c996e-44cf-4db5-94a4-cf360bcd2228")
@@ -22105,7 +22105,7 @@
 			(size 0.7 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 325 "Net-(D22-C)")
+			(net 321 "Net-(D18-C)")
 			(pinfunction "C")
 			(pintype "passive")
 			(uuid "3a8d5bc8-5b0b-4d42-944c-55b432c78733")
@@ -22139,7 +22139,7 @@
 		(at 114.985 62.46 -90)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C61"
+		(property "Reference" "C27"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "fa150e78-a921-482e-a0b7-f224777fbbd2")
@@ -22345,7 +22345,7 @@
 		(at 135.764999 108.874999 180)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R46"
+		(property "Reference" "R56"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "e0ef67b7-6dd9-4d9b-a367-87bbb378a122")
@@ -22525,7 +22525,7 @@
 		(at 106.194999 62.37)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C14"
+		(property "Reference" "C41"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "dcc9f533-cda4-4d00-9ff3-717553f6f82f")
@@ -22729,7 +22729,7 @@
 		(layer "F.Cu")
 		(uuid "60812304-08d8-49b8-80ca-da2cfc3f6cfc")
 		(at 117.48 73.67)
-		(property "Reference" "U6"
+		(property "Reference" "U10"
 			(at 3.25 0 0)
 			(layer "F.SilkS")
 			(uuid "f28b9583-2fc8-4903-a477-b4f9e1c458d4")
@@ -22879,7 +22879,7 @@
 			(size 1 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 409 "Net-(U5-RXD)")
+			(net 408 "Net-(U10-B_{2})")
 			(pinfunction "B_{2}")
 			(pintype "bidirectional")
 			(uuid "2859f36a-0eab-446a-b495-317905f64ffc")
@@ -22899,7 +22899,7 @@
 			(size 1 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 306 "Net-(U6-OE)")
+			(net 294 "Net-(U10-OE)")
 			(pinfunction "VCC_{A}")
 			(pintype "power_in")
 			(uuid "69b440af-6253-4bfe-8662-493ccffb6dc4")
@@ -22929,7 +22929,7 @@
 			(size 1 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 306 "Net-(U6-OE)")
+			(net 294 "Net-(U10-OE)")
 			(pinfunction "OE")
 			(pintype "input")
 			(uuid "6fb3144a-c049-44a5-8b3d-156bc856fb82")
@@ -22949,7 +22949,7 @@
 			(size 1 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 408 "Net-(U5-TXD)")
+			(net 406 "Net-(U10-B_{1})")
 			(pinfunction "B_{1}")
 			(pintype "bidirectional")
 			(uuid "c10e2fb5-88b7-4c77-8fd5-28542e30b4f5")
@@ -22972,7 +22972,7 @@
 		(uuid "622fc204-3c83-4d40-a9ff-ac03ea8de05d")
 		(at 117.48 67.98 -90)
 		(descr "16-Lead Plastic QFN 4x4mm; Pitch 0.65mm; EP 2.15x2.15mm")
-		(property "Reference" "U5"
+		(property "Reference" "U9"
 			(at 2.75 0 90)
 			(layer "F.SilkS")
 			(uuid "610f0af7-ab27-4179-8635-dc1f8beeb379")
@@ -23193,7 +23193,7 @@
 			(at -1.9 -0.325 270)
 			(size 0.8 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 409 "Net-(U5-RXD)")
+			(net 408 "Net-(U10-B_{2})")
 			(pinfunction "RXD")
 			(pintype "input")
 			(uuid "47c420ed-a1d8-48ee-b5fa-bf29163b8e9c")
@@ -23211,7 +23211,7 @@
 			(at -1.9 0.975 270)
 			(size 0.8 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 412 "unconnected-(U5-~{CTS}-Pad4)")
+			(net 414 "unconnected-(U9-~{CTS}-Pad4)")
 			(pinfunction "~{CTS}")
 			(pintype "input+no_connect")
 			(uuid "b66d69fe-bcbc-4721-99b2-1fe887fbacf9")
@@ -23310,7 +23310,7 @@
 			(at -0.325 -1.9 270)
 			(size 0.4 0.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 408 "Net-(U5-TXD)")
+			(net 406 "Net-(U10-B_{1})")
 			(pinfunction "TXD")
 			(pintype "output")
 			(uuid "cb4ab7f0-5c8d-43ba-b2c7-88df040288b8")
@@ -23319,7 +23319,7 @@
 			(at -0.975 -1.9 270)
 			(size 0.4 0.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 413 "unconnected-(U5-~{RTS}-Pad16)")
+			(net 415 "unconnected-(U9-~{RTS}-Pad16)")
 			(pinfunction "~{RTS}")
 			(pintype "output+no_connect")
 			(uuid "ee04aa38-fa32-4e54-a8e4-1e2d07e65b0f")
@@ -23352,7 +23352,7 @@
 		(at 120.51 68.305 180)
 		(descr "Test point, SMD, round, 0.75mm diameter")
 		(tags "TEST POINT, SMD")
-		(property "Reference" "TP12"
+		(property "Reference" "TP13"
 			(at 0.75 0 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -23438,7 +23438,7 @@
 		(at 115.73 136.062651 90)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C70"
+		(property "Reference" "C66"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "bb040a90-915b-4f40-9d22-4fae7d0697db")
@@ -23644,7 +23644,7 @@
 		(at 101.8 113.9 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R54"
+		(property "Reference" "R1"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "06fea6ec-6748-4d8b-bac1-19ef3c3adc86")
@@ -23824,7 +23824,7 @@
 		(at 109.224999 60.434999)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C26"
+		(property "Reference" "C49"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "971fd518-36f2-49ab-ab54-0dd07f86c611")
@@ -24028,7 +24028,7 @@
 		(at 98.940002 126.11)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R66"
+		(property "Reference" "R68"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "0028cd95-66b3-4039-966d-e56d63d6ab95")
@@ -24183,7 +24183,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 325 "Net-(D22-C)")
+			(net 321 "Net-(D18-C)")
 			(pintype "passive")
 			(uuid "2e9b8b16-a3b8-4202-9815-db8fbbb0abc0")
 		)
@@ -24542,7 +24542,7 @@
 		(at 75.699999 132.249999)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R76"
+		(property "Reference" "R78"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "3dfc4cfe-ace2-4890-be9d-b5b0e7677df6")
@@ -24722,7 +24722,7 @@
 		(at 80.54 134.55 -90)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C72"
+		(property "Reference" "C68"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "a0014aa5-db94-4e13-a386-b26a0e25bcb8")
@@ -24928,7 +24928,7 @@
 		(at 116.58 55.14)
 		(descr "Diode SOD-523")
 		(tags "SOD523")
-		(property "Reference" "D16"
+		(property "Reference" "D12"
 			(at 1.5 0 0)
 			(layer "F.SilkS")
 			(uuid "ed666d15-4267-4b20-99f7-5956c55d22b0")
@@ -25096,7 +25096,7 @@
 		(at 127.858726 111.485 180)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R52"
+		(property "Reference" "R62"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "606f9c8a-1dff-45ac-a0b7-0c7f23346086")
@@ -25276,7 +25276,7 @@
 		(at 105.6 85.35)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R4"
+		(property "Reference" "R17"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "d8e6f1e0-d373-4de8-bcbb-9b73515838e8")
@@ -25456,7 +25456,7 @@
 		(at 80.15 108.23 180)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R10"
+		(property "Reference" "R23"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "9a98ebc9-8904-4ec2-ae18-d649b52d71bc")
@@ -25889,7 +25889,7 @@
 		(at 88.28 124.85)
 		(descr "LED SMD 0603 Red")
 		(tags "LED SMD 0603 Red")
-		(property "Reference" "D25"
+		(property "Reference" "D21"
 			(at 1.5 0 0)
 			(layer "F.SilkS")
 			(uuid "bcd432a4-b298-4592-b0c8-3ef471041335")
@@ -26127,7 +26127,7 @@
 			(size 0.7 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 328 "Net-(D25-C)")
+			(net 324 "Net-(D21-C)")
 			(pinfunction "C")
 			(pintype "passive")
 			(uuid "c73f4611-a4a4-435d-957f-eafe118b6557")
@@ -26161,7 +26161,7 @@
 		(at 108.125 107.81 180)
 		(descr "Capacitor SMD 0603")
 		(tags "capacitor 0603")
-		(property "Reference" "C41"
+		(property "Reference" "C6"
 			(at 1.5 0 0)
 			(layer "F.SilkS")
 			(uuid "3d0b9ee7-ac85-4b21-bb72-61e02b3fbb2f")
@@ -26387,7 +26387,7 @@
 		(at 135.460003 114.434999 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R44"
+		(property "Reference" "R54"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "000fcc70-e6b4-469a-a48f-9253186a4bda")
@@ -26567,7 +26567,7 @@
 		(at 121.955001 63.290001 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R38"
+		(property "Reference" "R48"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "8863224d-62ea-40ac-8f40-9d92e1b4e75d")
@@ -26715,7 +26715,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 322 "Net-(D19-A)")
+			(net 316 "Net-(D15-A)")
 			(pintype "passive")
 			(uuid "ce609d0c-2ee7-4f47-97a2-7bacc6e3ef5c")
 		)
@@ -26746,7 +26746,7 @@
 		(uuid "70280a26-71d1-4fee-b422-12871211fcb5")
 		(at 78.65 127.975 -90)
 		(descr "Custom programming connector")
-		(property "Reference" "J14"
+		(property "Reference" "J12"
 			(at 13.75 0 90)
 			(layer "F.SilkS")
 			(uuid "e8ca04a0-6f71-4c26-a8fd-cd1c474c6bd2")
@@ -26881,7 +26881,7 @@
 		(at 92.5415 82.67 180)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C80"
+		(property "Reference" "C59"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "eab6caa1-44b4-4a17-9b6f-560c30ac9f5d")
@@ -27594,7 +27594,7 @@
 		(at 116.489999 63.163002)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C62"
+		(property "Reference" "C28"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "91405fa6-0a55-406e-a65f-7569f6587379")
@@ -27777,7 +27777,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 2 "Net-(U12-VCAP)")
+			(net 287 "Net-(U5-VCAP)")
 			(pintype "passive")
 			(uuid "668ec54a-3149-404a-a885-279046b9ed57")
 		)
@@ -27800,7 +27800,7 @@
 		(at 105.1 94.649999 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R17"
+		(property "Reference" "R30"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "64e234b7-4acc-4728-b4f2-77ce17929109")
@@ -27980,7 +27980,7 @@
 		(at 53.95 131.4 180)
 		(descr "Capacitor SMD 0603")
 		(tags "capacitor 0603")
-		(property "Reference" "C9"
+		(property "Reference" "C35"
 			(at 1.5 0 0)
 			(layer "F.SilkS")
 			(uuid "9026b0f4-90fc-48ae-a9cf-a3cae7358cd2")
@@ -28205,7 +28205,7 @@
 		(uuid "778ca773-c9c5-4ff6-853b-ceeb5e7b96db")
 		(at 105.215 65.57 -90)
 		(descr "TSOT-23, 6-lead")
-		(property "Reference" "U3"
+		(property "Reference" "U8"
 			(at 2.000001 0 90)
 			(layer "F.SilkS")
 			(uuid "0cf4d60e-26cb-4258-b799-745f389e16bb")
@@ -28377,7 +28377,7 @@
 			(size 0.6 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 410 "unconnected-(U3-~{FLG}-Pad3)")
+			(net 413 "unconnected-(U8-~{FLG}-Pad3)")
 			(pinfunction "~{FLG}")
 			(pintype "open_collector+no_connect")
 			(uuid "e4d17c4a-d8b4-4128-b9aa-3e335d411b9a")
@@ -28895,7 +28895,7 @@
 		(at 91.640001 98.824999 180)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C56"
+		(property "Reference" "C24"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "32bf8bba-2691-4db8-bef2-594072ccf07a")
@@ -29338,7 +29338,7 @@
 		(at 102.290001 65.52)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R32"
+		(property "Reference" "R86"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "bcb8a5c7-0a03-4798-b9d1-67d205f5837b")
@@ -29768,7 +29768,7 @@
 		(at 107.665 110.46 -90)
 		(descr "Capacitor SMD 0603")
 		(tags "capacitor 0603")
-		(property "Reference" "C39"
+		(property "Reference" "C4"
 			(at 1.5 0 90)
 			(layer "F.SilkS")
 			(uuid "e78a8937-6020-4242-9a12-5596d1998c4b")
@@ -29994,7 +29994,7 @@
 		(at 110.32 132.602651)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C79"
+		(property "Reference" "C75"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "b283b4bf-c55a-466e-bb9b-4131787771b7")
@@ -30562,7 +30562,7 @@
 		(at 100.75 113.9 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R55"
+		(property "Reference" "R3"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "57b53332-7dd3-473e-b5d3-bbfbcca91e0b")
@@ -30742,7 +30742,7 @@
 		(at 104.235001 63.42 180)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C16"
+		(property "Reference" "C43"
 			(at 1 0 180)
 			(layer "F.SilkS")
 			(uuid "9a4d4b43-84ba-4555-b014-ae84a6803a5d")
@@ -30946,7 +30946,7 @@
 		(at 53.95 116.220001)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R22"
+		(property "Reference" "R34"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "44846c13-90af-44fd-8f8f-e6d52e47878e")
@@ -31210,7 +31210,7 @@
 		(at 118.29 110.46 -90)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C49"
+		(property "Reference" "C14"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "63e49d5f-0612-452a-a44a-57a8df94c64f")
@@ -31416,7 +31416,7 @@
 		(at 99.92 75.45 -90)
 		(descr "Diode SOD-523")
 		(tags "SOD523")
-		(property "Reference" "D8"
+		(property "Reference" "D7"
 			(at 1.5 0 90)
 			(layer "F.SilkS")
 			(uuid "be9edfb9-dc7c-45e1-a5cd-8949f2265d0c")
@@ -31584,7 +31584,7 @@
 		(at 106.4 58.5 90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R40"
+		(property "Reference" "R50"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "48c38860-38a6-4745-afde-5f28c7e9724a")
@@ -31741,7 +31741,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 307 "Net-(J11-SHIELD)")
+			(net 299 "Net-(J10-SHIELD)")
 			(pintype "passive")
 			(uuid "bc7954c1-37a2-40a9-8273-8f2ec93d5801")
 		)
@@ -31763,7 +31763,7 @@
 		(uuid "8ae76672-f7a1-4531-b5cf-4f26470b4407")
 		(at 52.325001 94.05 90)
 		(descr "MicroSC card connector")
-		(property "Reference" "J12"
+		(property "Reference" "J7"
 			(at 7.750001 0 90)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -32070,7 +32070,7 @@
 			(at -4.17 6.84 90)
 			(size 0.9 0.93)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 399 "unconnected-(J12-DET_B-Pad9)")
+			(net 325 "unconnected-(J7-DET_B-Pad9)")
 			(pinfunction "DET_B")
 			(pintype "passive+no_connect")
 			(uuid "1b774578-20e7-4188-b221-8a58905d124a")
@@ -32079,7 +32079,7 @@
 			(at 0.095001 6.915 90)
 			(size 1.05 0.78)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 400 "unconnected-(J12-DET_A-Pad10)")
+			(net 326 "unconnected-(J7-DET_A-Pad10)")
 			(pinfunction "DET_A")
 			(pintype "passive+no_connect")
 			(uuid "ea61803c-ab48-4521-b177-c9dbcb5149c8")
@@ -32139,7 +32139,7 @@
 		(at 121.955001 61.090001 -90)
 		(descr "LED SMD 0603 Red")
 		(tags "LED SMD 0603 Red")
-		(property "Reference" "D19"
+		(property "Reference" "D15"
 			(at 1.5 0 90)
 			(layer "F.SilkS")
 			(uuid "ce4da683-6a48-47ca-be50-d1fb538ef395")
@@ -32387,7 +32387,7 @@
 			(size 0.7 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 322 "Net-(D19-A)")
+			(net 316 "Net-(D15-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "b9a97cd7-dbac-44b9-b88c-5915c0aada89")
@@ -32410,7 +32410,7 @@
 		(uuid "8be413db-a279-4489-bc6e-2c6ded0b53ff")
 		(at 128.09 135.195 180)
 		(descr "SOT-23, 6-lead")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 2.000001 0 0)
 			(layer "F.SilkS")
 			(uuid "e87e7db6-bce1-4000-b0e6-75b3b3550709")
@@ -32562,7 +32562,7 @@
 			(size 0.6 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 304 "Net-(U1-VCAP)")
+			(net 2 "Net-(U3-VCAP)")
 			(pinfunction "VCAP")
 			(pintype "passive")
 			(uuid "5f229b65-4113-497c-9c5e-e81d493ebcaa")
@@ -32602,7 +32602,7 @@
 			(size 0.6 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 215 "Net-(Q1-G)")
+			(net 397 "Net-(Q2-G)")
 			(pinfunction "GATE")
 			(pintype "output")
 			(uuid "d3fabfad-2e53-4edf-aedd-d552ed8c2b59")
@@ -33522,7 +33522,7 @@
 		(at 50.42 71.58 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R24"
+		(property "Reference" "R83"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "2c01c8cb-c5d7-4039-b18f-64652b7c1d71")
@@ -33670,7 +33670,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 393 "Net-(J7-Pad12)")
+			(net 393 "Net-(J13-Pad12)")
 			(pintype "passive")
 			(uuid "bfa64367-a4bc-4ca0-923b-e456b234ebd1")
 		)
@@ -33702,7 +33702,7 @@
 		(at 106.82 75.45 90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R30"
+		(property "Reference" "R42"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "0ec2cbaf-db84-4124-8afd-73281cd9855f")
@@ -33882,7 +33882,7 @@
 		(at 66.950001 106.22 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R14"
+		(property "Reference" "R27"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "4bd00e72-266d-4e4d-8a68-dfa75e595651")
@@ -34062,7 +34062,7 @@
 		(at 108.11 136.062651 90)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C78"
+		(property "Reference" "C74"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "d9149939-5ef0-4f06-bf02-055ed5c383bb")
@@ -34268,7 +34268,7 @@
 		(at 117.825 113.085 90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R60"
+		(property "Reference" "R10"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "e50723ee-b4ac-4ec2-8960-dba844de1aca")
@@ -34447,7 +34447,7 @@
 		(uuid "92e49069-3eb8-42c0-9860-12b78b579312")
 		(at 93.09 101.32)
 		(descr "SOT-23, 6-lead")
-		(property "Reference" "U10"
+		(property "Reference" "U4"
 			(at 2.000001 0 0)
 			(layer "F.SilkS")
 			(uuid "e0911ba3-c1eb-43a5-8e91-7ae778b49f30")
@@ -34599,7 +34599,7 @@
 			(size 0.6 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 309 "Net-(U10-VCAP)")
+			(net 215 "Net-(U4-VCAP)")
 			(pinfunction "VCAP")
 			(pintype "passive")
 			(uuid "903daa77-553e-408f-a407-e5cf35d1576a")
@@ -34673,7 +34673,7 @@
 		(at 108.075 65.52)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R27"
+		(property "Reference" "R39"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "4c9efb49-253f-4be0-8b6b-585d741b6d08")
@@ -37252,7 +37252,7 @@
 		(at 105.6 87.45)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R1"
+		(property "Reference" "R14"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "7e52fa52-88df-4e7c-b7c9-e8574f45cb14")
@@ -39305,7 +39305,7 @@
 		(at 127.655001 63.290001 90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R13"
+		(property "Reference" "R26"
 			(at -0.700001 -0.25 90)
 			(layer "F.SilkS")
 			(uuid "f62b553c-4450-4001-994e-58e8e70bfb8a")
@@ -39485,7 +39485,7 @@
 		(at 105.6 88.5)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R3"
+		(property "Reference" "R16"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "349b18da-685c-45b9-8530-e06533c454e9")
@@ -39665,7 +39665,7 @@
 		(at 63.45 79.73 180)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R11"
+		(property "Reference" "R24"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "ec4527bb-a00a-4e19-8928-621060cb5f95")
@@ -39845,7 +39845,7 @@
 		(at 63.67 136.3 180)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R19"
+		(property "Reference" "R31"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "eb424366-b67d-4a99-abe6-1f1ac300ee29")
@@ -40025,7 +40025,7 @@
 		(at 102.85 113.9 90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R57"
+		(property "Reference" "R5"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "8c084d65-0fc0-4cc8-a20f-06d472867727")
@@ -40205,7 +40205,7 @@
 		(at 108.075 66.57 180)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R26"
+		(property "Reference" "R38"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "f1b09f2f-2080-4648-9f6e-388dc9c74986")
@@ -40706,7 +40706,7 @@
 		(at 108.125 105.11 180)
 		(descr "Capacitor SMD 0603")
 		(tags "capacitor 0603")
-		(property "Reference" "C42"
+		(property "Reference" "C7"
 			(at 1.5 0 0)
 			(layer "F.SilkS")
 			(uuid "a0ce7e64-8c2f-484b-aa21-938958b437a1")
@@ -40932,7 +40932,7 @@
 		(at 80.54 132.245 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R79"
+		(property "Reference" "R81"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "f7cbc902-ab51-42c2-8c25-0d7075767568")
@@ -42099,7 +42099,7 @@
 		(at 123.205001 63.290001 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R37"
+		(property "Reference" "R47"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "d80cf19d-c093-47e0-84a9-e051178f38f7")
@@ -42247,7 +42247,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 321 "Net-(D18-A)")
+			(net 315 "Net-(D14-A)")
 			(pintype "passive")
 			(uuid "3d7536c5-dcc1-441a-bd2e-97f06deeeba0")
 		)
@@ -42279,7 +42279,7 @@
 		(at 116.775 113.085 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R59"
+		(property "Reference" "R9"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "8b16966a-2b37-48ca-abea-a4d1545a9faf")
@@ -42459,7 +42459,7 @@
 		(at 106.415001 67.75)
 		(descr "Test point, SMD, round, 0.75mm diameter")
 		(tags "TEST POINT, SMD")
-		(property "Reference" "TP8"
+		(property "Reference" "TP9"
 			(at 0.75 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -42545,7 +42545,7 @@
 		(at 101.280002 124.85)
 		(descr "LED SMD 0603 Red")
 		(tags "LED SMD 0603 Red")
-		(property "Reference" "D23"
+		(property "Reference" "D19"
 			(at 1.5 0 0)
 			(layer "F.SilkS")
 			(uuid "53df4418-45c8-4e5c-972d-09b18a44b57f")
@@ -42781,7 +42781,7 @@
 			(size 0.7 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 326 "Net-(D23-C)")
+			(net 322 "Net-(D19-C)")
 			(pinfunction "C")
 			(pintype "passive")
 			(uuid "a728f925-3d83-4783-85b8-fefc48a53ae4")
@@ -42816,7 +42816,7 @@
 		(descr "SOT1176-1, DFN2510A-10")
 		(tags "SOT1176-1, DFN2510A-10")
 		(property "Reference" "D11"
-			(at 2.000001 0 0)
+			(at -1.09 -0.86 0)
 			(layer "F.SilkS")
 			(uuid "46f9bfc7-f124-459d-ae3f-518f6b367f29")
 			(effects
@@ -43082,7 +43082,7 @@
 		(at 93.54 134.545 -90)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C66"
+		(property "Reference" "C62"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "09b66c74-d096-4979-a779-4a7135c191db")
@@ -43288,7 +43288,7 @@
 		(at 70.100001 106.22 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R5"
+		(property "Reference" "R19"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "ba9d35b7-87a1-48c4-8dde-881263aeff1a")
@@ -43468,7 +43468,7 @@
 		(at 85.940001 126.11)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R74"
+		(property "Reference" "R76"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "66493e7f-1d31-457f-83c7-41f762126691")
@@ -43625,7 +43625,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 327 "Net-(D24-C)")
+			(net 323 "Net-(D20-C)")
 			(pintype "passive")
 			(uuid "de8d9344-179b-4b2a-a46d-bf0759c35aa3")
 		)
@@ -43648,7 +43648,7 @@
 		(at 99.43 67.72)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R29"
+		(property "Reference" "R41"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "6a5fde77-f693-4d33-82b2-65926a6ebeba")
@@ -43828,7 +43828,7 @@
 		(at 94.720001 104.385001 180)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C58"
+		(property "Reference" "C26"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "18c6732a-9873-442c-97fd-b48d28375334")
@@ -44034,7 +44034,7 @@
 		(at 105.395 113.400001 180)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C36"
+		(property "Reference" "C1"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "4246a42c-39f2-4807-80da-b9efb1012779")
@@ -44240,7 +44240,7 @@
 		(at 105.35 58.5 90)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C32"
+		(property "Reference" "C55"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "414bfad4-6995-44b2-bb92-b7e3997c2fc5")
@@ -44423,7 +44423,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 307 "Net-(J11-SHIELD)")
+			(net 299 "Net-(J10-SHIELD)")
 			(pintype "passive")
 			(uuid "2539a4b5-a42c-49df-9bdf-7140beb97e99")
 		)
@@ -44446,7 +44446,7 @@
 		(at 135.764999 109.929999 180)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R48"
+		(property "Reference" "R58"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "149da283-29f6-42c3-b5e6-46098c015123")
@@ -45693,7 +45693,7 @@
 		(at 129.539999 137.69)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C1"
+		(property "Reference" "C21"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "4b409e85-7193-4c3a-a8e1-929d2b1db9fa")
@@ -45899,7 +45899,7 @@
 		(at 132.589999 107.285 90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R43"
+		(property "Reference" "R53"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "4fcbe4ad-cbdf-46ef-8f33-505ac298b308")
@@ -46047,7 +46047,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 406 "Net-(U7-PGANG)")
+			(net 398 "Net-(U11-PGANG)")
 			(pintype "passive")
 			(uuid "b3ec529b-0433-403b-b086-a2febede2cfe")
 		)
@@ -46056,7 +46056,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 324 "Net-(D21-C)")
+			(net 320 "Net-(D17-C)")
 			(pintype "passive")
 			(uuid "c34211d4-0767-40ff-a974-acc552d45518")
 		)
@@ -46079,7 +46079,7 @@
 		(at 105.77 75.45 90)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C19"
+		(property "Reference" "C46"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "0e93bedd-07a2-4d6f-afde-07e080fca142")
@@ -46285,7 +46285,7 @@
 		(at 75.699999 134.349999 180)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R77"
+		(property "Reference" "R79"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "32417d0e-7fb2-4ad0-9188-739695a71a3f")
@@ -46465,7 +46465,7 @@
 		(at 53.95 132.75 180)
 		(descr "Capacitor SMD 0603")
 		(tags "capacitor 0603")
-		(property "Reference" "C8"
+		(property "Reference" "C34"
 			(at 1.5 0 0)
 			(layer "F.SilkS")
 			(uuid "7842a85c-1260-4f77-87da-a7fada0f0f65")
@@ -46691,7 +46691,7 @@
 		(at 75.699999 133.299999)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C77"
+		(property "Reference" "C73"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "7d66c433-3580-469f-8a48-aa4b3b1d2e71")
@@ -46897,7 +46897,7 @@
 		(at 127.858726 110.435 180)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R53"
+		(property "Reference" "R63"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "7c6916f8-0af2-43bf-8a6b-9e66203a38a5")
@@ -47541,7 +47541,7 @@
 		(at 92.96 54.92 180)
 		(descr "SMD HDMI Type A Connector")
 		(tags "HDMI-A")
-		(property "Reference" "J10"
+		(property "Reference" "J14"
 			(at 9 0 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -47862,7 +47862,7 @@
 			(at -2 -5.32 90)
 			(size 2.6 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 396 "unconnected-(J10-UTILITY-Pad14)")
+			(net 396 "unconnected-(J14-UTILITY-Pad14)")
 			(pinfunction "UTILITY")
 			(pintype "bidirectional+no_connect")
 			(uuid "092bbccc-2049-41fe-9841-170acb168fdb")
@@ -47975,7 +47975,7 @@
 		(at 131.259999 114.434999 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R50"
+		(property "Reference" "R60"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "f4449e26-68b5-4ff9-b1ef-6d664d700a9a")
@@ -48155,7 +48155,7 @@
 		(at 115.725 113.085 -90)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C50"
+		(property "Reference" "C15"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "f62f6245-0462-427d-8f96-09997821f547")
@@ -48360,7 +48360,7 @@
 		(uuid "be72d538-ec0e-4f8f-9eb0-8159991e641c")
 		(at 60.79 129.9 -90)
 		(descr "TSOT-23, 6-lead")
-		(property "Reference" "U11"
+		(property "Reference" "U7"
 			(at 2.000001 0 90)
 			(layer "F.SilkS")
 			(uuid "29066520-787a-40c0-9377-a6626f8d0ea7")
@@ -48532,7 +48532,7 @@
 			(size 0.6 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 299 "unconnected-(U11-~{FLG}-Pad3)")
+			(net 412 "unconnected-(U7-~{FLG}-Pad3)")
 			(pinfunction "~{FLG}")
 			(pintype "open_collector+no_connect")
 			(uuid "455b5226-bb71-44d0-aad6-50174c4f5066")
@@ -48586,7 +48586,7 @@
 		(at 61.769999 132.05)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C4"
+		(property "Reference" "C30"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "f9fdcb4a-b554-47b7-8d47-2d39e7d27c23")
@@ -48792,7 +48792,7 @@
 		(at 90.936999 102.28 90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R61"
+		(property "Reference" "R12"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "e7b6ba28-3cc0-407a-8b88-f1fc42a3d79b")
@@ -48972,7 +48972,7 @@
 		(at 63.67 135.25)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R20"
+		(property "Reference" "R32"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "72f9a44e-fb88-4547-b2bc-672b0802939d")
@@ -49152,7 +49152,7 @@
 		(at 128.905001 63.290001 90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R12"
+		(property "Reference" "R25"
 			(at -0.200001 3.2 90)
 			(layer "F.SilkS")
 			(uuid "3e0255da-dbb0-4643-b313-01c7bff99c74")
@@ -50074,7 +50074,7 @@
 		(at 71.150001 106.22 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R7"
+		(property "Reference" "R18"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "b517d744-1481-439b-8e35-0056b55f5f6a")
@@ -50254,7 +50254,7 @@
 		(at 63.650001 129.85)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R63"
+		(property "Reference" "R37"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "04bf34b7-b4f6-4005-9802-b3d5047f616c")
@@ -51539,7 +51539,7 @@
 		(at 98.960002 124.85)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R67"
+		(property "Reference" "R69"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "3345b845-44cb-47a3-ac83-b181ccd5b55d")
@@ -51694,7 +51694,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 326 "Net-(D23-C)")
+			(net 322 "Net-(D19-C)")
 			(pintype "passive")
 			(uuid "7a63461b-6708-4c55-b603-92627db1be9a")
 		)
@@ -51717,7 +51717,7 @@
 		(at 112.17 58.5 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R42"
+		(property "Reference" "R52"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "885f49a8-1799-48c5-824b-1029fd3e41de")
@@ -51897,7 +51897,7 @@
 		(at 64.164999 71.13 180)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C13"
+		(property "Reference" "C76"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "080c6f66-1653-438c-b2c1-6a2d236ae8da")
@@ -52080,7 +52080,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 305 "Net-(J7-CT)")
+			(net 305 "Net-(J13-CT)")
 			(pintype "passive")
 			(uuid "df199467-5668-4965-a69a-51f6a1e038e2")
 		)
@@ -52103,7 +52103,7 @@
 		(at 102.29 66.57 180)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R31"
+		(property "Reference" "R85"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "d302dd76-a491-4058-8f5f-91a2415f6e3d")
@@ -52283,7 +52283,7 @@
 		(at 105.6 86.4)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R2"
+		(property "Reference" "R15"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "c212bc6f-e9c2-44ea-af50-dfc58e092bb0")
@@ -52463,7 +52463,7 @@
 		(at 112.41 110.46 90)
 		(descr "Capacitor SMD 0603")
 		(tags "capacitor 0603")
-		(property "Reference" "C55"
+		(property "Reference" "C20"
 			(at 1.5 0 90)
 			(layer "F.SilkS")
 			(uuid "1173a38e-0a38-4d09-8708-8224e76cfa72")
@@ -52688,7 +52688,7 @@
 		(uuid "d22473b7-aa98-4a38-9504-dec47cf3d87d")
 		(at 99.43 65.57 -90)
 		(descr "TSOT-23, 6-lead")
-		(property "Reference" "U4"
+		(property "Reference" "U17"
 			(at 2.000001 0 90)
 			(layer "F.SilkS")
 			(uuid "32eb46e3-65e9-4a4c-9a6f-18416ac439df")
@@ -52860,7 +52860,7 @@
 			(size 0.6 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 411 "unconnected-(U4-~{FLG}-Pad3)")
+			(net 418 "unconnected-(U17-~{FLG}-Pad3)")
 			(pinfunction "~{FLG}")
 			(pintype "open_collector+no_connect")
 			(uuid "7cd306c9-7482-474d-a75d-0d8e1d65b0f5")
@@ -52914,7 +52914,7 @@
 		(at 118.73 55.14 180)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C63"
+		(property "Reference" "C29"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "775f2fec-95fe-4a04-be55-6bee30183481")
@@ -53120,7 +53120,7 @@
 		(at 111.174999 60.434999 180)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C25"
+		(property "Reference" "C48"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "e810c81f-00e0-492e-90a7-9bd798eefc00")
@@ -53326,7 +53326,7 @@
 		(at 117.75 53.41 180)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R39"
+		(property "Reference" "R49"
 			(at -0.81 -0.42 0)
 			(layer "F.SilkS")
 			(uuid "94457504-c3ed-45e4-a9e9-d0353a35a340")
@@ -53474,7 +53474,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 323 "Net-(D20-A)")
+			(net 317 "Net-(D16-A)")
 			(pintype "passive")
 			(uuid "a5e13036-0b06-4856-990f-15d168aecc00")
 		)
@@ -53506,7 +53506,7 @@
 		(at 90.591499 81.62)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R83"
+		(property "Reference" "R66"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "d8f2af88-61e0-4aa8-9b8d-fa001b0fa0ef")
@@ -53663,7 +53663,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 287 "Net-(U17-SEL)")
+			(net 399 "Net-(U12-SEL)")
 			(pintype "passive")
 			(uuid "1b283279-f40f-467c-be8a-ae3a8a88a9d8")
 		)
@@ -54150,7 +54150,7 @@
 		(at 130.030001 107.805)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C34"
+		(property "Reference" "C57"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "7f32c194-2cf8-446d-86cd-d9a9edb96bf8")
@@ -54333,7 +54333,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 308 "Net-(U7-3V3)")
+			(net 304 "Net-(U11-3V3)")
 			(pintype "passive")
 			(uuid "50ddaf2f-9841-4377-8baa-ffcef012b6d3")
 		)
@@ -54356,7 +54356,7 @@
 		(at 113.76 110.46 90)
 		(descr "Capacitor SMD 0603")
 		(tags "capacitor 0603")
-		(property "Reference" "C53"
+		(property "Reference" "C18"
 			(at 1.5 0 90)
 			(layer "F.SilkS")
 			(uuid "d930d908-cd61-4bd1-9e69-808d0641027a")
@@ -54582,7 +54582,7 @@
 		(at 120.51 69.505 180)
 		(descr "Test point, SMD, round, 0.75mm diameter")
 		(tags "TEST POINT, SMD")
-		(property "Reference" "TP11"
+		(property "Reference" "TP12"
 			(at 0.75 0 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -54668,7 +54668,7 @@
 		(at 53.95 118.780001 180)
 		(descr "Capacitor SMD 0603")
 		(tags "capacitor 0603")
-		(property "Reference" "C11"
+		(property "Reference" "C37"
 			(at 1.5 0 0)
 			(layer "F.SilkS")
 			(uuid "771e4a59-f355-4242-a9f0-e8285266608e")
@@ -54893,7 +54893,7 @@
 		(uuid "d8e3bb6c-2928-4c1a-8aea-5e46f670816d")
 		(at 103.425 110.38 180)
 		(descr "MLP44-24L; 4x4mm; h=0.75mm")
-		(property "Reference" "U8"
+		(property "Reference" "U1"
 			(at 3 0 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -55223,7 +55223,7 @@
 			(size 0.3 0.725)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 417 "unconnected-(U8-GL-Pad10)_1")
+			(net 410 "unconnected-(U1-GL-Pad10)_1")
 			(pinfunction "GL")
 			(pintype "passive+no_connect")
 			(uuid "7ecc7879-cf2b-4616-baa5-1e95d6b4c60e")
@@ -55233,7 +55233,7 @@
 			(size 0.3 0.725)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 415 "unconnected-(U8-GL-Pad10)")
+			(net 409 "unconnected-(U1-GL-Pad10)")
 			(pinfunction "GL")
 			(pintype "passive+no_connect")
 			(uuid "02487977-8436-47c7-9916-17fd8fb8a4d1")
@@ -55412,7 +55412,7 @@
 			(at 0.985 0.99)
 			(size 0.58 0.38)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 418 "unconnected-(U8-GL-Pad10)_2")
+			(net 411 "unconnected-(U1-GL-Pad10)_2")
 			(pinfunction "GL")
 			(pintype "passive+no_connect")
 			(uuid "7fa3ca71-1f09-45bc-b0b6-000b99e18bda")
@@ -55436,7 +55436,7 @@
 		(at 116.51 75.88)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R33"
+		(property "Reference" "R43"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "557cce78-6fab-4ee0-9264-1ed5ae1e1990")
@@ -55593,7 +55593,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 306 "Net-(U6-OE)")
+			(net 294 "Net-(U10-OE)")
 			(pintype "passive")
 			(uuid "afeafaef-5926-4424-9408-99236447e078")
 		)
@@ -55616,7 +55616,7 @@
 		(at 130.21 114.435 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R51"
+		(property "Reference" "R61"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "e48ad1e9-d74e-400b-b34c-7d92a554e0c6")
@@ -55796,7 +55796,7 @@
 		(at 120.15 136.062651 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R72"
+		(property "Reference" "R74"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "5c1cc371-6c7a-475e-a88e-17e1bb2342a0")
@@ -55976,7 +55976,7 @@
 		(at 120.84 73.67 90)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C30"
+		(property "Reference" "C53"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "aeb5a177-3edc-4ccb-a089-ce4378952570")
@@ -56267,7 +56267,7 @@
 		(uuid "de8b6a93-b881-4e7a-8c66-a76897d4e33d")
 		(at 131.79 110.46)
 		(descr "16-Lead Plastic QFN 3x3mm; Pitch 0.5mm; EP 1.75x1.75mm")
-		(property "Reference" "U7"
+		(property "Reference" "U11"
 			(at 2.25 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -56602,7 +56602,7 @@
 			(size 0.25 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 414 "unconnected-(U7-RESET-Pad13)")
+			(net 417 "unconnected-(U11-RESET-Pad13)")
 			(pinfunction "RESET")
 			(pintype "input+no_connect")
 			(uuid "0262b32a-22fd-4e97-bd24-1fbe96fdef8e")
@@ -56612,7 +56612,7 @@
 			(size 0.25 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 406 "Net-(U7-PGANG)")
+			(net 398 "Net-(U11-PGANG)")
 			(pinfunction "PGANG")
 			(pintype "bidirectional")
 			(uuid "76c7cce0-64d5-418b-b019-110c09568f57")
@@ -56632,7 +56632,7 @@
 			(size 0.25 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 308 "Net-(U7-3V3)")
+			(net 304 "Net-(U11-3V3)")
 			(pinfunction "3V3")
 			(pintype "passive")
 			(uuid "29b9e046-48c0-4060-85d7-86969e4a8bcf")
@@ -56665,7 +56665,7 @@
 		(at 89.71 62.840002)
 		(descr "SOT1176-1, DFN2510A-10")
 		(tags "SOT1176-1, DFN2510A-10")
-		(property "Reference" "D13"
+		(property "Reference" "D24"
 			(at 2 0 0)
 			(layer "F.SilkS")
 			(uuid "c3e9b7d4-339b-4fdb-a581-03b9d0701272")
@@ -56930,7 +56930,7 @@
 		(at 69.050001 106.22 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R8"
+		(property "Reference" "R20"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "a15cf3dc-2f02-4411-af04-3f60d741c0b8")
@@ -57110,7 +57110,7 @@
 		(at 53.95 117.43 180)
 		(descr "Capacitor SMD 0603")
 		(tags "capacitor 0603")
-		(property "Reference" "C10"
+		(property "Reference" "C36"
 			(at 1.5 0 0)
 			(layer "F.SilkS")
 			(uuid "86eb6a6e-c7d7-403d-b9a4-11b886cb2638")
@@ -57336,7 +57336,7 @@
 		(at 108.22 58.5 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R41"
+		(property "Reference" "R51"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "2adcf343-f67a-4f5c-83a1-4c54f26adfe5")
@@ -57516,7 +57516,7 @@
 		(at 108.125 102.409999 180)
 		(descr "Capacitor SMD 0603")
 		(tags "capacitor 0603")
-		(property "Reference" "C43"
+		(property "Reference" "C8"
 			(at 1.5 0 0)
 			(layer "F.SilkS")
 			(uuid "e7471b4e-63ed-4ef7-a350-71c4a851dddb")
@@ -57742,7 +57742,7 @@
 		(at 120.51 66.84 180)
 		(descr "Test point, SMD, round, 0.75mm diameter")
 		(tags "TEST POINT, SMD")
-		(property "Reference" "TP13"
+		(property "Reference" "TP14"
 			(at 0.75 0 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -57828,7 +57828,7 @@
 		(at 63.65 130.9 180)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R62"
+		(property "Reference" "R36"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "47112bd2-a95b-46ac-98f7-5cfc7a230dbd")
@@ -58296,7 +58296,7 @@
 		(at 106.465 110.46 90)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C37"
+		(property "Reference" "C2"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "6c4c0585-0039-4778-b174-cb54aa891274")
@@ -58502,7 +58502,7 @@
 		(at 118.46 75.88 180)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R34"
+		(property "Reference" "R44"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "b4a2858c-2059-4a0e-8ad6-443761ed6ab0")
@@ -58659,7 +58659,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 306 "Net-(U6-OE)")
+			(net 294 "Net-(U10-OE)")
 			(pintype "passive")
 			(uuid "ef1f4daf-7a14-4ff8-b1a3-a91cce3bb991")
 		)
@@ -58682,7 +58682,7 @@
 		(at 112.440001 124.54 180)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R73"
+		(property "Reference" "R75"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "379b17f8-ab60-48b3-9a8e-4eabc2304401")
@@ -58862,7 +58862,7 @@
 		(at 82.9 135.745)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C73"
+		(property "Reference" "C69"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "0ebb5713-ab82-415e-bf6b-c4648b6d61db")
@@ -59066,8 +59066,8 @@
 		(at 77.33 68 180)
 		(descr "SOT1176-1, DFN2510A-10")
 		(tags "SOT1176-1, DFN2510A-10")
-		(property "Reference" "D9"
-			(at 2.000001 0 0)
+		(property "Reference" "D10"
+			(at -0.7 -0.86 0)
 			(layer "F.SilkS")
 			(uuid "429017c7-c637-4405-adc2-d7377dac9ed4")
 			(effects
@@ -59248,7 +59248,7 @@
 			(at 0.5 0.387499 180)
 			(size 0.2 0.475)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 315 "unconnected-(D9-CH3-Pad4)_1")
+			(net 314 "unconnected-(D10-CH3-Pad4)_1")
 			(pinfunction "CH3")
 			(pintype "passive+no_connect")
 			(solder_mask_margin 0.05)
@@ -59278,7 +59278,7 @@
 			(at 0.5 -0.387499 180)
 			(size 0.2 0.475)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 313 "unconnected-(D9-CH3-Pad4)")
+			(net 313 "unconnected-(D10-CH3-Pad4)")
 			(pinfunction "CH3")
 			(pintype "passive+no_connect")
 			(solder_mask_margin 0.05)
@@ -59333,7 +59333,7 @@
 		(at 59.81 127.75 180)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C60"
+		(property "Reference" "C40"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "095244e3-2907-4221-ba42-eaecc1dce273")
@@ -59539,7 +59539,7 @@
 		(at 113.93 62.46 90)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C27"
+		(property "Reference" "C50"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "0b3090df-05e8-4cb1-b8c6-b33780c9fe13")
@@ -59745,7 +59745,7 @@
 		(at 124.62 135.195 90)
 		(descr "PowerPAK 1212-8 Single")
 		(tags "Vishay PowerPAK 1212-8 Single")
-		(property "Reference" "Q1"
+		(property "Reference" "Q2"
 			(at 2.5 0 90)
 			(layer "F.SilkS")
 			(uuid "33e4a715-3135-4d20-af47-369989f13a34")
@@ -60016,7 +60016,7 @@
 			(at -1.435 0.99 90)
 			(size 0.99 0.405)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 215 "Net-(Q1-G)")
+			(net 397 "Net-(Q2-G)")
 			(pinfunction "G")
 			(pintype "passive")
 			(uuid "862785a5-8378-4af1-a7d3-8ff545ba89ff")
@@ -60066,7 +60066,7 @@
 		(at 108.125 103.760001 180)
 		(descr "Capacitor SMD 0603")
 		(tags "capacitor 0603")
-		(property "Reference" "C46"
+		(property "Reference" "C11"
 			(at 1.5 0 0)
 			(layer "F.SilkS")
 			(uuid "97c5fd82-bffb-4941-b74a-11c50e7fd344")
@@ -60292,7 +60292,7 @@
 		(at 116.775 110.46 -90)
 		(descr "SOT-563, 6-lead")
 		(tags "SOT-563 SMD JEDEC-MO-293-UAAD Texas-DRL-6")
-		(property "Reference" "U9"
+		(property "Reference" "U2"
 			(at 1.75 0 90)
 			(layer "F.SilkS")
 			(uuid "546f2833-ad44-4701-ab3c-a289107e513a")
@@ -60518,7 +60518,7 @@
 		(at 100.39 111.38 90)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C47"
+		(property "Reference" "C12"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "7e08f474-56c1-4653-abea-05f00f389547")
@@ -60724,7 +60724,7 @@
 		(at 98.45 63.42 180)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C23"
+		(property "Reference" "C79"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "ba733e13-e275-445c-99e6-ed3319f35931")
@@ -60930,7 +60930,7 @@
 		(at 108.125 106.46 180)
 		(descr "Capacitor SMD 0603")
 		(tags "capacitor 0603")
-		(property "Reference" "C45"
+		(property "Reference" "C10"
 			(at 1.5 0 0)
 			(layer "F.SilkS")
 			(uuid "8fd1a35e-f13a-488e-b671-7bcb473c683e")
@@ -62263,7 +62263,7 @@
 		(at 102.32 75.45 90)
 		(descr "SOT-323, SC-70")
 		(tags "SOT-323, SC-70")
-		(property "Reference" "D10"
+		(property "Reference" "D9"
 			(at 1.5 0 90)
 			(layer "F.SilkS")
 			(uuid "316ece6f-f4a6-4986-9137-2eb9aec73370")
@@ -62534,7 +62534,7 @@
 		(at 115.14 71.44 180)
 		(descr "Test point, SMD, round, 0.75mm diameter")
 		(tags "TEST POINT, SMD")
-		(property "Reference" "TP10"
+		(property "Reference" "TP11"
 			(at 0.75 0 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -62607,7 +62607,7 @@
 			(at 0 0 180)
 			(size 0.75 0.75)
 			(layers "F.Cu" "F.Mask")
-			(net 409 "Net-(U5-RXD)")
+			(net 408 "Net-(U10-B_{2})")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "51a41100-2d1f-4505-905c-992577c5b840")
@@ -62620,7 +62620,7 @@
 		(at 116.655001 70.99)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C28"
+		(property "Reference" "C51"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "8824acf9-317b-480f-b7b4-6e13dfd3bdab")
@@ -62826,7 +62826,7 @@
 		(at 94.4915 82.67)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R82"
+		(property "Reference" "R65"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "dd60e154-f8ff-4b9b-b0b8-5304cdd2a116")
@@ -62983,7 +62983,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 294 "Net-(U17-~{OE})")
+			(net 400 "Net-(U12-~{OE})")
 			(pintype "passive")
 			(uuid "818bbc65-02bf-48c9-9923-203bd19c1122")
 		)
@@ -63006,7 +63006,7 @@
 		(at 120.84 110.46 90)
 		(descr "Capacitor SMD 0603")
 		(tags "capacitor 0603")
-		(property "Reference" "C51"
+		(property "Reference" "C16"
 			(at 1.5 0 90)
 			(layer "F.SilkS")
 			(uuid "3aa7d4d3-db14-4d0b-aa5f-2bea2afd2fb1")
@@ -63231,7 +63231,7 @@
 		(uuid "f4c4d496-07e4-48bc-b292-41871564101b")
 		(at 91.65 127.975 -90)
 		(descr "Custom programming connector")
-		(property "Reference" "J13"
+		(property "Reference" "J11"
 			(at 13.75 0 90)
 			(layer "F.SilkS")
 			(uuid "b8ce9cb3-75e2-4d64-8751-12f59ba29274")
@@ -63728,7 +63728,7 @@
 		(at 90.5915 82.67 180)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R81"
+		(property "Reference" "R64"
 			(at 1 0 0)
 			(layer "F.SilkS")
 			(uuid "b33a80e9-f732-45bd-a0e4-0dcc24eae2e1")
@@ -63876,7 +63876,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 287 "Net-(U17-SEL)")
+			(net 399 "Net-(U12-SEL)")
 			(pintype "passive")
 			(uuid "c41ba725-24c4-477f-8667-aff8c871a24a")
 		)
@@ -63908,8 +63908,8 @@
 		(at 86.8 64.38 90)
 		(descr "Capacitor SMD 0603")
 		(tags "capacitor 0603")
-		(property "Reference" "C20"
-			(at 1.5 0 90)
+		(property "Reference" "C47"
+			(at -3.27 0.45 90)
 			(layer "F.SilkS")
 			(uuid "3336b56a-00c5-4d24-8871-5546628f1379")
 			(effects
@@ -64134,7 +64134,7 @@
 		(at 132.309999 116.324999 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R49"
+		(property "Reference" "R59"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "70d509eb-b509-474f-a07b-9c8eb0e49143")
@@ -64314,7 +64314,7 @@
 		(at 53.95 134.05)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
-		(property "Reference" "R23"
+		(property "Reference" "R35"
 			(at -0.649999 -0.6 0)
 			(layer "F.SilkS")
 			(uuid "b957fe8d-e0b9-4fd9-a481-674bbff8e657")
@@ -64494,7 +64494,7 @@
 		(at 102.74 130.655 -90)
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
-		(property "Reference" "C64"
+		(property "Reference" "C60"
 			(at 1 0 90)
 			(layer "F.SilkS")
 			(uuid "57f941d5-3ab4-40f4-ae69-54ebab5a401e")
@@ -64699,7 +64699,7 @@
 		(uuid "ff4976ff-81dd-4dea-92ba-80e2db0de409")
 		(at 60.79 135.25 -90)
 		(descr "TSOT-23, 6-lead")
-		(property "Reference" "U2"
+		(property "Reference" "U6"
 			(at 2.000001 0 90)
 			(layer "F.SilkS")
 			(uuid "c43d7c4c-e395-4f7e-a971-b408d1fdb2d1")
@@ -65011,8 +65011,8 @@
 		(at 77.33 58.8625 180)
 		(descr "SOT1176-1, DFN2510A-10")
 		(tags "SOT1176-1, DFN2510A-10")
-		(property "Reference" "D27"
-			(at 2 0 0)
+		(property "Reference" "D6"
+			(at -1.1 0.7825 0)
 			(layer "B.SilkS")
 			(uuid "7e2fbceb-6f7c-4b6f-8259-1803e1a62874")
 			(effects
@@ -65194,7 +65194,7 @@
 			(at 0.5 -0.3875 180)
 			(size 0.2 0.475)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 320 "unconnected-(D27-CH3-Pad4)_1")
+			(net 307 "unconnected-(D6-CH3-Pad4)_1")
 			(pinfunction "CH3")
 			(pintype "passive+no_connect")
 			(solder_mask_margin 0.05)
@@ -65224,7 +65224,7 @@
 			(at 0.5 0.3875 180)
 			(size 0.2 0.475)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 317 "unconnected-(D27-CH3-Pad4)")
+			(net 306 "unconnected-(D6-CH3-Pad4)")
 			(pinfunction "CH3")
 			(pintype "passive+no_connect")
 			(solder_mask_margin 0.05)
@@ -65365,8 +65365,8 @@
 		(at 61.125 71.35 180)
 		(descr "SOT1176-1, DFN2510A-10")
 		(tags "SOT1176-1, DFN2510A-10")
-		(property "Reference" "D6"
-			(at 2 0 0)
+		(property "Reference" "D22"
+			(at -0.735 -1.67 180)
 			(layer "B.SilkS")
 			(uuid "7ae2d999-da0d-4446-ac80-22160529a3e5")
 			(effects
@@ -65633,8 +65633,8 @@
 		(at 56.045 71.35 180)
 		(descr "SOT1176-1, DFN2510A-10")
 		(tags "SOT1176-1, DFN2510A-10")
-		(property "Reference" "D7"
-			(at 2 0 0)
+		(property "Reference" "D23"
+			(at -0.765 -1.67 0)
 			(layer "B.SilkS")
 			(uuid "70decaf8-d3b7-4d02-81a5-7e4ae62d11b6")
 			(effects
@@ -65901,8 +65901,8 @@
 		(at 74.43 58.8625 180)
 		(descr "SOT1176-1, DFN2510A-10")
 		(tags "SOT1176-1, DFN2510A-10")
-		(property "Reference" "D12"
-			(at 2.000001 0 0)
+		(property "Reference" "D8"
+			(at -1.09 0.7725 0)
 			(layer "B.SilkS")
 			(uuid "d7a683f7-76fa-4357-b64c-68190ed96643")
 			(effects
@@ -66066,7 +66066,7 @@
 			(at -0.5 -0.387499 180)
 			(size 0.2 0.475)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 314 "unconnected-(D12-CH2-Pad2)")
+			(net 308 "unconnected-(D8-CH2-Pad2)")
 			(pinfunction "CH2")
 			(pintype "passive+no_connect")
 			(solder_mask_margin 0.05)
@@ -66136,7 +66136,7 @@
 			(at -0.5 0.387499 180)
 			(size 0.2 0.475)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 316 "unconnected-(D12-CH2-Pad2)_1")
+			(net 309 "unconnected-(D8-CH2-Pad2)_1")
 			(pinfunction "CH2")
 			(pintype "passive+no_connect")
 			(solder_mask_margin 0.05)
@@ -75209,28 +75209,28 @@
 		(uuid "e6c4e61e-c74b-4d40-80c0-4b2d65a8f826")
 	)
 	(segment
-		(start 118.680001 61.96)
-		(end 117.753 61.960001)
+		(start 129.04 133.994999)
+		(end 129.04 134.922)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "2c300dd8-2fb8-4aa6-956f-fe10a27193bd")
+		(uuid "3a4d0594-594f-4692-b22a-200473321e8b")
 	)
 	(segment
-		(start 117.033 62.680002)
-		(end 117.032999 63.160001)
+		(start 129.760001 135.642001)
+		(end 130.24 135.642001)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "83694761-6179-4712-bb04-02a612c3c44d")
+		(uuid "6f31cb52-c0e6-4fc6-ba5d-f4fc6cdb81d6")
 	)
 	(segment
-		(start 117.753 61.960001)
-		(end 117.033 62.680002)
+		(start 129.04 134.922)
+		(end 129.760001 135.642001)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "de77cf86-c1ab-4285-b2d3-72d821a382de")
+		(uuid "ad09fede-edcd-4282-9a2a-f80d95044113")
 	)
 	(segment
 		(start 126.83 144.7)
@@ -95198,44 +95198,28 @@
 		(uuid "e081e40f-a28f-43b9-983d-3682f3f41031")
 	)
 	(segment
-		(start 125.765001 137.295001)
-		(end 127.82 137.295001)
+		(start 92.14 101.593)
+		(end 91.419999 100.873)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 215)
-		(uuid "213b86f4-3441-4af6-8509-e5dc1120fefc")
+		(uuid "375920d9-5b47-40f6-887d-7d98a460c402")
 	)
 	(segment
-		(start 125.61 137.14)
-		(end 125.765001 137.295001)
+		(start 92.14 102.520002)
+		(end 92.14 101.593)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 215)
-		(uuid "465a1b72-31dd-4b25-bedc-2921ad0afe53")
+		(uuid "c8128dfd-0fbc-463e-8f16-bde5e3702a0f")
 	)
 	(segment
-		(start 125.61 136.63)
-		(end 125.61 137.14)
+		(start 91.419999 100.873)
+		(end 90.939999 100.873)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 215)
-		(uuid "5a42e59c-75e4-4485-af8e-bebb2a64c937")
-	)
-	(segment
-		(start 128.09 137.025001)
-		(end 128.09 136.395)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 215)
-		(uuid "6818a0a8-8349-44e3-9981-0fafc6fb0f97")
-	)
-	(segment
-		(start 127.82 137.295001)
-		(end 128.09 137.025001)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 215)
-		(uuid "7177f9c3-8249-411a-9488-ec63bef9558e")
+		(uuid "fb0b9797-d631-412a-af0b-38089b636c0c")
 	)
 	(segment
 		(start 127.14 133.994999)
@@ -99030,28 +99014,28 @@
 		(uuid "8570f7f3-1b61-467f-9e4f-483811f0ca1b")
 	)
 	(segment
-		(start 91.091499 82.67)
-		(end 91.091498 81.62)
-		(width 0.2)
+		(start 118.680001 61.96)
+		(end 117.753 61.960001)
+		(width 0.3)
 		(layer "F.Cu")
 		(net 287)
-		(uuid "315296c0-a977-4e37-a8ec-a0bcfef6f16a")
+		(uuid "2c300dd8-2fb8-4aa6-956f-fe10a27193bd")
 	)
 	(segment
-		(start 91.6415 83.220001)
-		(end 91.091499 82.67)
-		(width 0.2)
+		(start 117.033 62.680002)
+		(end 117.032999 63.160001)
+		(width 0.3)
 		(layer "F.Cu")
 		(net 287)
-		(uuid "8a2e46dc-4622-425d-a951-0be9e9726191")
+		(uuid "83694761-6179-4712-bb04-02a612c3c44d")
 	)
 	(segment
-		(start 91.6415 83.6515)
-		(end 91.6415 83.220001)
-		(width 0.2)
+		(start 117.753 61.960001)
+		(end 117.033 62.680002)
+		(width 0.3)
 		(layer "F.Cu")
 		(net 287)
-		(uuid "a47ef89b-b2da-44c6-a89f-63df078a26ef")
+		(uuid "de77cf86-c1ab-4285-b2d3-72d821a382de")
 	)
 	(segment
 		(start 92.081499 85.867773)
@@ -99638,44 +99622,60 @@
 		(uuid "ee9926fe-e528-44d3-acff-8db80dd81a44")
 	)
 	(segment
-		(start 92.58 83.29)
-		(end 92.4415 83.4285)
+		(start 117.49 75.88)
+		(end 117.960001 75.88)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 294)
-		(uuid "36df1388-cee0-4645-b519-54c5684f9885")
+		(uuid "169de95c-bc93-4526-a0e1-07aa4a9042c9")
 	)
 	(segment
-		(start 94.991499 82.67)
-		(end 94.991499 83.190001)
+		(start 119.63 73.995)
+		(end 117.49 73.995)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 294)
-		(uuid "8bd63be4-f4e4-428a-98d0-6c85ead63ede")
+		(uuid "33fc5a29-74ca-4b47-bebf-d7787dff9bd9")
 	)
 	(segment
-		(start 94.991499 83.190001)
-		(end 94.8915 83.29)
+		(start 117.49 73.995)
+		(end 115.33 73.995)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 294)
-		(uuid "b5ab4468-beae-40ff-801b-c6e82670087c")
+		(uuid "6f269317-6edf-4fe3-86d9-9b425a2a7384")
 	)
 	(segment
-		(start 94.8915 83.29)
-		(end 92.58 83.29)
+		(start 117.49 75.88)
+		(end 117.49 73.995)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 294)
-		(uuid "b7a2ccea-13aa-45f6-b2d3-6f8e9cf964f4")
+		(uuid "ab4d445f-54c2-4c3d-b071-43724e176dcb")
 	)
 	(segment
-		(start 92.4415 83.4285)
-		(end 92.4415 83.6515)
+		(start 115.33 73.995)
+		(end 114.284999 73.995)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 294)
+		(uuid "acb8cbc3-8f3d-4b60-81d8-9b1cc67fbfc1")
+	)
+	(segment
+		(start 117.009999 75.88)
+		(end 117.49 75.88)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 294)
-		(uuid "cde0043e-ac04-427e-bd8a-4861a66ce617")
+		(uuid "fc5a798d-30c5-45ac-bc00-809824de06c2")
+	)
+	(segment
+		(start 114.284999 73.995)
+		(end 114.11 74.169999)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 294)
+		(uuid "fe13fab2-51f0-4dc0-9032-658ec6603904")
 	)
 	(segment
 		(start 133.929622 109.8)
@@ -99812,6 +99812,30 @@
 		(layer "F.Cu")
 		(net 297)
 		(uuid "cff24530-6f66-41a2-bcde-9933062ac5e0")
+	)
+	(segment
+		(start 114.52 55.775)
+		(end 114.52 51.595)
+		(width 0.3)
+		(layer "In2.Cu")
+		(net 299)
+		(uuid "26dee1cc-ccb2-450d-a408-15a31e2343cd")
+	)
+	(segment
+		(start 105.88 51.595)
+		(end 114.52 51.595)
+		(width 0.3)
+		(layer "In2.Cu")
+		(net 299)
+		(uuid "70039ab2-ee69-447f-86fa-de5bfbfdb25e")
+	)
+	(segment
+		(start 105.88 55.775)
+		(end 105.88 51.595)
+		(width 0.3)
+		(layer "In2.Cu")
+		(net 299)
+		(uuid "f7f78493-5c95-42b7-97dc-fc038473d06e")
 	)
 	(segment
 		(start 93.62 128.4)
@@ -100006,28 +100030,36 @@
 		(uuid "fa7e86e4-cd97-4154-a815-b5a79f21c59c")
 	)
 	(segment
-		(start 129.04 133.994999)
-		(end 129.04 134.922)
-		(width 0.3)
+		(start 130.529999 108.254999)
+		(end 130.529999 107.805)
+		(width 0.25)
 		(layer "F.Cu")
 		(net 304)
-		(uuid "3a4d0594-594f-4692-b22a-200473321e8b")
+		(uuid "16eff65d-ccc0-45fe-ae48-47f76efab4f7")
 	)
 	(segment
-		(start 129.760001 135.642001)
-		(end 130.24 135.642001)
-		(width 0.3)
+		(start 131.04 108.765)
+		(end 130.529999 108.254999)
+		(width 0.25)
 		(layer "F.Cu")
 		(net 304)
-		(uuid "6f31cb52-c0e6-4fc6-ba5d-f4fc6cdb81d6")
+		(uuid "18737435-ea39-4024-9268-5b7f99bff542")
 	)
 	(segment
-		(start 129.04 134.922)
-		(end 129.760001 135.642001)
-		(width 0.3)
+		(start 131.04 109.035)
+		(end 131.04 108.765)
+		(width 0.25)
 		(layer "F.Cu")
 		(net 304)
-		(uuid "ad09fede-edcd-4282-9a2a-f80d95044113")
+		(uuid "78a9c2a4-edf3-4abb-9197-fa4ac66e9d57")
+	)
+	(segment
+		(start 130.529999 106.76)
+		(end 130.529999 107.805)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 304)
+		(uuid "950c794a-fb93-4f57-8d94-a34c75292ecc")
 	)
 	(segment
 		(start 63.665 68.800001)
@@ -100036,142 +100068,6 @@
 		(layer "F.Cu")
 		(net 305)
 		(uuid "0d7b8ad1-0626-47f0-b232-1cd933e8e393")
-	)
-	(segment
-		(start 117.49 75.88)
-		(end 117.960001 75.88)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 306)
-		(uuid "169de95c-bc93-4526-a0e1-07aa4a9042c9")
-	)
-	(segment
-		(start 119.63 73.995)
-		(end 117.49 73.995)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 306)
-		(uuid "33fc5a29-74ca-4b47-bebf-d7787dff9bd9")
-	)
-	(segment
-		(start 117.49 73.995)
-		(end 115.33 73.995)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 306)
-		(uuid "6f269317-6edf-4fe3-86d9-9b425a2a7384")
-	)
-	(segment
-		(start 117.49 75.88)
-		(end 117.49 73.995)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 306)
-		(uuid "ab4d445f-54c2-4c3d-b071-43724e176dcb")
-	)
-	(segment
-		(start 115.33 73.995)
-		(end 114.284999 73.995)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 306)
-		(uuid "acb8cbc3-8f3d-4b60-81d8-9b1cc67fbfc1")
-	)
-	(segment
-		(start 117.009999 75.88)
-		(end 117.49 75.88)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 306)
-		(uuid "fc5a798d-30c5-45ac-bc00-809824de06c2")
-	)
-	(segment
-		(start 114.284999 73.995)
-		(end 114.11 74.169999)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 306)
-		(uuid "fe13fab2-51f0-4dc0-9032-658ec6603904")
-	)
-	(segment
-		(start 114.52 55.775)
-		(end 114.52 51.595)
-		(width 0.3)
-		(layer "In2.Cu")
-		(net 307)
-		(uuid "26dee1cc-ccb2-450d-a408-15a31e2343cd")
-	)
-	(segment
-		(start 105.88 51.595)
-		(end 114.52 51.595)
-		(width 0.3)
-		(layer "In2.Cu")
-		(net 307)
-		(uuid "70039ab2-ee69-447f-86fa-de5bfbfdb25e")
-	)
-	(segment
-		(start 105.88 55.775)
-		(end 105.88 51.595)
-		(width 0.3)
-		(layer "In2.Cu")
-		(net 307)
-		(uuid "f7f78493-5c95-42b7-97dc-fc038473d06e")
-	)
-	(segment
-		(start 130.529999 108.254999)
-		(end 130.529999 107.805)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 308)
-		(uuid "16eff65d-ccc0-45fe-ae48-47f76efab4f7")
-	)
-	(segment
-		(start 131.04 108.765)
-		(end 130.529999 108.254999)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 308)
-		(uuid "18737435-ea39-4024-9268-5b7f99bff542")
-	)
-	(segment
-		(start 131.04 109.035)
-		(end 131.04 108.765)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 308)
-		(uuid "78a9c2a4-edf3-4abb-9197-fa4ac66e9d57")
-	)
-	(segment
-		(start 130.529999 106.76)
-		(end 130.529999 107.805)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 308)
-		(uuid "950c794a-fb93-4f57-8d94-a34c75292ecc")
-	)
-	(segment
-		(start 92.14 101.593)
-		(end 91.419999 100.873)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 309)
-		(uuid "375920d9-5b47-40f6-887d-7d98a460c402")
-	)
-	(segment
-		(start 92.14 102.520002)
-		(end 92.14 101.593)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 309)
-		(uuid "c8128dfd-0fbc-463e-8f16-bde5e3702a0f")
-	)
-	(segment
-		(start 91.419999 100.873)
-		(end 90.939999 100.873)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 309)
-		(uuid "fb0b9797-d631-412a-af0b-38089b636c0c")
 	)
 	(segment
 		(start 127.225002 62.790002)
@@ -100330,7 +100226,7 @@
 		(end 123.205001 62.790002)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 321)
+		(net 315)
 		(uuid "fea1ea47-26d2-447f-a0df-87427bfe6506")
 	)
 	(segment
@@ -100338,7 +100234,7 @@
 		(end 121.955001 62.790002)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 322)
+		(net 316)
 		(uuid "75b70eb1-7a2a-4131-b7e3-2e3279a85389")
 	)
 	(segment
@@ -100346,7 +100242,7 @@
 		(end 118.45 51.11)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 323)
+		(net 317)
 		(uuid "c879962a-fd0e-4f58-be89-0537321d3370")
 	)
 	(segment
@@ -100354,7 +100250,7 @@
 		(end 118.249999 51.310001)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 323)
+		(net 317)
 		(uuid "ff0e4c7b-59de-4fba-b4f5-6e50bc7ceb81")
 	)
 	(segment
@@ -100362,7 +100258,7 @@
 		(end 133.74 106.585)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 324)
+		(net 320)
 		(uuid "0304f77c-e85c-436a-b8aa-58c2e9f33736")
 	)
 	(segment
@@ -100370,7 +100266,7 @@
 		(end 133.21 106.585)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 324)
+		(net 320)
 		(uuid "52967dad-1e7b-4673-9996-6ded486db2a6")
 	)
 	(segment
@@ -100378,7 +100274,7 @@
 		(end 133.009999 106.785001)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 324)
+		(net 320)
 		(uuid "739df6e9-eaad-42f8-8010-54291728bae1")
 	)
 	(segment
@@ -100386,7 +100282,7 @@
 		(end 100.580002 126.11)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 325)
+		(net 321)
 		(uuid "2efec276-abff-4c4b-9d53-1d13b57a2068")
 	)
 	(segment
@@ -100394,7 +100290,7 @@
 		(end 99.460002 124.85)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 326)
+		(net 322)
 		(uuid "94698962-6943-46d3-8bd3-22afdad8c3ae")
 	)
 	(segment
@@ -100402,7 +100298,7 @@
 		(end 87.58 126.11)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 327)
+		(net 323)
 		(uuid "6226610b-627a-4a8c-895f-514d6522a0b9")
 	)
 	(segment
@@ -100410,7 +100306,7 @@
 		(end 86.46 124.85)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 328)
+		(net 324)
 		(uuid "193b5086-bdda-4d00-8bc6-3f226cd4a1ad")
 	)
 	(segment
@@ -100734,6 +100630,134 @@
 		(uuid "de0e38b2-68b3-40b9-9b59-749c9bcd2d8d")
 	)
 	(segment
+		(start 125.765001 137.295001)
+		(end 127.82 137.295001)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 397)
+		(uuid "213b86f4-3441-4af6-8509-e5dc1120fefc")
+	)
+	(segment
+		(start 125.61 137.14)
+		(end 125.765001 137.295001)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 397)
+		(uuid "465a1b72-31dd-4b25-bedc-2921ad0afe53")
+	)
+	(segment
+		(start 125.61 136.63)
+		(end 125.61 137.14)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 397)
+		(uuid "5a42e59c-75e4-4485-af8e-bebb2a64c937")
+	)
+	(segment
+		(start 128.09 137.025001)
+		(end 128.09 136.395)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 397)
+		(uuid "6818a0a8-8349-44e3-9981-0fafc6fb0f97")
+	)
+	(segment
+		(start 127.82 137.295001)
+		(end 128.09 137.025001)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 397)
+		(uuid "7177f9c3-8249-411a-9488-ec63bef9558e")
+	)
+	(segment
+		(start 132.04 109.035)
+		(end 132.04 108.755)
+		(width 0.15)
+		(layer "F.Cu")
+		(net 398)
+		(uuid "3d20e22d-e66e-4f36-ba79-3e599f5682f9")
+	)
+	(segment
+		(start 132.04 108.755)
+		(end 132.59 108.205)
+		(width 0.15)
+		(layer "F.Cu")
+		(net 398)
+		(uuid "be1dd2e8-6e29-4f6e-a9b4-54178dac405b")
+	)
+	(segment
+		(start 132.59 108.205)
+		(end 132.59 107.784999)
+		(width 0.15)
+		(layer "F.Cu")
+		(net 398)
+		(uuid "fb39998a-c25d-46c8-9129-02fbb7ca5533")
+	)
+	(segment
+		(start 91.091499 82.67)
+		(end 91.091498 81.62)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 399)
+		(uuid "315296c0-a977-4e37-a8ec-a0bcfef6f16a")
+	)
+	(segment
+		(start 91.6415 83.220001)
+		(end 91.091499 82.67)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 399)
+		(uuid "8a2e46dc-4622-425d-a951-0be9e9726191")
+	)
+	(segment
+		(start 91.6415 83.6515)
+		(end 91.6415 83.220001)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 399)
+		(uuid "a47ef89b-b2da-44c6-a89f-63df078a26ef")
+	)
+	(segment
+		(start 92.58 83.29)
+		(end 92.4415 83.4285)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 400)
+		(uuid "36df1388-cee0-4645-b519-54c5684f9885")
+	)
+	(segment
+		(start 94.991499 82.67)
+		(end 94.991499 83.190001)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 400)
+		(uuid "8bd63be4-f4e4-428a-98d0-6c85ead63ede")
+	)
+	(segment
+		(start 94.991499 83.190001)
+		(end 94.8915 83.29)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 400)
+		(uuid "b5ab4468-beae-40ff-801b-c6e82670087c")
+	)
+	(segment
+		(start 94.8915 83.29)
+		(end 92.58 83.29)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 400)
+		(uuid "b7a2ccea-13aa-45f6-b2d3-6f8e9cf964f4")
+	)
+	(segment
+		(start 92.4415 83.4285)
+		(end 92.4415 83.6515)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 400)
+		(uuid "cde0043e-ac04-427e-bd8a-4861a66ce617")
+	)
+	(segment
 		(start 95.236999 99.22)
 		(end 93.359999 99.22)
 		(width 0.3)
@@ -101030,28 +101054,68 @@
 		(uuid "b4dfec65-be89-43fa-99e8-136c9045c67a")
 	)
 	(segment
-		(start 132.04 109.035)
-		(end 132.04 108.755)
+		(start 119.985 67.655)
+		(end 120.16 67.48)
 		(width 0.15)
 		(layer "F.Cu")
 		(net 406)
-		(uuid "3d20e22d-e66e-4f36-ba79-3e599f5682f9")
+		(uuid "0ca7aeeb-157d-48a0-921f-b5fc17eb8240")
 	)
 	(segment
-		(start 132.04 108.755)
-		(end 132.59 108.205)
+		(start 121.36 71.65)
+		(end 120.315 72.695)
 		(width 0.15)
 		(layer "F.Cu")
 		(net 406)
-		(uuid "be1dd2e8-6e29-4f6e-a9b4-54178dac405b")
+		(uuid "256ba75c-d33c-4b9b-8af9-ecc820e2153c")
 	)
 	(segment
-		(start 132.59 108.205)
-		(end 132.59 107.784999)
+		(start 121.36 68.02)
+		(end 121.36 71.65)
 		(width 0.15)
 		(layer "F.Cu")
 		(net 406)
-		(uuid "fb39998a-c25d-46c8-9129-02fbb7ca5533")
+		(uuid "72acb7f2-add2-4ece-9d7d-5931c4f690d3")
+	)
+	(segment
+		(start 120.82 67.48)
+		(end 121.36 68.02)
+		(width 0.15)
+		(layer "F.Cu")
+		(net 406)
+		(uuid "83d5c444-e726-4163-9e3e-207b4c08660c")
+	)
+	(segment
+		(start 120.315 72.695)
+		(end 119.63 72.695)
+		(width 0.15)
+		(layer "F.Cu")
+		(net 406)
+		(uuid "8402fb55-c1eb-42cd-92ba-1cee9031a1c1")
+	)
+	(segment
+		(start 119.63 71.44)
+		(end 119.63 72.695)
+		(width 0.15)
+		(layer "F.Cu")
+		(net 406)
+		(uuid "9581eb72-415d-43f1-999a-e8bb5c34e6d5")
+	)
+	(segment
+		(start 120.16 67.48)
+		(end 120.82 67.48)
+		(width 0.15)
+		(layer "F.Cu")
+		(net 406)
+		(uuid "c0d4c7c8-2ebd-4a90-8539-50c65045928c")
+	)
+	(segment
+		(start 119.38 67.655)
+		(end 119.985 67.655)
+		(width 0.15)
+		(layer "F.Cu")
+		(net 406)
+		(uuid "f3c0b8d2-12ce-4a55-a4c7-1b2d54e682c9")
 	)
 	(segment
 		(start 118.915 137.187651)
@@ -101094,75 +101158,11 @@
 		(uuid "c7d4ab7e-0d92-4005-b3fd-9ce24f37e83a")
 	)
 	(segment
-		(start 119.985 67.655)
-		(end 120.16 67.48)
-		(width 0.15)
-		(layer "F.Cu")
-		(net 408)
-		(uuid "0ca7aeeb-157d-48a0-921f-b5fc17eb8240")
-	)
-	(segment
-		(start 121.36 71.65)
-		(end 120.315 72.695)
-		(width 0.15)
-		(layer "F.Cu")
-		(net 408)
-		(uuid "256ba75c-d33c-4b9b-8af9-ecc820e2153c")
-	)
-	(segment
-		(start 121.36 68.02)
-		(end 121.36 71.65)
-		(width 0.15)
-		(layer "F.Cu")
-		(net 408)
-		(uuid "72acb7f2-add2-4ece-9d7d-5931c4f690d3")
-	)
-	(segment
-		(start 120.82 67.48)
-		(end 121.36 68.02)
-		(width 0.15)
-		(layer "F.Cu")
-		(net 408)
-		(uuid "83d5c444-e726-4163-9e3e-207b4c08660c")
-	)
-	(segment
-		(start 120.315 72.695)
-		(end 119.63 72.695)
-		(width 0.15)
-		(layer "F.Cu")
-		(net 408)
-		(uuid "8402fb55-c1eb-42cd-92ba-1cee9031a1c1")
-	)
-	(segment
-		(start 119.63 71.44)
-		(end 119.63 72.695)
-		(width 0.15)
-		(layer "F.Cu")
-		(net 408)
-		(uuid "9581eb72-415d-43f1-999a-e8bb5c34e6d5")
-	)
-	(segment
-		(start 120.16 67.48)
-		(end 120.82 67.48)
-		(width 0.15)
-		(layer "F.Cu")
-		(net 408)
-		(uuid "c0d4c7c8-2ebd-4a90-8539-50c65045928c")
-	)
-	(segment
-		(start 119.38 67.655)
-		(end 119.985 67.655)
-		(width 0.15)
-		(layer "F.Cu")
-		(net 408)
-		(uuid "f3c0b8d2-12ce-4a55-a4c7-1b2d54e682c9")
-	)
-	(segment
 		(start 115.14 72.505)
 		(end 115.33 72.695)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 409)
+		(net 408)
 		(uuid "33fd40d0-c8e8-444c-96e6-ee80d6e2e1b0")
 	)
 	(segment
@@ -101170,7 +101170,7 @@
 		(end 116.19 72.69)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 409)
+		(net 408)
 		(uuid "9b00ca41-e7ee-4a30-ac6b-ce973bb7fe2e")
 	)
 	(segment
@@ -101178,7 +101178,7 @@
 		(end 116.185 72.695)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 409)
+		(net 408)
 		(uuid "b3caf97b-ed51-40a5-abb7-34dc3f293e83")
 	)
 	(segment
@@ -101186,7 +101186,7 @@
 		(end 115.14 72.505)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 409)
+		(net 408)
 		(uuid "e8d9bab2-a6ea-4e25-8800-e661fb3f74cf")
 	)
 	(segment
@@ -101194,7 +101194,7 @@
 		(end 117.805 66.08)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 409)
+		(net 408)
 		(uuid "fc520379-2582-435e-a95d-814a96b1d615")
 	)
 	(via
@@ -101202,7 +101202,7 @@
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 409)
+		(net 408)
 		(uuid "aefe7737-2f77-4f3a-b9cd-b5c9ad823bd2")
 	)
 	(via
@@ -101210,7 +101210,7 @@
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 409)
+		(net 408)
 		(uuid "cb978d43-a3d4-4007-83d3-73f53a044646")
 	)
 	(segment
@@ -101218,7 +101218,7 @@
 		(end 117.69 71.28)
 		(width 0.15)
 		(layer "B.Cu")
-		(net 409)
+		(net 408)
 		(uuid "31c977c6-8c38-4c4d-ab6f-e2ebb444ed83")
 	)
 	(segment
@@ -101226,7 +101226,7 @@
 		(end 116.95 72.69)
 		(width 0.15)
 		(layer "B.Cu")
-		(net 409)
+		(net 408)
 		(uuid "4c3b48d9-05c0-48e0-a2a7-7997937a70b8")
 	)
 	(segment
@@ -101234,7 +101234,7 @@
 		(end 117.805 66.405)
 		(width 0.15)
 		(layer "B.Cu")
-		(net 409)
+		(net 408)
 		(uuid "78375b66-8592-42ea-987a-00b59e5b38de")
 	)
 	(segment
@@ -101242,7 +101242,7 @@
 		(end 117.69 71.95)
 		(width 0.15)
 		(layer "B.Cu")
-		(net 409)
+		(net 408)
 		(uuid "882f258d-2394-479d-90b0-43b99dc4ca64")
 	)
 	(segment
@@ -101250,7 +101250,7 @@
 		(end 116.69 68.24)
 		(width 0.15)
 		(layer "B.Cu")
-		(net 409)
+		(net 408)
 		(uuid "8df6972f-0116-47e6-86da-48e44fca8913")
 	)
 	(segment
@@ -101258,7 +101258,7 @@
 		(end 116.69 67.52)
 		(width 0.15)
 		(layer "B.Cu")
-		(net 409)
+		(net 408)
 		(uuid "a9d73cc3-d6b9-484d-bc20-546704598985")
 	)
 	(segment
@@ -101266,7 +101266,7 @@
 		(end 117.423417 71.013417)
 		(width 0.15)
 		(layer "B.Cu")
-		(net 409)
+		(net 408)
 		(uuid "aafde8f5-11ee-4dfe-a655-9529f62f818e")
 	)
 	(segment
@@ -101274,7 +101274,7 @@
 		(end 116.19 72.69)
 		(width 0.15)
 		(layer "B.Cu")
-		(net 409)
+		(net 408)
 		(uuid "b55afed7-0dbb-464b-9818-aedbbd76fe1e")
 	)
 	(segment
@@ -101282,7 +101282,7 @@
 		(end 117.423417 68.973417)
 		(width 0.15)
 		(layer "B.Cu")
-		(net 409)
+		(net 408)
 		(uuid "db8e1416-7a55-4e41-bd66-d03cfe7f09a9")
 	)
 	(segment
@@ -102348,8 +102348,8 @@
 		)
 	)
 	(zone
-		(net 307)
-		(net_name "Net-(J11-SHIELD)")
+		(net 299)
+		(net_name "Net-(J10-SHIELD)")
 		(layer "F.Cu")
 		(uuid "820f4ce3-1413-4b36-9209-c7a4927880f8")
 		(hatch edge 0.5)
