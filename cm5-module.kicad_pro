@@ -1283,28 +1283,36 @@
       "Backplane"
     ],
     [
-      "dfbce24a-51ce-450d-9d41-776080287e8b",
-      "CM5"
+      "1a7e8e9e-4938-4afe-9bd8-99b5f46ce255",
+      "Power"
     ],
     [
       "5294994f-978a-402b-88d5-51652b617c01",
       "Ideal diode 0"
     ],
     [
+      "e1a72d8b-1f32-454e-9b3f-c70db5c18468",
+      "Ideal diode 1"
+    ],
+    [
+      "08db41c3-6072-4efd-8ef3-93ca0731ae13",
+      "Ideal diode 2"
+    ],
+    [
+      "dfbce24a-51ce-450d-9d41-776080287e8b",
+      "CM5"
+    ],
+    [
       "18a4552b-ac02-46c8-954e-f58b32a322f0",
       "M.2"
     ],
     [
-      "dd50f821-f925-406c-ae05-a2a500dfc6d6",
-      "RJ45"
+      "df5d742e-fec8-4307-bd86-008404d5e8ea",
+      "SD card"
     ],
     [
       "658b004a-eb7c-4ad1-a8df-d1cd97b62092",
       "USB"
-    ],
-    [
-      "ad3d5826-cab5-4231-8219-c7d7eaea11f6",
-      "HDMI"
     ],
     [
       "05afd91b-987f-4955-bfc3-ea0accf4f845",
@@ -1315,20 +1323,8 @@
       "USB hub"
     ],
     [
-      "1a7e8e9e-4938-4afe-9bd8-99b5f46ce255",
-      "Power"
-    ],
-    [
-      "e1a72d8b-1f32-454e-9b3f-c70db5c18468",
-      "Ideal diode 1"
-    ],
-    [
-      "df5d742e-fec8-4307-bd86-008404d5e8ea",
-      "SD card"
-    ],
-    [
-      "08db41c3-6072-4efd-8ef3-93ca0731ae13",
-      "Ideal diode 2"
+      "68eae20e-0e1b-4ef5-aecc-d5a324940476",
+      "USB switch"
     ],
     [
       "1ecfee1b-3e5d-4e7d-896c-0cbef36fe0e5",
@@ -1339,8 +1335,12 @@
       "CAN to USB 2"
     ],
     [
-      "68eae20e-0e1b-4ef5-aecc-d5a324940476",
-      "USB switch"
+      "dd50f821-f925-406c-ae05-a2a500dfc6d6",
+      "RJ45"
+    ],
+    [
+      "ad3d5826-cab5-4231-8219-c7d7eaea11f6",
+      "HDMI"
     ]
   ],
   "text_variables": {
