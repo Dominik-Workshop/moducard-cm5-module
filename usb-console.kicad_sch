@@ -5788,6 +5788,22 @@
 		)
 		(uuid "f9730324-101c-4c65-9325-6ef0ddc7103a")
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 152.4 147.32) (xy 149.86 147.32) (xy 149.86 137.16) (xy 171.45 137.16) (xy 171.45 147.32) (xy 168.91 147.32)
+				(xy 168.91 139.7) (xy 152.4 139.7)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 4bc2bec9-e66d-4a48-90af-145f74874330)
+		)
+	)
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
@@ -5814,6 +5830,37 @@
 					(size 1.27 1.27)
 					(italic yes)
 				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 171.45 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd892ecf-19d8-4195-9931-1e4de5fd86fb")
+		(property "Netclass" "USB_90Ohm_diff"
+			(at 170.688 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 398.78 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 			)
 		)
 	)

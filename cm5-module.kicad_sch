@@ -191,7 +191,7 @@
 		(uuid "60209c94-f801-4eb6-9ea2-07592ec953ac")
 	)
 	(no_connect
-		(at 214.63 139.7)
+		(at 214.63 135.89)
 		(uuid "956fbf1f-7898-4082-aa0c-7a9cec485177")
 	)
 	(no_connect
@@ -326,6 +326,16 @@
 		)
 		(uuid "3a95d467-a7c8-436e-a3e7-757d634c8eb1")
 	)
+	(wire
+		(pts
+			(xy 214.63 147.32) (xy 227.33 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b1a5176-e206-416c-91dd-721c23309f07")
+	)
 	(bus
 		(pts
 			(xy 107.95 135.89) (xy 107.95 106.68)
@@ -399,7 +409,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 114.3) (xy 220.98 128.27)
+			(xy 220.98 114.3) (xy 220.98 127)
 		)
 		(stroke
 			(width 0)
@@ -440,7 +450,7 @@
 	)
 	(bus
 		(pts
-			(xy 257.81 125.73) (xy 223.52 125.73)
+			(xy 257.81 124.46) (xy 223.52 124.46)
 		)
 		(stroke
 			(width 0)
@@ -502,7 +512,7 @@
 	)
 	(bus
 		(pts
-			(xy 223.52 125.73) (xy 223.52 116.84)
+			(xy 223.52 124.46) (xy 223.52 116.84)
 		)
 		(stroke
 			(width 0)
@@ -610,16 +620,6 @@
 			(type default)
 		)
 		(uuid "983fdb35-a640-4520-bb36-1e0f81267491")
-	)
-	(bus
-		(pts
-			(xy 214.63 149.86) (xy 227.33 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3acc37f-0393-4b62-8ddb-1a4deed9c2de")
 	)
 	(wire
 		(pts
@@ -734,7 +734,7 @@
 	)
 	(bus
 		(pts
-			(xy 257.81 158.75) (xy 257.81 125.73)
+			(xy 257.81 158.75) (xy 257.81 124.46)
 		)
 		(stroke
 			(width 0)
@@ -744,7 +744,7 @@
 	)
 	(bus
 		(pts
-			(xy 214.63 137.16) (xy 227.33 137.16)
+			(xy 214.63 133.35) (xy 227.33 133.35)
 		)
 		(stroke
 			(width 0)
@@ -804,7 +804,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 128.27) (xy 255.27 156.21)
+			(xy 255.27 127) (xy 255.27 156.21)
 		)
 		(stroke
 			(width 0)
@@ -854,7 +854,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 128.27) (xy 255.27 128.27)
+			(xy 220.98 127) (xy 255.27 127)
 		)
 		(stroke
 			(width 0)
@@ -882,6 +882,26 @@
 			(type default)
 		)
 		(uuid "f7e8711b-38e4-4e3d-a836-6a3f77591069")
+	)
+	(wire
+		(pts
+			(xy 214.63 149.86) (xy 227.33 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8f1cec2-1cda-4f40-9b44-c4a389cd08bc")
+	)
+	(bus
+		(pts
+			(xy 214.63 144.78) (xy 227.33 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf6c8c3-1d83-4482-82d8-a0e630c61535")
 	)
 	(symbol
 		(lib_id "DW-test-points:TP_SMD_0.75mm")
@@ -1594,7 +1614,7 @@
 		)
 	)
 	(sheet
-		(at 227.33 134.62)
+		(at 227.33 130.81)
 		(size 25.4 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1610,7 +1630,7 @@
 		)
 		(uuid "ad3d5826-cab5-4231-8219-c7d7eaea11f6")
 		(property "Sheetname" "HDMI"
-			(at 227.33 133.9084 0)
+			(at 227.33 130.0984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1619,7 +1639,7 @@
 			)
 		)
 		(property "Sheetfile" "hdmi.kicad_sch"
-			(at 227.33 140.2846 0)
+			(at 227.33 136.4746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,7 +1648,7 @@
 			)
 		)
 		(pin "HDMI{HDMI}" bidirectional
-			(at 227.33 137.16 180)
+			(at 227.33 133.35 180)
 			(uuid "80b6e438-65c3-486b-9f13-017c3b897148")
 			(effects
 				(font
@@ -1646,8 +1666,8 @@
 		)
 	)
 	(sheet
-		(at 227.33 147.32)
-		(size 25.4 5.08)
+		(at 227.33 142.24)
+		(size 25.4 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1662,7 +1682,7 @@
 		)
 		(uuid "dd50f821-f925-406c-ae05-a2a500dfc6d6")
 		(property "Sheetname" "RJ45"
-			(at 227.33 146.6084 0)
+			(at 227.33 141.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1680,8 +1700,28 @@
 			)
 		)
 		(pin "ETH{ETHERNET}" bidirectional
-			(at 227.33 149.86 180)
+			(at 227.33 144.78 180)
 			(uuid "d0405e40-80fa-4dc6-a201-b7df51c9d6d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_ACT" input
+			(at 227.33 147.32 180)
+			(uuid "96042748-fab8-4232-a11b-f044da3338e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_LINK" input
+			(at 227.33 149.86 180)
+			(uuid "4ddc57e2-4325-40b2-8a30-a27d7ef8fa2a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1804,7 +1844,7 @@
 			)
 		)
 		(pin "ETH{ETHERNET}" bidirectional
-			(at 214.63 149.86 0)
+			(at 214.63 144.78 0)
 			(uuid "9fd0a9a8-d3d0-4514-bd06-cbd6d24fec0c")
 			(effects
 				(font
@@ -1864,7 +1904,7 @@
 			)
 		)
 		(pin "HDMI_1{HDMI}" bidirectional
-			(at 214.63 139.7 0)
+			(at 214.63 135.89 0)
 			(uuid "fd653337-7f06-4555-b837-ae658c508ba0")
 			(effects
 				(font
@@ -1874,7 +1914,7 @@
 			)
 		)
 		(pin "HDMI_0{HDMI}" bidirectional
-			(at 214.63 137.16 0)
+			(at 214.63 133.35 0)
 			(uuid "1b217941-9bf1-4911-88a3-56db4b350850")
 			(effects
 				(font
@@ -2066,6 +2106,26 @@
 		(pin "SD_CARD{SDIO}" bidirectional
 			(at 214.63 81.28 0)
 			(uuid "ea45b198-79e7-4dd7-867b-e700f23d65de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_ACT" output
+			(at 214.63 147.32 0)
+			(uuid "a616f98e-fa58-4312-aa75-d94a4656e7f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_LINK" output
+			(at 214.63 149.86 0)
+			(uuid "878bc945-53a7-4212-b4ff-596a73d139a4")
 			(effects
 				(font
 					(size 1.27 1.27)

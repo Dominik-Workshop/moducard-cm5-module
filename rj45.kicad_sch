@@ -3885,12 +3885,6 @@
 		(uuid "bceb5e2b-b9c1-4214-ae74-83b84a7c2531")
 	)
 	(junction
-		(at 118.11 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "021a1ad3-0f1a-4d74-a7c2-70d86d899c28")
-	)
-	(junction
 		(at 163.83 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3901,15 +3895,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f96f0c1f-405d-4819-81c7-9b90e9141cc3")
-	)
-	(bus_entry
-		(at 194.31 130.81)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0774a174-068b-4901-9648-048a4928b27d")
 	)
 	(bus_entry
 		(at 120.65 107.95)
@@ -3982,15 +3967,6 @@
 			(type default)
 		)
 		(uuid "ec1c9cd9-c425-4009-9d5d-a1b46bb64ebc")
-	)
-	(bus_entry
-		(at 194.31 125.73)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff4a3871-fb43-400c-9df6-3f3be4ce95a1")
 	)
 	(wire
 		(pts
@@ -4122,16 +4098,6 @@
 		)
 		(uuid "5ab1e112-7bcb-467f-a864-a4b62d19256b")
 	)
-	(bus
-		(pts
-			(xy 194.31 73.66) (xy 194.31 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60d8b92b-1c89-4624-9f95-2779d51411a7")
-	)
 	(wire
 		(pts
 			(xy 105.41 172.72) (xy 86.36 172.72)
@@ -4204,7 +4170,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 128.27) (xy 191.77 128.27)
+			(xy 173.99 128.27) (xy 179.07 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4244,7 +4210,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 133.35) (xy 191.77 133.35)
+			(xy 173.99 133.35) (xy 179.07 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4311,16 +4277,6 @@
 			(type default)
 		)
 		(uuid "b3e91b12-506f-4619-84e0-339a6e8321ef")
-	)
-	(bus
-		(pts
-			(xy 118.11 73.66) (xy 194.31 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bda73bd3-bd3b-4d26-9b73-d606e580dd25")
 	)
 	(wire
 		(pts
@@ -4442,16 +4398,6 @@
 		)
 		(uuid "f38e0691-93d4-4e99-83a6-57cc24b31860")
 	)
-	(bus
-		(pts
-			(xy 194.31 130.81) (xy 194.31 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f59286b4-b5fc-4657-a893-a6c7482b30a9")
-	)
 	(wire
 		(pts
 			(xy 120.65 82.55) (xy 133.35 82.55)
@@ -4481,16 +4427,6 @@
 			(justify right bottom)
 		)
 		(uuid "110538c0-1f4e-48a5-b8ea-dce8d9fc8805")
-	)
-	(label "ETH.LED_LINK"
-		(at 177.8 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2851f448-fa20-4977-acf7-a2ce1eb9a573")
 	)
 	(label "ETH.D4-"
 		(at 132.08 118.11 180)
@@ -4602,16 +4538,6 @@
 		)
 		(uuid "9b04b513-76b9-4d9b-99a0-1237cd106d93")
 	)
-	(label "ETH.LED_ACT"
-		(at 177.8 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab3d9c4a-b000-4f02-8e49-856f04525cae")
-	)
 	(label "ETH.D4+"
 		(at 127 170.18 0)
 		(effects
@@ -4641,6 +4567,28 @@
 			(justify right bottom)
 		)
 		(uuid "f108f6ae-ddd4-4b83-94fb-3200263308a1")
+	)
+	(hierarchical_label "LED_ACT"
+		(shape input)
+		(at 179.07 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "493612f6-d5de-4290-8826-974ce8b8e0fd")
+	)
+	(hierarchical_label "LED_LINK"
+		(shape input)
+		(at 179.07 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b90d2d8-8160-40a5-b192-b3bff5e1fe99")
 	)
 	(hierarchical_label "ETH{ETHERNET}"
 		(shape bidirectional)
