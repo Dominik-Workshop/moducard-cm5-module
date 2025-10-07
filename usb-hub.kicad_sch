@@ -1958,7 +1958,7 @@
 		(uuid "9f1d2c99-9866-4264-aaf9-25e65d347708")
 	)
 	(bus_entry
-		(at 96.52 107.95)
+		(at 83.82 107.95)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -2012,7 +2012,7 @@
 		(uuid "6f20cac5-63b6-455c-87e8-a52cb81caea9")
 	)
 	(bus_entry
-		(at 96.52 110.49)
+		(at 83.82 110.49)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -2079,7 +2079,7 @@
 	)
 	(bus
 		(pts
-			(xy 95.25 114.3) (xy 92.71 114.3)
+			(xy 82.55 114.3) (xy 80.01 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2129,7 +2129,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 107.95) (xy 99.06 107.95)
+			(xy 105.41 107.95) (xy 86.36 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2189,7 +2189,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 105.41) (xy 99.06 105.41)
+			(xy 105.41 105.41) (xy 86.36 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2199,7 +2199,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 107.95) (xy 96.52 110.49)
+			(xy 83.82 107.95) (xy 83.82 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2439,7 +2439,7 @@
 	)
 	(bus
 		(pts
-			(xy 95.25 114.3) (xy 96.52 113.03)
+			(xy 82.55 114.3) (xy 83.82 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2499,7 +2499,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 110.49) (xy 96.52 113.03)
+			(xy 83.82 110.49) (xy 83.82 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2529,7 +2529,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 105.41) (xy 132.08 105.41)
+			(xy 110.49 105.41) (xy 132.08 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2709,7 +2709,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 107.95) (xy 132.08 107.95)
+			(xy 110.49 107.95) (xy 132.08 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2847,7 +2847,7 @@
 		)
 		(uuid "a59db1e6-3a00-45da-bdae-edfe180693c8")
 	)
-	(label "USB_HUB.D-"
+	(label "USB_HUB_R.D-"
 		(at 129.54 107.95 180)
 		(effects
 			(font
@@ -2868,6 +2868,16 @@
 		(uuid "b8abd7ce-9360-4774-a81a-852329cc29f0")
 	)
 	(label "USB_HUB.D+"
+		(at 100.33 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c596a438-9191-4e48-b528-393d0727604b")
+	)
+	(label "USB_HUB_R.D+"
 		(at 129.54 105.41 180)
 		(effects
 			(font
@@ -2886,6 +2896,16 @@
 			(justify left bottom)
 		)
 		(uuid "d05fcc99-27f9-4000-ba9a-6b249b4a51d1")
+	)
+	(label "USB_HUB.D-"
+		(at 100.33 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d2b564d8-9ebb-4270-b64e-26b52390a55f")
 	)
 	(label "USB_3_R.D+"
 		(at 161.29 113.03 0)
@@ -2941,7 +2961,7 @@
 	)
 	(hierarchical_label "USB_HUB{USB}"
 		(shape bidirectional)
-		(at 92.71 114.3 180)
+		(at 80.01 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2990,7 +3010,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 93.98 110.49) (xy 130.81 110.49) (xy 130.81 101.6) (xy 93.98 101.6)
+				(xy 81.28 110.49) (xy 130.81 110.49) (xy 130.81 101.6) (xy 81.28 101.6)
 			)
 			(stroke
 				(width 0)
@@ -3005,7 +3025,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 93.98 101.6 0)
+		(at 81.28 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3014,7 +3034,7 @@
 		)
 		(uuid "0f8d0b7e-2756-47a1-9c87-86fcb5cc8328")
 		(property "Netclass" "USB_90Ohm_diff"
-			(at 94.742 99.06 0)
+			(at 82.042 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3023,7 +3043,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -133.35 -59.69 0)
+			(at -146.05 -59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3102,7 +3122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0599c024-9f69-4748-9ff1-51d31925c12a")
-		(property "Reference" "D8"
+		(property "Reference" "D17"
 			(at 164.084 80.01 90)
 			(effects
 				(font
@@ -3219,7 +3239,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/4f95f4d3-6409-4bd0-9a25-1272a43f6549"
-					(reference "D8")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -3234,7 +3254,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06089692-0ad0-4df0-a8ad-39f1f057b08e")
-		(property "Reference" "U5"
+		(property "Reference" "U11"
 			(at 145.288 85.852 0)
 			(effects
 				(font
@@ -3372,7 +3392,7 @@
 		(instances
 			(project ""
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/4f95f4d3-6409-4bd0-9a25-1272a43f6549"
-					(reference "U5")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -3387,7 +3407,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0fbdf154-8c03-4e16-bf66-2102b3aee5c2")
-		(property "Reference" "R32"
+		(property "Reference" "R61"
 			(at 181.61 114.3 0)
 			(effects
 				(font
@@ -3504,7 +3524,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/4f95f4d3-6409-4bd0-9a25-1272a43f6549"
-					(reference "R32")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -3519,7 +3539,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10e4e303-1962-49b3-a51c-a5c1cbe872b1")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR0133"
 			(at 96.52 93.98 0)
 			(effects
 				(font
@@ -3569,7 +3589,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/4f95f4d3-6409-4bd0-9a25-1272a43f6549"
-					(reference "#PWR070")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -3585,7 +3605,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15f764c1-2e6e-4d53-8597-ad516f57f3a1")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR0136"
 			(at 121.92 132.08 0)
 			(effects
 				(font
@@ -3635,7 +3655,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/4f95f4d3-6409-4bd0-9a25-1272a43f6549"
-					(reference "#PWR073")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -3650,7 +3670,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "166a5224-93ad-426d-8098-a4c9af9bc158")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR0134"
 			(at 105.41 93.98 0)
 			(effects
 				(font
@@ -3700,7 +3720,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/4f95f4d3-6409-4bd0-9a25-1272a43f6549"
-					(reference "#PWR071")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -3715,7 +3735,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c71e973-6d9b-4031-8fc1-a8599c6a6596")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR0137"
 			(at 129.54 132.08 0)
 			(effects
 				(font
@@ -3765,7 +3785,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/4f95f4d3-6409-4bd0-9a25-1272a43f6549"
-					(reference "#PWR074")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -3780,7 +3800,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36ba1ff1-88a2-4779-9708-fce626c90466")
-		(property "Reference" "R29"
+		(property "Reference" "R57"
 			(at 181.61 104.14 0)
 			(effects
 				(font
@@ -3897,7 +3917,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/4f95f4d3-6409-4bd0-9a25-1272a43f6549"
-					(reference "R29")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -3912,7 +3932,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3762d182-bf5b-4c57-8d3a-6e0a48f858ba")
-		(property "Reference" "R34"
+		(property "Reference" "R63"
 			(at 181.61 121.92 0)
 			(effects
 				(font
@@ -4029,7 +4049,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/4f95f4d3-6409-4bd0-9a25-1272a43f6549"
-					(reference "R34")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -4044,7 +4064,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "440e3e07-2e50-4377-a2fd-548eb699f8a4")
-		(property "Reference" "R26"
+		(property "Reference" "R53"
 			(at 164.084 86.36 90)
 			(effects
 				(font
@@ -4161,7 +4181,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/4f95f4d3-6409-4bd0-9a25-1272a43f6549"
-					(reference "R26")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -4176,7 +4196,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "527f3293-82b1-483d-9afe-7310481081f7")
-		(property "Reference" "R28"
+		(property "Reference" "R55"
 			(at 181.61 99.06 0)
 			(effects
 				(font
@@ -4293,7 +4313,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/4f95f4d3-6409-4bd0-9a25-1272a43f6549"
-					(reference "R28")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -4308,7 +4328,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b2caf5b-690c-4323-a232-3951ea4165b8")
-		(property "Reference" "C22"
+		(property "Reference" "C57"
 			(at 107.442 81.28 90)
 			(effects
 				(font
@@ -4447,7 +4467,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/4f95f4d3-6409-4bd0-9a25-1272a43f6549"
-					(reference "C22")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -4462,7 +4482,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91357091-f8a3-4386-a6f2-511790e5a7db")
-		(property "Reference" "C23"
+		(property "Reference" "C58"
 			(at 122.682 81.28 90)
 			(effects
 				(font
@@ -4601,7 +4621,7 @@
 		(instances
 			(project ""
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/4f95f4d3-6409-4bd0-9a25-1272a43f6549"
-					(reference "C23")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -4616,7 +4636,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "969b8876-b994-4bda-809f-5839cc6f4869")
-		(property "Reference" "C21"
+		(property "Reference" "C56"
 			(at 98.552 81.28 90)
 			(effects
 				(font
@@ -4755,7 +4775,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/4f95f4d3-6409-4bd0-9a25-1272a43f6549"
-					(reference "C21")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -4770,7 +4790,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99a4747d-3d82-4316-965e-49cd3651251c")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR0132"
 			(at 162.56 80.01 0)
 			(effects
 				(font
@@ -4820,7 +4840,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/4f95f4d3-6409-4bd0-9a25-1272a43f6549"
-					(reference "#PWR069")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -4828,15 +4848,15 @@
 	)
 	(symbol
 		(lib_id "DW-resistors:R-0R-0402")
-		(at 104.14 107.95 0)
+		(at 105.41 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9d1f339b-31b4-4960-9f35-fb5a9291aec0")
-		(property "Reference" "R83"
-			(at 104.14 106.68 0)
+		(property "Reference" "R58"
+			(at 105.41 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4846,7 +4866,7 @@
 			)
 		)
 		(property "Value" "R-0R-0402"
-			(at 116.84 110.49 0)
+			(at 118.11 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4857,7 +4877,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:R_0402_1005Metric"
-			(at 116.84 113.03 0)
+			(at 118.11 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4868,7 +4888,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-0402WGF0000TCE_C17168.pdf"
-			(at 116.84 115.57 0)
+			(at 118.11 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4879,7 +4899,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistor 50V ±800ppm/℃ ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 116.84 118.11 0)
+			(at 118.11 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4890,7 +4910,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 116.84 120.65 0)
+			(at 118.11 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4901,7 +4921,7 @@
 			)
 		)
 		(property "MPN" "0402WGF0000TCE"
-			(at 116.84 123.19 0)
+			(at 118.11 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4912,7 +4932,7 @@
 			)
 		)
 		(property "LCSC" "C17168"
-			(at 116.84 125.73 0)
+			(at 118.11 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4923,7 +4943,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 109.22 106.68 0)
+			(at 110.49 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4933,7 +4953,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 116.84 130.81 0)
+			(at 118.11 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4952,7 +4972,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/4f95f4d3-6409-4bd0-9a25-1272a43f6549"
-					(reference "R83")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -4967,7 +4987,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8ea606e-1f1e-4f6a-a700-80a5aee98ee1")
-		(property "Reference" "R33"
+		(property "Reference" "R62"
 			(at 181.61 119.38 0)
 			(effects
 				(font
@@ -5084,7 +5104,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/4f95f4d3-6409-4bd0-9a25-1272a43f6549"
-					(reference "R33")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -5099,7 +5119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0b3eb49-d071-4c47-acbf-6547d1501324")
-		(property "Reference" "R27"
+		(property "Reference" "R54"
 			(at 181.61 96.52 0)
 			(effects
 				(font
@@ -5216,7 +5236,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/4f95f4d3-6409-4bd0-9a25-1272a43f6549"
-					(reference "R27")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -5231,7 +5251,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc6a6b95-6c50-46f5-bff0-adfb2b409950")
-		(property "Reference" "R31"
+		(property "Reference" "R60"
 			(at 181.61 111.76 0)
 			(effects
 				(font
@@ -5348,7 +5368,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/4f95f4d3-6409-4bd0-9a25-1272a43f6549"
-					(reference "R31")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -5521,7 +5541,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5218026-937a-441d-b3fe-634a8ca37065")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR0131"
 			(at 120.65 80.01 0)
 			(effects
 				(font
@@ -5571,7 +5591,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/4f95f4d3-6409-4bd0-9a25-1272a43f6549"
-					(reference "#PWR068")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -5579,15 +5599,15 @@
 	)
 	(symbol
 		(lib_id "DW-resistors:R-0R-0402")
-		(at 104.14 105.41 0)
+		(at 105.41 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e46e258c-72ba-4495-885f-86231a90e118")
-		(property "Reference" "R82"
-			(at 104.14 104.14 0)
+		(property "Reference" "R56"
+			(at 105.41 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5597,7 +5617,7 @@
 			)
 		)
 		(property "Value" "R-0R-0402"
-			(at 116.84 107.95 0)
+			(at 118.11 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5608,7 +5628,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:R_0402_1005Metric"
-			(at 116.84 110.49 0)
+			(at 118.11 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5619,7 +5639,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-0402WGF0000TCE_C17168.pdf"
-			(at 116.84 113.03 0)
+			(at 118.11 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5630,7 +5650,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistor 50V ±800ppm/℃ ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 116.84 115.57 0)
+			(at 118.11 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5641,7 +5661,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 116.84 118.11 0)
+			(at 118.11 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5652,7 +5672,7 @@
 			)
 		)
 		(property "MPN" "0402WGF0000TCE"
-			(at 116.84 120.65 0)
+			(at 118.11 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5663,7 +5683,7 @@
 			)
 		)
 		(property "LCSC" "C17168"
-			(at 116.84 123.19 0)
+			(at 118.11 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5674,7 +5694,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 109.22 104.14 0)
+			(at 110.49 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5684,7 +5704,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 116.84 128.27 0)
+			(at 118.11 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5703,7 +5723,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/4f95f4d3-6409-4bd0-9a25-1272a43f6549"
-					(reference "R82")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -5719,7 +5739,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb1b45c3-aa4e-48b1-970c-5935c55994f3")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR0135"
 			(at 120.65 93.98 0)
 			(effects
 				(font
@@ -5769,7 +5789,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/4f95f4d3-6409-4bd0-9a25-1272a43f6549"
-					(reference "#PWR072")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -5784,7 +5804,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe5f8e83-af28-4af3-b32b-9bb37318e516")
-		(property "Reference" "R30"
+		(property "Reference" "R59"
 			(at 181.61 106.68 0)
 			(effects
 				(font
@@ -5901,7 +5921,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/4f95f4d3-6409-4bd0-9a25-1272a43f6549"
-					(reference "R30")
+					(reference "R59")
 					(unit 1)
 				)
 			)

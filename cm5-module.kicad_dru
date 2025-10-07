@@ -1,0 +1,26 @@
+(version 1)
+
+(rule "clearance PCIe vs main GND zone (outer layers)"
+    (constraint clearance (min 2mm))
+    (condition "(A.Type == 'Zone' && A.Name == 'GND_MAIN' && B.NetClass == 'PCIe_85Ohm_diff' && (B.Layer == 'F.Cu' || B.Layer == 'B.Cu')) || (B.Type == 'Zone' && B.Name == 'GND_MAIN' && A.NetClass == 'PCIe_85Ohm_diff' && (A.Layer == 'F.Cu' || A.Layer == 'B.Cu'))")
+)
+
+(rule "clearance ETH vs main GND zone (outer layers)"
+    (constraint clearance (min 2mm))
+    (condition "(A.Type == 'Zone' && A.Name == 'GND_MAIN' && B.NetClass == 'ETHERNET_100Ohm_diff' && (B.Layer == 'F.Cu' || B.Layer == 'B.Cu')) || (B.Type == 'Zone' && B.Name == 'GND_MAIN' && A.NetClass == 'ETHERNET_100Ohm_diff' && (A.Layer == 'F.Cu' || A.Layer == 'B.Cu'))")
+)
+
+(rule "clearance USB vs main GND zone (outer layers)"
+    (constraint clearance (min 2mm))
+    (condition "(A.Type == 'Zone' && A.Name == 'GND_MAIN' && B.NetClass == 'USB_90Ohm_diff' && (B.Layer == 'F.Cu' || B.Layer == 'B.Cu')) || (B.Type == 'Zone' && B.Name == 'GND_MAIN' && A.NetClass == 'USB_90Ohm_diff' && (A.Layer == 'F.Cu' || A.Layer == 'B.Cu'))")
+)
+
+(rule "clearance HDMI vs main GND zone (outer layers)"
+    (constraint clearance (min 2mm))
+    (condition "(A.Type == 'Zone' && A.Name == 'GND_MAIN' && B.NetClass == 'HDMI_100Ohm_diff' && (B.Layer == 'F.Cu' || B.Layer == 'B.Cu')) || (B.Type == 'Zone' && B.Name == 'GND_MAIN' && A.NetClass == 'HDMI_100Ohm_diff' && (A.Layer == 'F.Cu' || A.Layer == 'B.Cu'))")
+)
+
+(rule "clearance SDIO vs main GND zone (outer layers)"
+    (constraint clearance (min 1mm))
+    (condition "(A.Type == 'Zone' && A.Name == 'GND_MAIN' && B.NetClass == 'SDIO_50Ohm_se' && (B.Layer == 'F.Cu' || B.Layer == 'B.Cu')) || (B.Type == 'Zone' && B.Name == 'GND_MAIN' && A.NetClass == 'SDIO_50Ohm_se' && (A.Layer == 'F.Cu' || A.Layer == 'B.Cu'))")
+)

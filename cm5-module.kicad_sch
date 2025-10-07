@@ -191,7 +191,7 @@
 		(uuid "60209c94-f801-4eb6-9ea2-07592ec953ac")
 	)
 	(no_connect
-		(at 214.63 139.7)
+		(at 214.63 135.89)
 		(uuid "956fbf1f-7898-4082-aa0c-7a9cec485177")
 	)
 	(no_connect
@@ -199,8 +199,8 @@
 		(uuid "b0bacf73-187b-4da3-bb32-72523ccf0c58")
 	)
 	(no_connect
-		(at 76.2 149.86)
-		(uuid "b129805d-77df-4d01-b24e-69bd5be463e6")
+		(at 76.2 142.24)
+		(uuid "b286f40d-7dac-4996-a749-833fab352bb9")
 	)
 	(no_connect
 		(at 63.5 85.09)
@@ -235,26 +235,6 @@
 			(type default)
 		)
 		(uuid "0264e5f1-9458-4369-aabc-8bf3651ef6d6")
-	)
-	(bus
-		(pts
-			(xy 63.5 147.32) (xy 76.2 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1050d1e1-21eb-4134-8f64-42ba03e5c435")
-	)
-	(bus
-		(pts
-			(xy 71.12 133.35) (xy 71.12 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12247e7d-dc29-4a67-b999-39dbba6bb6f6")
 	)
 	(wire
 		(pts
@@ -306,16 +286,6 @@
 		)
 		(uuid "30923a63-9dda-4252-98b7-eb287eb9c66e")
 	)
-	(bus
-		(pts
-			(xy 73.66 142.24) (xy 73.66 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "319ba55a-1f62-4e74-9c3b-906db365ef62")
-	)
 	(wire
 		(pts
 			(xy 227.33 114.3) (xy 220.98 114.3)
@@ -325,6 +295,16 @@
 			(type default)
 		)
 		(uuid "351d7471-992e-4a67-8ba2-f37612bc9188")
+	)
+	(bus
+		(pts
+			(xy 71.12 133.35) (xy 71.12 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373ee232-dfc5-4f4b-8b4f-54b1fba0e556")
 	)
 	(wire
 		(pts
@@ -345,6 +325,16 @@
 			(type default)
 		)
 		(uuid "3a95d467-a7c8-436e-a3e7-757d634c8eb1")
+	)
+	(wire
+		(pts
+			(xy 214.63 147.32) (xy 227.33 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b1a5176-e206-416c-91dd-721c23309f07")
 	)
 	(bus
 		(pts
@@ -378,16 +368,6 @@
 	)
 	(bus
 		(pts
-			(xy 71.12 144.78) (xy 76.2 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "570ad4fc-849c-448f-b388-156052e341be")
-	)
-	(bus
-		(pts
 			(xy 105.41 133.35) (xy 71.12 133.35)
 		)
 		(stroke
@@ -406,6 +386,16 @@
 		)
 		(uuid "598fbd42-b501-41bc-8e27-fab18887139a")
 	)
+	(bus
+		(pts
+			(xy 73.66 135.89) (xy 73.66 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59baa01b-5b15-4991-a2ae-b9de4a520e37")
+	)
 	(polyline
 		(pts
 			(xy 137.795 143.51) (xy 135.89 143.51)
@@ -419,7 +409,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 114.3) (xy 220.98 128.27)
+			(xy 220.98 114.3) (xy 220.98 127)
 		)
 		(stroke
 			(width 0)
@@ -460,7 +450,7 @@
 	)
 	(bus
 		(pts
-			(xy 257.81 125.73) (xy 223.52 125.73)
+			(xy 257.81 124.46) (xy 223.52 124.46)
 		)
 		(stroke
 			(width 0)
@@ -522,7 +512,7 @@
 	)
 	(bus
 		(pts
-			(xy 223.52 125.73) (xy 223.52 116.84)
+			(xy 223.52 124.46) (xy 223.52 116.84)
 		)
 		(stroke
 			(width 0)
@@ -631,16 +621,6 @@
 		)
 		(uuid "983fdb35-a640-4520-bb36-1e0f81267491")
 	)
-	(bus
-		(pts
-			(xy 214.63 149.86) (xy 227.33 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3acc37f-0393-4b62-8ddb-1a4deed9c2de")
-	)
 	(wire
 		(pts
 			(xy 222.25 45.72) (xy 222.25 53.34)
@@ -661,6 +641,16 @@
 			(color 132 0 0 1)
 		)
 		(uuid "be9f5ed8-03c2-4144-bd85-f36eed73a42f")
+	)
+	(bus
+		(pts
+			(xy 76.2 149.86) (xy 71.12 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed6c533-4176-4e70-ba76-e7b91db43ed8")
 	)
 	(wire
 		(pts
@@ -734,16 +724,6 @@
 	)
 	(bus
 		(pts
-			(xy 76.2 142.24) (xy 73.66 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceeaefaf-0fb9-41cb-8a2d-a24c09ffc733")
-	)
-	(bus
-		(pts
 			(xy 214.63 101.6) (xy 227.33 101.6)
 		)
 		(stroke
@@ -754,7 +734,7 @@
 	)
 	(bus
 		(pts
-			(xy 257.81 158.75) (xy 257.81 125.73)
+			(xy 257.81 158.75) (xy 257.81 124.46)
 		)
 		(stroke
 			(width 0)
@@ -764,13 +744,23 @@
 	)
 	(bus
 		(pts
-			(xy 214.63 137.16) (xy 227.33 137.16)
+			(xy 214.63 133.35) (xy 227.33 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d35074c6-0528-409c-9cc7-139c33a6f009")
+	)
+	(bus
+		(pts
+			(xy 63.5 144.78) (xy 76.2 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d37201a9-f32f-4492-8b99-6b8a06c39b87")
 	)
 	(wire
 		(pts
@@ -802,9 +792,19 @@
 		)
 		(uuid "da039c05-1f0d-4121-8d98-083815aa4736")
 	)
+	(bus
+		(pts
+			(xy 73.66 147.32) (xy 76.2 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daa1e93f-f6be-4f53-89c7-d81c2a9604c1")
+	)
 	(wire
 		(pts
-			(xy 255.27 128.27) (xy 255.27 156.21)
+			(xy 255.27 127) (xy 255.27 156.21)
 		)
 		(stroke
 			(width 0)
@@ -854,7 +854,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 128.27) (xy 255.27 128.27)
+			(xy 220.98 127) (xy 255.27 127)
 		)
 		(stroke
 			(width 0)
@@ -882,6 +882,26 @@
 			(type default)
 		)
 		(uuid "f7e8711b-38e4-4e3d-a836-6a3f77591069")
+	)
+	(wire
+		(pts
+			(xy 214.63 149.86) (xy 227.33 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8f1cec2-1cda-4f40-9b44-c4a389cd08bc")
+	)
+	(bus
+		(pts
+			(xy 214.63 144.78) (xy 227.33 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf6c8c3-1d83-4482-82d8-a0e630c61535")
 	)
 	(symbol
 		(lib_id "DW-test-points:TP_SMD_0.75mm")
@@ -1046,7 +1066,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
-					(page "9")
+					(page "11")
 				)
 			)
 		)
@@ -1148,7 +1168,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
-					(page "5")
+					(page "8")
 				)
 			)
 		)
@@ -1220,7 +1240,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
-					(page "11")
+					(page "3")
 				)
 			)
 		)
@@ -1302,7 +1322,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
-					(page "15")
+					(page "14")
 				)
 			)
 		)
@@ -1394,7 +1414,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
-					(page "10")
+					(page "12")
 				)
 			)
 		)
@@ -1506,7 +1526,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
-					(page "7")
+					(page "10")
 				)
 			)
 		)
@@ -1588,13 +1608,13 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
-					(page "17")
+					(page "13")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 227.33 134.62)
+		(at 227.33 130.81)
 		(size 25.4 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1610,7 +1630,7 @@
 		)
 		(uuid "ad3d5826-cab5-4231-8219-c7d7eaea11f6")
 		(property "Sheetname" "HDMI"
-			(at 227.33 133.9084 0)
+			(at 227.33 130.0984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1619,7 +1639,7 @@
 			)
 		)
 		(property "Sheetfile" "hdmi.kicad_sch"
-			(at 227.33 140.2846 0)
+			(at 227.33 136.4746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,7 +1648,7 @@
 			)
 		)
 		(pin "HDMI{HDMI}" bidirectional
-			(at 227.33 137.16 180)
+			(at 227.33 133.35 180)
 			(uuid "80b6e438-65c3-486b-9f13-017c3b897148")
 			(effects
 				(font
@@ -1640,14 +1660,14 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
-					(page "8")
+					(page "17")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 227.33 147.32)
-		(size 25.4 5.08)
+		(at 227.33 142.24)
+		(size 25.4 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1662,7 +1682,7 @@
 		)
 		(uuid "dd50f821-f925-406c-ae05-a2a500dfc6d6")
 		(property "Sheetname" "RJ45"
-			(at 227.33 146.6084 0)
+			(at 227.33 141.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1680,8 +1700,28 @@
 			)
 		)
 		(pin "ETH{ETHERNET}" bidirectional
-			(at 227.33 149.86 180)
+			(at 227.33 144.78 180)
 			(uuid "d0405e40-80fa-4dc6-a201-b7df51c9d6d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_ACT" input
+			(at 227.33 147.32 180)
+			(uuid "96042748-fab8-4232-a11b-f044da3338e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_LINK" input
+			(at 227.33 149.86 180)
+			(uuid "4ddc57e2-4325-40b2-8a30-a27d7ef8fa2a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,7 +1732,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
-					(page "6")
+					(page "16")
 				)
 			)
 		)
@@ -1731,16 +1771,6 @@
 				(justify left top)
 			)
 		)
-		(pin "SD_CARD{SD}" bidirectional
-			(at 227.33 81.28 180)
-			(uuid "e115b39e-9d9e-4bc8-87e7-8a45927cd3e7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SD_PWR_ON" input
 			(at 227.33 78.74 180)
 			(uuid "bdc331a3-2aaa-4219-869e-5cd47468c176")
@@ -1751,10 +1781,20 @@
 				(justify left)
 			)
 		)
+		(pin "SD_CARD{SDIO}" bidirectional
+			(at 227.33 81.28 180)
+			(uuid "e938ab3a-4638-4f74-abdf-a58dc8e332ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
-					(page "13")
+					(page "9")
 				)
 			)
 		)
@@ -1804,18 +1844,8 @@
 			)
 		)
 		(pin "ETH{ETHERNET}" bidirectional
-			(at 214.63 149.86 0)
+			(at 214.63 144.78 0)
 			(uuid "9fd0a9a8-d3d0-4514-bd06-cbd6d24fec0c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SD_CARD{SD}" bidirectional
-			(at 214.63 81.28 0)
-			(uuid "15b0dad4-60f1-443c-9c8a-dfdbdd7a0451")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1874,7 +1904,7 @@
 			)
 		)
 		(pin "HDMI_1{HDMI}" bidirectional
-			(at 214.63 139.7 0)
+			(at 214.63 135.89 0)
 			(uuid "fd653337-7f06-4555-b837-ae658c508ba0")
 			(effects
 				(font
@@ -1884,7 +1914,7 @@
 			)
 		)
 		(pin "HDMI_0{HDMI}" bidirectional
-			(at 214.63 137.16 0)
+			(at 214.63 133.35 0)
 			(uuid "1b217941-9bf1-4911-88a3-56db4b350850")
 			(effects
 				(font
@@ -2073,10 +2103,40 @@
 				(justify left)
 			)
 		)
+		(pin "SD_CARD{SDIO}" bidirectional
+			(at 214.63 81.28 0)
+			(uuid "ea45b198-79e7-4dd7-867b-e700f23d65de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_ACT" output
+			(at 214.63 147.32 0)
+			(uuid "a616f98e-fa58-4312-aa75-d94a4656e7f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_LINK" output
+			(at 214.63 149.86 0)
+			(uuid "878bc945-53a7-4212-b4ff-596a73d139a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
-					(page "3")
+					(page "7")
 				)
 			)
 		)
@@ -2158,7 +2218,7 @@
 		(instances
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
-					(page "16")
+					(page "15")
 				)
 			)
 		)
@@ -2218,7 +2278,7 @@
 			)
 		)
 		(pin "BACKPLANE{USB}" bidirectional
-			(at 63.5 147.32 0)
+			(at 63.5 144.78 0)
 			(uuid "e8bfc22c-f498-47ed-a805-c98ce1390764")
 			(effects
 				(font

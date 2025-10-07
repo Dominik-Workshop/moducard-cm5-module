@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.15
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,60 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_issues|118090000|85320000|953d6946-5944-47af-83dc-83e18b29dab2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|49865000|50000000|cd0a72a1-9770-4374-84f2-711f56aed502|58044bad-8e4a-4e03-8b33-6e578b4e95b5",
+          ""
+        ],
+        [
+          "silk_edge_clearance|66035000|50000000|cd0a72a1-9770-4374-84f2-711f56aed502|c57ff907-01f8-4741-882d-cc3fb8333031",
+          ""
+        ],
+        [
+          "silk_over_copper|117220255|101409444|fd660b05-e004-493b-9e3c-5382299d1f31|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|117315630|101965000|44511916-b67b-46b7-9b94-11579c177c07|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|117315630|99425000|887d5761-7c68-432b-bb58-2a4a984f73e5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_overlap|100274852|123945148|79dcfc8c-e1c7-4062-a3b5-001518167ccf|87afb45d-1b32-40ce-86e4-990d3fa66566",
+          ""
+        ],
+        [
+          "silk_overlap|120312299|59657394|1c03b9ca-5b08-4d9d-b8a2-8b81ecc48b9a|46bf1432-0a7f-401f-b9ea-c96631bdc6e5",
+          ""
+        ],
+        [
+          "silk_overlap|123827776|59657394|1c03b9ca-5b08-4d9d-b8a2-8b81ecc48b9a|796c9169-64ab-4b2f-981b-07061c9bb4b3",
+          ""
+        ],
+        [
+          "silk_overlap|126019978|59652682|60144fe0-b562-40ad-b2b7-ce8480e1b1a6|ee9e2fdb-3430-4a22-8b7c-21aecf226c2d",
+          ""
+        ],
+        [
+          "silk_overlap|83714852|123945148|12a699bc-02b9-48af-ab6c-112bdbb4af13|c62aa2d1-6ec1-4806-b82b-0df98f718004",
+          ""
+        ],
+        [
+          "silk_overlap|87274852|123945148|12a699bc-02b9-48af-ab6c-112bdbb4af13|6aeffa18-e483-4ec5-a59b-a0dd714acd94",
+          ""
+        ],
+        [
+          "silk_overlap|96716069|123933118|0016deb6-8c98-45d9-975a-4e53caf0ea5c|79dcfc8c-e1c7-4062-a3b5-001518167ccf",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -190,6 +243,7 @@
       "track_widths": [
         0.0,
         0.1,
+        0.13,
         0.15,
         0.2,
         0.25,
@@ -227,11 +281,19 @@
           "drill": 0.0
         },
         {
+          "diameter": 0.25,
+          "drill": 0.15
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
+        },
+        {
           "diameter": 0.5,
           "drill": 0.3
         }
       ],
-      "zones_allow_external_fillets": false
+      "zones_allow_external_fillets": true
     },
     "ipc2581": {
       "dist": "",
@@ -249,7 +311,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "no_connect_connected|1016000|1790700|13896de0-b129-4fc0-86bc-868d3f1e50c4|a1119d90-8629-413c-be5d-b2c610b5bc83|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/18a4552b-ac02-46c8-954e-f58b32a322f0||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -437,7 +504,7 @@
       "extra_units": "error",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "warning",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
@@ -502,7 +569,9 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.13,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -510,17 +579,26 @@
         "pcb_color": "rgb(0, 194, 194)",
         "priority": 2,
         "schematic_color": "rgb(0, 194, 194)",
+        "track_width": 0.13,
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
+        "clearance": 0.12,
+        "diff_pair_gap": 0.12,
+        "diff_pair_width": 0.15,
         "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "ETHERNET_100Ohm_diff",
         "pcb_color": "rgb(132, 0, 132)",
         "priority": 4,
         "schematic_color": "rgb(132, 0, 132)",
+        "track_width": 0.15,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -540,21 +618,36 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.12,
+        "diff_pair_gap": 0.12,
+        "diff_pair_width": 0.15,
         "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "HDMI_100Ohm_diff",
         "pcb_color": "rgb(132, 0, 0)",
         "priority": 3,
         "schematic_color": "rgb(132, 0, 0)",
+        "track_width": 0.15,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.12,
+        "diff_pair_gap": 0.12,
+        "diff_pair_width": 0.23,
         "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "PCIe_85Ohm_diff",
         "pcb_color": "rgb(0, 194, 0)",
         "priority": 6,
         "schematic_color": "rgb(0, 194, 0)",
+        "track_width": 0.23,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -578,10 +671,28 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "SDIO_50Ohm_se",
+        "pcb_color": "rgb(0, 132, 0)",
+        "priority": 7,
+        "schematic_color": "rgb(0, 132, 0)",
+        "track_width": 0.35,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.12,
+        "diff_pair_gap": 0.12,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "USB_90Ohm_diff",
         "pcb_color": "rgb(204, 102, 0)",
         "priority": 5,
         "schematic_color": "rgb(204, 102, 0)",
+        "track_width": 0.2,
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
@@ -599,6 +710,9 @@
         "PWR"
       ],
       "+3V3": [
+        "PWR"
+      ],
+      "+3V3_M2": [
         "PWR"
       ],
       "+5V": [
@@ -682,6 +796,9 @@
       "/Backplane/CAN_2{CAN}": [
         "CAN_120Ohm_diff"
       ],
+      "/CAN to USB 1/5V_TR": [
+        "PWR"
+      ],
       "/CAN to USB 1/USB.D+": [
         "USB_90Ohm_diff"
       ],
@@ -694,6 +811,12 @@
       "/CAN to USB 1/VIO": [
         "PWR"
       ],
+      "/CAN to USB 1/VIO_TR": [
+        "PWR"
+      ],
+      "/CAN to USB 2/5V_TR": [
+        "PWR"
+      ],
       "/CAN to USB 2/USB.D+": [
         "USB_90Ohm_diff"
       ],
@@ -704,6 +827,9 @@
         "USB_90Ohm_diff"
       ],
       "/CAN to USB 2/VIO": [
+        "PWR"
+      ],
+      "/CAN to USB 2/VIO_TR": [
         "PWR"
       ],
       "/CAN to USB/USB.D+": [
@@ -790,6 +916,45 @@
       "/CM5/HDMI_0{HDMI}": [
         "HDMI_100Ohm_diff"
       ],
+      "/CM5/HDMI_1.CEC": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_1.CLK+": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_1.CLK-": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_1.D0+": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_1.D0-": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_1.D1+": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_1.D1-": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_1.D2+": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_1.D2-": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_1.HOTPLUG": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_1.SCL": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_1.SDA": [
+        "HDMI_100Ohm_diff"
+      ],
+      "/CM5/HDMI_1{HDMI}": [
+        "HDMI_100Ohm_diff"
+      ],
       "/CM5/PCIe.REFCLK+": [
         "PCIe_85Ohm_diff"
       ],
@@ -839,34 +1004,37 @@
         "PCIe_85Ohm_diff"
       ],
       "/CM5/SD_CARD.CLK": [
-        "50Ohm_se"
+        "SDIO_50Ohm_se"
       ],
       "/CM5/SD_CARD.CMD": [
-        "50Ohm_se"
+        "SDIO_50Ohm_se"
       ],
       "/CM5/SD_CARD.DAT0": [
-        "50Ohm_se"
+        "SDIO_50Ohm_se"
       ],
       "/CM5/SD_CARD.DAT1": [
-        "50Ohm_se"
+        "SDIO_50Ohm_se"
       ],
       "/CM5/SD_CARD.DAT2": [
-        "50Ohm_se"
+        "SDIO_50Ohm_se"
       ],
       "/CM5/SD_CARD.DAT3": [
-        "50Ohm_se"
+        "SDIO_50Ohm_se"
       ],
       "/CM5/SD_CARD.DAT4": [
-        "50Ohm_se"
+        "SDIO_50Ohm_se"
       ],
       "/CM5/SD_CARD.DAT5": [
-        "50Ohm_se"
+        "SDIO_50Ohm_se"
       ],
       "/CM5/SD_CARD.DAT6": [
-        "50Ohm_se"
+        "SDIO_50Ohm_se"
       ],
       "/CM5/SD_CARD.DAT7": [
-        "50Ohm_se"
+        "SDIO_50Ohm_se"
+      ],
+      "/CM5/SD_CARD{SDIO}": [
+        "SDIO_50Ohm_se"
       ],
       "/CM5/SD_CARD{SD}": [
         "50Ohm_se"
@@ -928,14 +1096,38 @@
       "/CM5/USB{USB}": [
         "USB_90Ohm_diff"
       ],
+      "/HDMI/HDMI_+5V": [
+        "PWR"
+      ],
+      "/Power/3V3_DC-DC": [
+        "PWR"
+      ],
       "/Power/5V": [
+        "PWR"
+      ],
+      "/Power/5V_DC-DC": [
         "PWR"
       ],
       "/Power/5V_USB_IN": [
         "PWR"
       ],
+      "/SD card/SD_+3V3": [
+        "PWR"
+      ],
+      "/USB console/D+": [
+        "USB_90Ohm_diff"
+      ],
+      "/USB console/D-": [
+        "USB_90Ohm_diff"
+      ],
       "/USB console/FTDI_VCCIO": [
         "PWR"
+      ],
+      "/USB console/USB_D+": [
+        "USB_90Ohm_diff"
+      ],
+      "/USB console/USB_D-": [
+        "USB_90Ohm_diff"
       ],
       "/USB hub/USB_1.D+": [
         "USB_90Ohm_diff"
@@ -947,6 +1139,9 @@
         "USB_90Ohm_diff"
       ],
       "/USB hub/USB_1_R.D-": [
+        "USB_90Ohm_diff"
+      ],
+      "/USB hub/USB_1{USB}": [
         "USB_90Ohm_diff"
       ],
       "/USB hub/USB_2.D+": [
@@ -994,6 +1189,12 @@
       "/USB hub/USB_HUB.D-": [
         "USB_90Ohm_diff"
       ],
+      "/USB hub/USB_HUB_R.D+": [
+        "USB_90Ohm_diff"
+      ],
+      "/USB hub/USB_HUB_R.D-": [
+        "USB_90Ohm_diff"
+      ],
       "/USB hub/USB_HUB{USB}": [
         "USB_90Ohm_diff"
       ],
@@ -1009,7 +1210,16 @@
       "/USB switch/USB_2{USB}": [
         "USB_90Ohm_diff"
       ],
+      "/USB/+VBUS": [
+        "PWR"
+      ],
+      "Net-(U11-3V3)": [
+        "PWR"
+      ],
       "Net-(U5-3V3)": [
+        "PWR"
+      ],
+      "Net-(U7-3V3)": [
         "PWR"
       ],
       "unconnected-(R82-Pad1)": [
@@ -1146,28 +1356,36 @@
       "Backplane"
     ],
     [
-      "dfbce24a-51ce-450d-9d41-776080287e8b",
-      "CM5"
+      "1a7e8e9e-4938-4afe-9bd8-99b5f46ce255",
+      "Power"
     ],
     [
       "5294994f-978a-402b-88d5-51652b617c01",
       "Ideal diode 0"
     ],
     [
+      "e1a72d8b-1f32-454e-9b3f-c70db5c18468",
+      "Ideal diode 1"
+    ],
+    [
+      "08db41c3-6072-4efd-8ef3-93ca0731ae13",
+      "Ideal diode 2"
+    ],
+    [
+      "dfbce24a-51ce-450d-9d41-776080287e8b",
+      "CM5"
+    ],
+    [
       "18a4552b-ac02-46c8-954e-f58b32a322f0",
       "M.2"
     ],
     [
-      "dd50f821-f925-406c-ae05-a2a500dfc6d6",
-      "RJ45"
+      "df5d742e-fec8-4307-bd86-008404d5e8ea",
+      "SD card"
     ],
     [
       "658b004a-eb7c-4ad1-a8df-d1cd97b62092",
       "USB"
-    ],
-    [
-      "ad3d5826-cab5-4231-8219-c7d7eaea11f6",
-      "HDMI"
     ],
     [
       "05afd91b-987f-4955-bfc3-ea0accf4f845",
@@ -1178,20 +1396,8 @@
       "USB hub"
     ],
     [
-      "1a7e8e9e-4938-4afe-9bd8-99b5f46ce255",
-      "Power"
-    ],
-    [
-      "e1a72d8b-1f32-454e-9b3f-c70db5c18468",
-      "Ideal diode 1"
-    ],
-    [
-      "df5d742e-fec8-4307-bd86-008404d5e8ea",
-      "SD card"
-    ],
-    [
-      "08db41c3-6072-4efd-8ef3-93ca0731ae13",
-      "Ideal diode 2"
+      "68eae20e-0e1b-4ef5-aecc-d5a324940476",
+      "USB switch"
     ],
     [
       "1ecfee1b-3e5d-4e7d-896c-0cbef36fe0e5",
@@ -1202,8 +1408,12 @@
       "CAN to USB 2"
     ],
     [
-      "68eae20e-0e1b-4ef5-aecc-d5a324940476",
-      "USB switch"
+      "dd50f821-f925-406c-ae05-a2a500dfc6d6",
+      "RJ45"
+    ],
+    [
+      "ad3d5826-cab5-4231-8219-c7d7eaea11f6",
+      "HDMI"
     ]
   ],
   "text_variables": {
