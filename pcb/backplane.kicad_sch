@@ -2816,13 +2816,13 @@
 		(uuid "302848e8-2f31-4691-ad49-7000f010aedd")
 	)
 	(junction
-		(at 31.75 162.56)
+		(at 31.75 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32a7e28e-046a-4bf7-825f-5f603eeb2a2b")
 	)
 	(junction
-		(at 44.45 162.56)
+		(at 44.45 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e54d076-78ea-4e59-b231-3c55b2981a43")
@@ -2840,7 +2840,7 @@
 		(uuid "4b32a4fe-eb8e-423e-8aad-d885e56526bb")
 	)
 	(junction
-		(at 31.75 182.88)
+		(at 31.75 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "501578de-3db9-4c1a-9a52-c43de2b6716f")
@@ -2852,7 +2852,7 @@
 		(uuid "54445674-1885-4aca-bab1-e657920405a8")
 	)
 	(junction
-		(at 44.45 172.72)
+		(at 44.45 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56b28dc6-9f1e-4c4b-b3a4-5449321b0789")
@@ -2876,7 +2876,7 @@
 		(uuid "65938b5d-9bd7-43e6-8a26-8b0de3efb766")
 	)
 	(junction
-		(at 31.75 172.72)
+		(at 31.75 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67c05379-a686-425e-9c99-0497bb39d739")
@@ -2918,7 +2918,7 @@
 		(uuid "aeff4b27-72df-47ef-9595-c3c034b181f7")
 	)
 	(junction
-		(at 44.45 182.88)
+		(at 44.45 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3d7182d-6ffb-46d9-bfef-2b8a48eb718e")
@@ -3567,7 +3567,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 161.29) (xy 22.86 162.56)
+			(xy 22.86 158.75) (xy 22.86 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3627,7 +3627,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 172.72) (xy 44.45 172.72)
+			(xy 31.75 170.18) (xy 44.45 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3737,7 +3737,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 180.34) (xy 31.75 182.88)
+			(xy 31.75 177.8) (xy 31.75 180.34)
 		)
 		(stroke
 			(width 0)
@@ -3834,6 +3834,16 @@
 			(type default)
 		)
 		(uuid "2e6b8bb6-514f-4ccc-8c34-6e96de5f91df")
+	)
+	(wire
+		(pts
+			(xy 22.86 187.96) (xy 22.86 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e8cd4ed-80d2-44b4-85b6-9a64e0f4229e")
 	)
 	(wire
 		(pts
@@ -3937,7 +3947,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 182.88) (xy 31.75 182.88)
+			(xy 44.45 180.34) (xy 31.75 180.34)
 		)
 		(stroke
 			(width 0)
@@ -4147,7 +4157,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 170.18) (xy 44.45 172.72)
+			(xy 44.45 167.64) (xy 44.45 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4187,7 +4197,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 172.72) (xy 31.75 172.72)
+			(xy 22.86 170.18) (xy 31.75 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4247,7 +4257,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 172.72) (xy 46.99 172.72)
+			(xy 44.45 170.18) (xy 46.99 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4437,7 +4447,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 162.56) (xy 31.75 162.56)
+			(xy 22.86 160.02) (xy 31.75 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4617,7 +4627,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 182.88) (xy 44.45 182.88)
+			(xy 46.99 180.34) (xy 44.45 180.34)
 		)
 		(stroke
 			(width 0)
@@ -4757,7 +4767,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 170.18) (xy 31.75 172.72)
+			(xy 31.75 167.64) (xy 31.75 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4827,7 +4837,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 171.45) (xy 22.86 172.72)
+			(xy 22.86 168.91) (xy 22.86 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4837,7 +4847,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 180.34) (xy 44.45 182.88)
+			(xy 44.45 177.8) (xy 44.45 180.34)
 		)
 		(stroke
 			(width 0)
@@ -4897,7 +4907,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 162.56) (xy 44.45 162.56)
+			(xy 31.75 160.02) (xy 44.45 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4957,7 +4967,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 162.56) (xy 44.45 162.56)
+			(xy 46.99 160.02) (xy 44.45 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5067,7 +5077,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 160.02) (xy 31.75 162.56)
+			(xy 31.75 157.48) (xy 31.75 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5217,7 +5227,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 182.88) (xy 31.75 182.88)
+			(xy 22.86 180.34) (xy 31.75 180.34)
 		)
 		(stroke
 			(width 0)
@@ -5487,7 +5497,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 181.61) (xy 22.86 182.88)
+			(xy 22.86 179.07) (xy 22.86 180.34)
 		)
 		(stroke
 			(width 0)
@@ -5517,7 +5527,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 160.02) (xy 44.45 162.56)
+			(xy 44.45 157.48) (xy 44.45 160.02)
 		)
 		(stroke
 			(width 0)
@@ -6428,7 +6438,7 @@
 	)
 	(hierarchical_label "+12V"
 		(shape output)
-		(at 46.99 172.72 0)
+		(at 46.99 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6439,7 +6449,7 @@
 	)
 	(hierarchical_label "+5V_STDBY"
 		(shape output)
-		(at 46.99 162.56 0)
+		(at 46.99 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6505,7 +6515,7 @@
 	)
 	(hierarchical_label "+24V"
 		(shape output)
-		(at 46.99 182.88 0)
+		(at 46.99 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6547,7 +6557,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 22.86 181.61 0)
+		(at 22.86 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6556,7 +6566,7 @@
 		)
 		(uuid "398c443d-bbbb-49c0-9650-91cb63db4881")
 		(property "Netclass" "PWR"
-			(at 22.86 176.53 0)
+			(at 22.86 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6564,7 +6574,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -228.6 11.43 0)
+			(at -228.6 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6636,16 +6646,16 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 22.86 171.45 0)
+		(at 22.86 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d6b8f43e-0d90-4ceb-869f-50f8f34d76ec")
-		(property "Netclass" "PWR"
-			(at 22.86 166.37 0)
+		(uuid "d1877540-8b00-4cc5-b790-d1ade6fcc78c")
+		(property "Netclass" "GND"
+			(at 22.86 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6653,7 +6663,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -228.6 1.27 0)
+			(at -228.6 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6665,7 +6675,36 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 22.86 161.29 0)
+		(at 22.86 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6b8f43e-0d90-4ceb-869f-50f8f34d76ec")
+		(property "Netclass" "PWR"
+			(at 22.86 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" ""
+			(at -228.6 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 22.86 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6674,7 +6713,7 @@
 		)
 		(uuid "f4e324cf-73d4-44da-86f7-3213b81b0a57")
 		(property "Netclass" "PWR"
-			(at 22.86 156.21 0)
+			(at 22.86 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6682,7 +6721,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -228.6 -8.89 0)
+			(at -228.6 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7265,7 +7304,7 @@
 	)
 	(symbol
 		(lib_id "DW-power-symbols:+5V")
-		(at 44.45 160.02 0)
+		(at 44.45 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7273,7 +7312,7 @@
 		(dnp no)
 		(uuid "32208d70-5bf4-4cfa-89d5-8e7d0ce0e963")
 		(property "Reference" "#PWR013"
-			(at 44.45 163.83 0)
+			(at 44.45 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7282,7 +7321,7 @@
 			)
 		)
 		(property "Value" "+5V_STDBY"
-			(at 44.45 156.21 0)
+			(at 44.45 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7290,7 +7329,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 160.02 0)
+			(at 44.45 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7299,7 +7338,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 160.02 0)
+			(at 44.45 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7308,7 +7347,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 44.45 160.02 0)
+			(at 44.45 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7394,8 +7433,73 @@
 		)
 	)
 	(symbol
+		(lib_id "DW-power-symbols:GND")
+		(at 22.86 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37dae4fa-4b94-4223-a565-fd5494a5f197")
+		(property "Reference" "#PWR0212"
+			(at 22.86 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 22.86 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "245a4c75-a650-4067-bbce-9f6650334cb0")
+		)
+		(instances
+			(project "cm5-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ff3476d7-2f10-4f79-9864-988601c7ce1b"
+					(reference "#PWR0212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW-power-symbols:PWR_FLAG")
-		(at 31.75 160.02 0)
+		(at 31.75 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7403,7 +7507,7 @@
 		(dnp no)
 		(uuid "445fafe2-601e-4216-bb5c-a036aaea1981")
 		(property "Reference" "#FLG01"
-			(at 31.75 158.115 0)
+			(at 31.75 155.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7412,7 +7516,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 31.75 156.21 0)
+			(at 31.75 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7420,7 +7524,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 160.02 0)
+			(at 31.75 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7429,7 +7533,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 160.02 0)
+			(at 31.75 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7438,7 +7542,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 31.75 160.02 0)
+			(at 31.75 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8409,7 +8513,7 @@
 	)
 	(symbol
 		(lib_id "DW-power-symbols:PWR_FLAG")
-		(at 31.75 170.18 0)
+		(at 31.75 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8417,7 +8521,7 @@
 		(dnp no)
 		(uuid "7e0aa6be-fe5d-4304-9ee6-e6dab00dc1e3")
 		(property "Reference" "#FLG02"
-			(at 31.75 168.275 0)
+			(at 31.75 165.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8426,7 +8530,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 31.75 166.37 0)
+			(at 31.75 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8434,7 +8538,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 170.18 0)
+			(at 31.75 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8443,7 +8547,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 170.18 0)
+			(at 31.75 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8452,7 +8556,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 31.75 170.18 0)
+			(at 31.75 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8718,7 +8822,7 @@
 	)
 	(symbol
 		(lib_id "DW-power-symbols:+12V")
-		(at 44.45 170.18 0)
+		(at 44.45 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8726,7 +8830,7 @@
 		(dnp no)
 		(uuid "acd12f8e-1eca-4edf-8ee6-175a65027a6d")
 		(property "Reference" "#PWR014"
-			(at 44.45 173.99 0)
+			(at 44.45 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8735,7 +8839,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 44.45 166.37 0)
+			(at 44.45 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8743,7 +8847,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 170.18 0)
+			(at 44.45 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8752,7 +8856,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 170.18 0)
+			(at 44.45 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8761,7 +8865,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 44.45 170.18 0)
+			(at 44.45 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8913,7 +9017,7 @@
 	)
 	(symbol
 		(lib_id "DW-power-symbols:+24V")
-		(at 44.45 180.34 0)
+		(at 44.45 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8921,7 +9025,7 @@
 		(dnp no)
 		(uuid "db413d50-fd17-45bd-8f8d-474d15e1cbc2")
 		(property "Reference" "#PWR015"
-			(at 44.45 184.15 0)
+			(at 44.45 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8930,7 +9034,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 44.45 176.53 0)
+			(at 44.45 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8938,7 +9042,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 180.34 0)
+			(at 44.45 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8947,7 +9051,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 180.34 0)
+			(at 44.45 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8956,7 +9060,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 44.45 180.34 0)
+			(at 44.45 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9108,7 +9212,7 @@
 	)
 	(symbol
 		(lib_id "DW-power-symbols:PWR_FLAG")
-		(at 31.75 180.34 0)
+		(at 31.75 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9116,7 +9220,7 @@
 		(dnp no)
 		(uuid "f1db25b1-3ad7-4a0a-bff9-f2d9e8d76051")
 		(property "Reference" "#FLG03"
-			(at 31.75 178.435 0)
+			(at 31.75 175.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9125,7 +9229,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 31.75 176.53 0)
+			(at 31.75 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9133,7 +9237,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 180.34 0)
+			(at 31.75 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9142,7 +9246,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 180.34 0)
+			(at 31.75 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9151,7 +9255,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 31.75 180.34 0)
+			(at 31.75 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
