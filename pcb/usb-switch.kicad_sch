@@ -935,20 +935,31 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "USB MULTIPLEXER"
+		(exclude_from_sim no)
+		(at 142.24 71.12 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "64440fa1-dee5-4e96-ac9b-5ee6f61828dd")
+	)
 	(junction
-		(at 151.13 114.3)
+		(at 162.56 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91310cd9-8d6d-4c7e-8f50-88d5d9d8ee24")
 	)
 	(junction
-		(at 151.13 85.09)
+		(at 162.56 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1df8b57-6db7-419e-9753-768758b1cbb3")
 	)
 	(bus_entry
-		(at 101.6 111.76)
+		(at 113.03 111.76)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -957,7 +968,7 @@
 		(uuid "2c520e6f-9c4c-4ebc-8281-97bec61556b4")
 	)
 	(bus_entry
-		(at 156.21 101.6)
+		(at 167.64 101.6)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -966,7 +977,7 @@
 		(uuid "831ed8a9-4df3-4ef2-b2a0-3aab7fc3f93b")
 	)
 	(bus_entry
-		(at 156.21 104.14)
+		(at 167.64 104.14)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -975,7 +986,7 @@
 		(uuid "bb57f50f-5dd5-4e9e-9349-69bf276c3b77")
 	)
 	(bus_entry
-		(at 101.6 104.14)
+		(at 113.03 104.14)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -984,7 +995,7 @@
 		(uuid "d3c90564-8227-441d-b93e-1fd89cbac9dd")
 	)
 	(bus_entry
-		(at 101.6 114.3)
+		(at 113.03 114.3)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -993,7 +1004,7 @@
 		(uuid "e2eece94-a4c2-40dc-bda2-d7fd66e90f4e")
 	)
 	(bus_entry
-		(at 101.6 101.6)
+		(at 113.03 101.6)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -1003,7 +1014,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 85.09) (xy 144.78 99.06)
+			(xy 156.21 85.09) (xy 156.21 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1013,7 +1024,7 @@
 	)
 	(bus
 		(pts
-			(xy 101.6 114.3) (xy 101.6 116.84)
+			(xy 113.03 114.3) (xy 113.03 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1023,7 +1034,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 106.68) (xy 153.67 106.68)
+			(xy 153.67 106.68) (xy 165.1 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1033,7 +1044,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 127) (xy 116.84 124.46)
+			(xy 128.27 127) (xy 128.27 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1043,7 +1054,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 114.3) (xy 153.67 114.3)
+			(xy 162.56 114.3) (xy 165.1 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1053,7 +1064,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 109.22) (xy 119.38 109.22)
+			(xy 115.57 109.22) (xy 130.81 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1063,7 +1074,7 @@
 	)
 	(bus
 		(pts
-			(xy 161.29 96.52) (xy 158.75 96.52)
+			(xy 172.72 96.52) (xy 170.18 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1073,7 +1084,7 @@
 	)
 	(bus
 		(pts
-			(xy 101.6 101.6) (xy 101.6 104.14)
+			(xy 113.03 101.6) (xy 113.03 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1083,7 +1094,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 114.3) (xy 151.13 119.38)
+			(xy 162.56 114.3) (xy 162.56 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1093,7 +1104,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 119.38) (xy 99.06 119.38)
+			(xy 107.95 119.38) (xy 110.49 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1103,7 +1114,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 85.09) (xy 151.13 85.09)
+			(xy 156.21 85.09) (xy 162.56 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1113,7 +1124,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 124.46) (xy 151.13 127)
+			(xy 162.56 124.46) (xy 162.56 127)
 		)
 		(stroke
 			(width 0)
@@ -1123,7 +1134,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 116.84) (xy 142.24 116.84)
+			(xy 156.21 116.84) (xy 153.67 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1133,7 +1144,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 119.38) (xy 116.84 116.84)
+			(xy 128.27 119.38) (xy 128.27 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1143,7 +1154,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 109.22) (xy 99.06 109.22)
+			(xy 107.95 109.22) (xy 110.49 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1153,7 +1164,7 @@
 	)
 	(bus
 		(pts
-			(xy 99.06 109.22) (xy 101.6 106.68)
+			(xy 110.49 109.22) (xy 113.03 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1163,7 +1174,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 85.09) (xy 151.13 87.63)
+			(xy 162.56 85.09) (xy 162.56 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1173,7 +1184,7 @@
 	)
 	(bus
 		(pts
-			(xy 99.06 119.38) (xy 101.6 116.84)
+			(xy 110.49 119.38) (xy 113.03 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1183,7 +1194,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 82.55) (xy 151.13 85.09)
+			(xy 162.56 82.55) (xy 162.56 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1193,7 +1204,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 116.84) (xy 119.38 116.84)
+			(xy 128.27 116.84) (xy 130.81 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1203,7 +1214,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 111.76) (xy 119.38 111.76)
+			(xy 115.57 111.76) (xy 130.81 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1213,7 +1224,7 @@
 	)
 	(bus
 		(pts
-			(xy 156.21 101.6) (xy 156.21 99.06)
+			(xy 167.64 101.6) (xy 167.64 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1223,7 +1234,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 104.14) (xy 153.67 104.14)
+			(xy 153.67 104.14) (xy 165.1 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1233,7 +1244,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 99.06) (xy 119.38 99.06)
+			(xy 115.57 99.06) (xy 130.81 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1243,7 +1254,7 @@
 	)
 	(bus
 		(pts
-			(xy 156.21 104.14) (xy 156.21 101.6)
+			(xy 167.64 104.14) (xy 167.64 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1253,7 +1264,7 @@
 	)
 	(bus
 		(pts
-			(xy 101.6 104.14) (xy 101.6 106.68)
+			(xy 113.03 104.14) (xy 113.03 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1263,7 +1274,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 127) (xy 144.78 116.84)
+			(xy 156.21 127) (xy 156.21 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1273,7 +1284,7 @@
 	)
 	(bus
 		(pts
-			(xy 101.6 111.76) (xy 101.6 114.3)
+			(xy 113.03 111.76) (xy 113.03 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1283,7 +1294,7 @@
 	)
 	(bus
 		(pts
-			(xy 158.75 96.52) (xy 156.21 99.06)
+			(xy 170.18 96.52) (xy 167.64 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1293,7 +1304,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 114.3) (xy 161.29 114.3)
+			(xy 170.18 114.3) (xy 172.72 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1303,7 +1314,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 101.6) (xy 119.38 101.6)
+			(xy 115.57 101.6) (xy 130.81 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1313,7 +1324,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 92.71) (xy 151.13 95.25)
+			(xy 162.56 92.71) (xy 162.56 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1323,7 +1334,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 114.3) (xy 151.13 114.3)
+			(xy 153.67 114.3) (xy 162.56 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1333,7 +1344,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 99.06) (xy 142.24 99.06)
+			(xy 156.21 99.06) (xy 153.67 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1342,7 +1353,7 @@
 		(uuid "faae3335-0729-43b5-85f3-bc0ca9cffdc6")
 	)
 	(label "USB.D+"
-		(at 144.78 104.14 0)
+		(at 156.21 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1352,7 +1363,7 @@
 		(uuid "0c6f0ee5-ebc6-4a24-aaea-075f00d443ff")
 	)
 	(label "USB_1.D+"
-		(at 116.84 99.06 180)
+		(at 128.27 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1362,7 +1373,7 @@
 		(uuid "4d1ef856-f2c8-404a-9a66-99251616c686")
 	)
 	(label "USB_1.D-"
-		(at 116.84 101.6 180)
+		(at 128.27 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1372,7 +1383,7 @@
 		(uuid "633c2a9e-0a5b-40a6-9497-5c40fb42851c")
 	)
 	(label "USB_2.D+"
-		(at 116.84 109.22 180)
+		(at 128.27 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1382,7 +1393,7 @@
 		(uuid "7f4aa2a7-c6f6-44ad-846a-4b137a234e96")
 	)
 	(label "USB.D-"
-		(at 144.78 106.68 0)
+		(at 156.21 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1392,7 +1403,7 @@
 		(uuid "d9c5ed61-0924-4dab-a7d5-b92d5cd2bd1d")
 	)
 	(label "USB_2.D-"
-		(at 116.84 111.76 180)
+		(at 128.27 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1403,7 +1414,7 @@
 	)
 	(hierarchical_label "USB_1{USB}"
 		(shape bidirectional)
-		(at 96.52 109.22 180)
+		(at 107.95 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1414,7 +1425,7 @@
 	)
 	(hierarchical_label "SEL"
 		(shape input)
-		(at 161.29 114.3 0)
+		(at 172.72 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1425,7 +1436,7 @@
 	)
 	(hierarchical_label "USB_2{USB}"
 		(shape bidirectional)
-		(at 96.52 119.38 180)
+		(at 107.95 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1436,7 +1447,7 @@
 	)
 	(hierarchical_label "USB{USB}"
 		(shape bidirectional)
-		(at 161.29 96.52 0)
+		(at 172.72 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1447,7 +1458,7 @@
 	)
 	(symbol
 		(lib_id "DW-power-symbols:+3V3")
-		(at 151.13 82.55 0)
+		(at 162.56 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1455,7 +1466,7 @@
 		(dnp no)
 		(uuid "06330d83-4cac-4035-bf04-410853adf912")
 		(property "Reference" "#PWR0138"
-			(at 151.13 86.36 0)
+			(at 162.56 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1464,7 +1475,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 151.13 78.74 0)
+			(at 162.56 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1472,7 +1483,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 82.55 0)
+			(at 162.56 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1481,7 +1492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 82.55 0)
+			(at 162.56 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1490,7 +1501,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 151.13 82.55 0)
+			(at 162.56 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1512,7 +1523,7 @@
 	)
 	(symbol
 		(lib_id "DW-capacitors:C-100n-0402")
-		(at 151.13 92.71 90)
+		(at 162.56 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1520,7 +1531,7 @@
 		(dnp no)
 		(uuid "0742271f-a67f-4a28-8aa4-0002d861ef76")
 		(property "Reference" "C59"
-			(at 153.67 88.8936 90)
+			(at 165.1 88.8936 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1530,7 +1541,7 @@
 			)
 		)
 		(property "Value" "C-100n-0402"
-			(at 153.67 80.01 0)
+			(at 165.1 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1541,7 +1552,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:C_0402_1005Metric"
-			(at 156.21 80.01 0)
+			(at 167.64 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1552,7 +1563,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
-			(at 158.75 80.01 0)
+			(at 170.18 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1563,7 +1574,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 161.29 80.01 0)
+			(at 172.72 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1574,7 +1585,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 163.83 80.01 0)
+			(at 175.26 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1585,7 +1596,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KB54PNC"
-			(at 166.37 80.01 0)
+			(at 177.8 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1596,7 +1607,7 @@
 			)
 		)
 		(property "LCSC" "C307331"
-			(at 168.91 80.01 0)
+			(at 180.34 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1607,7 +1618,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 153.67 91.4336 90)
+			(at 165.1 91.4336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1617,7 +1628,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 173.99 80.01 0)
+			(at 185.42 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,7 +1639,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 176.53 80.01 0)
+			(at 187.96 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1639,7 +1650,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 179.07 80.01 0)
+			(at 190.5 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1666,7 +1677,7 @@
 	)
 	(symbol
 		(lib_id "DW-resistors:R-10k-0402")
-		(at 153.67 114.3 0)
+		(at 165.1 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1674,7 +1685,7 @@
 		(dnp no)
 		(uuid "29775433-0fef-451a-921e-cd59908fe64b")
 		(property "Reference" "R64"
-			(at 156.21 111.76 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1683,7 +1694,7 @@
 			)
 		)
 		(property "Value" "R-10k-0402"
-			(at 166.37 116.84 0)
+			(at 177.8 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1694,7 +1705,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:R_0402_1005Metric"
-			(at 166.37 119.38 0)
+			(at 177.8 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1705,7 +1716,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 166.37 121.92 0)
+			(at 177.8 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1716,7 +1727,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistor 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 166.37 124.46 0)
+			(at 177.8 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1727,7 +1738,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 166.37 127 0)
+			(at 177.8 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1738,7 +1749,7 @@
 			)
 		)
 		(property "MPN" "0402WGF1002TCE"
-			(at 166.37 129.54 0)
+			(at 177.8 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1749,7 +1760,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 166.37 132.08 0)
+			(at 177.8 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1760,7 +1771,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 156.21 116.84 0)
+			(at 167.64 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1769,7 +1780,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 166.37 137.16 0)
+			(at 177.8 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1796,7 +1807,7 @@
 	)
 	(symbol
 		(lib_id "DW-resistors:R-10k-0402")
-		(at 151.13 124.46 90)
+		(at 162.56 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1804,7 +1815,7 @@
 		(dnp no)
 		(uuid "399200f4-56f2-4f58-b84f-5c64e6526983")
 		(property "Reference" "R66"
-			(at 152.4 120.65 90)
+			(at 163.83 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1814,7 +1825,7 @@
 			)
 		)
 		(property "Value" "R-10k-0402"
-			(at 153.67 111.76 0)
+			(at 165.1 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1825,7 +1836,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:R_0402_1005Metric"
-			(at 156.21 111.76 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1836,7 +1847,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 158.75 111.76 0)
+			(at 170.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1847,7 +1858,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistor 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 161.29 111.76 0)
+			(at 172.72 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1858,7 +1869,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 163.83 111.76 0)
+			(at 175.26 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,7 +1880,7 @@
 			)
 		)
 		(property "MPN" "0402WGF1002TCE"
-			(at 166.37 111.76 0)
+			(at 177.8 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1880,7 +1891,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 168.91 111.76 0)
+			(at 180.34 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1891,7 +1902,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 152.4 123.19 90)
+			(at 163.83 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1901,7 +1912,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 173.99 111.76 0)
+			(at 185.42 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1928,7 +1939,7 @@
 	)
 	(symbol
 		(lib_id "DW-power-symbols:GND")
-		(at 151.13 127 0)
+		(at 162.56 127 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1937,7 +1948,7 @@
 		(dnp no)
 		(uuid "3a1ecd6d-0f76-45ba-add3-99edbb03df3f")
 		(property "Reference" "#PWR0142"
-			(at 151.13 133.35 0)
+			(at 162.56 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1946,7 +1957,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 130.81 0)
+			(at 162.56 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1954,7 +1965,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 127 0)
+			(at 162.56 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1963,7 +1974,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 127 0)
+			(at 162.56 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1972,7 +1983,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 127 0)
+			(at 162.56 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1994,7 +2005,7 @@
 	)
 	(symbol
 		(lib_id "DW-ICs:FSUSB42UMX")
-		(at 142.24 99.06 0)
+		(at 153.67 99.06 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2004,7 +2015,7 @@
 		(fields_autoplaced yes)
 		(uuid "3cb9314d-bbec-427b-ab73-ec5086009834")
 		(property "Reference" "U12"
-			(at 130.81 91.44 0)
+			(at 142.24 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2013,7 +2024,7 @@
 			)
 		)
 		(property "Value" "FSUSB42UMX"
-			(at 106.68 101.6 0)
+			(at 118.11 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2024,7 +2035,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:UFQFN-10_1.4x1.8mm_P0.4mm"
-			(at 106.68 104.14 0)
+			(at 118.11 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2035,7 +2046,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C11145.pdf"
-			(at 106.68 106.68 0)
+			(at 118.11 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2046,7 +2057,7 @@
 			)
 		)
 		(property "Description" "2 3.9Ω 2:1 UFQFN-10(1.4x1.8) Analog Switches, Multiplexers ROHS"
-			(at 106.68 109.22 0)
+			(at 118.11 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2057,7 +2068,7 @@
 			)
 		)
 		(property "Manufacturer" "Onsemi"
-			(at 106.68 111.76 0)
+			(at 118.11 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2068,7 +2079,7 @@
 			)
 		)
 		(property "MPN" "FSUSB42UMX"
-			(at 130.81 93.98 0)
+			(at 142.24 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2077,7 +2088,7 @@
 			)
 		)
 		(property "LCSC" "C11145"
-			(at 106.68 116.84 0)
+			(at 118.11 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,7 +2139,7 @@
 	)
 	(symbol
 		(lib_id "DW-power-symbols:GND")
-		(at 144.78 127 0)
+		(at 156.21 127 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2137,7 +2148,7 @@
 		(dnp no)
 		(uuid "4d142d14-6c5b-4b28-a6dd-ba2a7739933f")
 		(property "Reference" "#PWR0141"
-			(at 144.78 133.35 0)
+			(at 156.21 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2146,7 +2157,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 130.81 0)
+			(at 156.21 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,7 +2165,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 127 0)
+			(at 156.21 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2163,7 +2174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 127 0)
+			(at 156.21 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2172,7 +2183,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 127 0)
+			(at 156.21 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2194,7 +2205,7 @@
 	)
 	(symbol
 		(lib_id "DW-resistors:R-10k-0402")
-		(at 116.84 124.46 270)
+		(at 128.27 124.46 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2203,7 +2214,7 @@
 		(dnp no)
 		(uuid "77b339e0-3406-424a-af20-d32b77f885b0")
 		(property "Reference" "R65"
-			(at 115.57 120.65 90)
+			(at 127 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2213,7 +2224,7 @@
 			)
 		)
 		(property "Value" "R-10k-0402"
-			(at 114.3 111.76 0)
+			(at 125.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,7 +2235,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:R_0402_1005Metric"
-			(at 111.76 111.76 0)
+			(at 123.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2235,7 +2246,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 109.22 111.76 0)
+			(at 120.65 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2246,7 +2257,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistor 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 106.68 111.76 0)
+			(at 118.11 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2257,7 +2268,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 104.14 111.76 0)
+			(at 115.57 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2268,7 +2279,7 @@
 			)
 		)
 		(property "MPN" "0402WGF1002TCE"
-			(at 101.6 111.76 0)
+			(at 113.03 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2279,7 +2290,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 99.06 111.76 0)
+			(at 110.49 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2290,7 +2301,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 115.57 123.19 90)
+			(at 127 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2300,7 +2311,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 93.98 111.76 0)
+			(at 105.41 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,7 +2338,7 @@
 	)
 	(symbol
 		(lib_id "DW-power-symbols:GND")
-		(at 116.84 127 0)
+		(at 128.27 127 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2336,7 +2347,7 @@
 		(dnp no)
 		(uuid "7f6a8200-3d41-4af7-83d1-79deeca34804")
 		(property "Reference" "#PWR0140"
-			(at 116.84 133.35 0)
+			(at 128.27 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,7 +2356,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 130.81 0)
+			(at 128.27 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2353,7 +2364,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 127 0)
+			(at 128.27 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2362,7 +2373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 127 0)
+			(at 128.27 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2371,7 +2382,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 127 0)
+			(at 128.27 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2393,7 +2404,7 @@
 	)
 	(symbol
 		(lib_id "DW-power-symbols:GND")
-		(at 151.13 95.25 0)
+		(at 162.56 95.25 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2402,7 +2413,7 @@
 		(dnp no)
 		(uuid "df8e69c1-4432-46b0-8f28-debf980ae78f")
 		(property "Reference" "#PWR0139"
-			(at 151.13 101.6 0)
+			(at 162.56 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,7 +2422,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 99.06 0)
+			(at 162.56 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2419,7 +2430,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 95.25 0)
+			(at 162.56 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2428,7 +2439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 95.25 0)
+			(at 162.56 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2437,7 +2448,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 95.25 0)
+			(at 162.56 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1941,6 +1941,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "USB HUB"
+		(exclude_from_sim no)
+		(at 144.78 64.77 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "b608678e-1e18-4611-b2de-11d9bbb870b0")
+	)
 	(junction
 		(at 105.41 77.47)
 		(diameter 0)

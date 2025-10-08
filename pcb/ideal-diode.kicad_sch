@@ -1160,6 +1160,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "IDEAL DIODE"
+		(exclude_from_sim no)
+		(at 149.86 80.01 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "46f737b0-7b9b-419a-acff-8cb2b467bdc7")
+	)
 	(junction
 		(at 118.11 90.17)
 		(diameter 0)

@@ -3605,6 +3605,17 @@
 		)
 		(uuid "3f1dd91f-ffa8-4387-a9b0-fa2fd0caf48d")
 	)
+	(text "CAN TO USB"
+		(exclude_from_sim no)
+		(at 137.16 33.02 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "53ed80ad-f92e-44ee-840d-e447183b69b5")
+	)
 	(text_box "Termination is present\non the backplane"
 		(exclude_from_sim no)
 		(at 43.18 115.57 0)
