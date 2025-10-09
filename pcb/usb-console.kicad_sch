@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "ModuCard CM5 module")
-		(date "2025-07-05")
+		(date "2025-10-10")
 		(rev "1.0.0")
 		(company "KoNaR")
 		(comment 1 "Project author: Dominik Pluta")
