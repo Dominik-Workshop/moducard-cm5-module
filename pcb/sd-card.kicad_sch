@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ModuCard CM5 module")
-		(date "2025-07-05")
+		(date "2025-10-10")
 		(rev "1.0.0")
 		(company "KoNaR")
 		(comment 1 "Project author: Dominik Pluta")
@@ -1716,6 +1716,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 129.54) (xy 107.95 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "112a71fc-5d82-46ac-ae5f-9aa21352afee")
+	)
+	(wire
+		(pts
 			(xy 116.84 52.07) (xy 123.19 52.07)
 		)
 		(stroke
@@ -1763,6 +1773,16 @@
 			(type default)
 		)
 		(uuid "230f4092-d2a7-44e9-ad43-1847c7d7a2fa")
+	)
+	(wire
+		(pts
+			(xy 107.95 127) (xy 135.89 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23bb3763-f746-4f35-b226-908697462e64")
 	)
 	(bus
 		(pts
@@ -1884,6 +1904,16 @@
 		)
 		(uuid "41117400-813a-434f-9cfb-7898fb3a7546")
 	)
+	(wire
+		(pts
+			(xy 107.95 134.62) (xy 107.95 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "446e44b6-0d84-404e-af3d-53daff6dddc7")
+	)
 	(bus
 		(pts
 			(xy 115.57 142.24) (xy 115.57 144.78)
@@ -1933,16 +1963,6 @@
 			(type default)
 		)
 		(uuid "6e311a1a-c125-452d-aecb-ea82e0329586")
-	)
-	(wire
-		(pts
-			(xy 120.65 127) (xy 135.89 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f4e4fbb-d7c8-4447-8584-80e649ecb650")
 	)
 	(wire
 		(pts
@@ -2367,6 +2387,160 @@
 	)
 	(symbol
 		(lib_id "DW-capacitors:C-4u7-0402")
+		(at 107.95 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02b0be74-281b-48d8-8474-ab4613f90c35")
+		(property "Reference" "C81"
+			(at 109.982 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C-4u7-0402"
+			(at 110.49 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:C_0402_1005Metric"
+			(at 113.03 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A475MP5NRNC_C23733.pdf"
+			(at 115.57 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "10V 4.7uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 118.11 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05A475MP5NRNC"
+			(at 123.19 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23733"
+			(at 125.73 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "4u7"
+			(at 109.982 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 130.81 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 133.35 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 135.89 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2206c4bb-5222-4df3-8bf7-6f23433944f8")
+		)
+		(pin "2"
+			(uuid "2cbdcaa4-7954-4665-a54e-32568dbd332b")
+		)
+		(instances
+			(project "cm5-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/df5d742e-fec8-4307-bd86-008404d5e8ea"
+					(reference "C81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-capacitors:C-4u7-0402")
 		(at 186.69 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2774,6 +2948,71 @@
 			(project "cm5-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/df5d742e-fec8-4307-bd86-008404d5e8ea"
 					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-power-symbols:GND")
+		(at 107.95 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c837181-b720-45e3-8446-0d653e4abfb8")
+		(property "Reference" "#PWR0213"
+			(at 107.95 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cd21b32-131f-4ffe-a55b-4d9c618933e0")
+		)
+		(instances
+			(project "cm5-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/df5d742e-fec8-4307-bd86-008404d5e8ea"
+					(reference "#PWR0213")
 					(unit 1)
 				)
 			)
