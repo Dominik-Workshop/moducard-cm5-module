@@ -37,4 +37,4 @@ The design is currently **untested and unverified**. Use at your own risk.
 
 ## Used Tools
 
-<img src="img/logos/KiCad.png" align="center" height="64">
+- [KiCad](https://www.kicad.org/) - Schematic and PCB design
