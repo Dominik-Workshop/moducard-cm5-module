@@ -29,6 +29,12 @@ The module breaks out selected CM5 interfaces to front-panel connectors and it i
   - 1x **USB 2.0**
 - **Cooling:** 4-pin JST connector for the CM5 cooling fan.
 
+<p align="center">
+  <img src="img/photos/cm5-module-with-som-ssd.webp" width="80%" alt="Assembled ModuCard CM5 module">
+  <br>
+  <em>Assembled ModuCard CM5 Module with Raspberry Pi Compute Module 5 and NVMe SSD.</em>
+</p>
+
 ## Project Status
 
 **Design:** ✅ --> **Fabrication & Assembly:** ✅ --> **Bring-up:** ✅
