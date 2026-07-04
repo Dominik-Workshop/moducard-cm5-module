@@ -37,7 +37,7 @@ The module breaks out selected CM5 interfaces to front-panel connectors and it i
 
 ## Project Status
 
-**Design:** ✅ --> **Fabrication & Assembly:** ✅ --> **Bring-up:** ✅
+**Design:** ✅ → **Fabrication & Assembly:** ✅ → **Bring-up:** ✅
 
 The project is **complete and ready for deployment**. All core features have been validated on physical hardware.
 
